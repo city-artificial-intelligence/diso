@@ -1,0 +1,64 @@
+cff-version: 1.2.0
+title: 'DISO: Defence, Intelligence and Security Ontologies'
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - family-names: Dilworth
+    given-names: Jonathon
+    email: jon@dilworth.dev
+    orcid: 'https://orcid.org/0009-0009-0260-0492'
+    affiliation: 'City St George''s, University of London'
+  - given-names: Pedro
+    family-names: Cotovio
+    affiliation: >-
+      LASIGE, Faculdade de Ciências, Universidade de Lisboa,
+      Portugal
+    email: pgcotovio@ciencias.ulisboa.pt
+    orcid: 'https://orcid.org/0000-0001-6724-899X'
+  - given-names: David
+    family-names: Herron
+    orcid: 'https://orcid.org/0009-0008-2736-6789'
+    affiliation: 'City St George''s, University of London'
+    email: dave.herron1@gmail.com
+  - given-names: Catia
+    family-names: Pesquita
+    email: clpesquita@fc.ul.pt
+    affiliation: >-
+      LASIGE, Faculdade de Ciências, Universidade de Lisboa,
+      Lisboa, Portugal
+    orcid: 'https://orcid.org/0000-0002-1847-9393'
+  - given-names: Ernesto
+    family-names: Jiménez-Ruiz
+    email: ernesto.jimenez-ruiz@citystgeorges.ac.uk
+    affiliation: 'City St George''s, University of London'
+    orcid: 'https://orcid.org/0000-0002-9083-4599'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.20059507
+    description: Zenodo concept DOI for DISO
+repository-code: 'https://github.com/city-artificial-intelligence/diso'
+abstract: >-
+  The use of ontologies and knowledge graphs is becoming
+  increasingly widespread in the defence and national
+  security domain. Numerous ontologies have been developed
+  through initiatives led by academia, industry, and
+  government. Achieving interoperability across diverse
+  defence and national security ontologies remains a major
+  challenge due to the domain’s breadth and specialisation.
+  In this work, we analyse and document over 60 publicly
+  available ontologies and introduce a new track for the
+  Ontology Alignment Evaluation Initiative (OAEI). This
+  track comprises eight matching tasks, consensus alignments
+  and a subset of manually-curated mappings. The consensus
+  alignments are derived by aggregating the outputs of
+  several state-of-the-art ontology alignment systems.
+keywords:
+  - Otology Matching
+  - Ontology Alignment
+  - Network of Ontologies
+  - Defence & National Security
+license: MIT
+version: 1.0.0
+date-released: '2026-05-07'
