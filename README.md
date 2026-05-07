@@ -1,6 +1,6 @@
 # DISO: Defence, Intelligence and Security Ontologies
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20059507)](https://doi.org/10.5281/zenodo.20059507)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20059507.svg)](https://doi.org/10.5281/zenodo.20059507)
 
 **DISO** is a collection of publicly available OWL ontologies covering the domains of **defence, intelligence, and security**. The resource is publicly available at this [DOI](https://doi.org/10.5281/zenodo.20059507).
 
@@ -26,7 +26,9 @@ The [diso-compact/](diso-compact/) directory bundles a canonical file per ontolo
 
 ## DISO cluster conceptual overlaps
 
-This diagram provides a view of the conceptual overlaps that exist between various clusters (or subdomains) of the DISO collection of defence, intelligence and security ontologies.[DISO](figs/diso-cluster-overlaps.png)
+This diagram provides a view of the conceptual overlaps that exist between various clusters (or subdomains) of the DISO collection of defence, intelligence and security ontologies.
+
+![DISO](figs/diso-cluster-overlaps.png)
 
 ## Curation roadmap
 
@@ -48,9 +50,9 @@ The following steps describe the curation process in preparation for a **defence
 
 This repository serves as the resource layer for a small ecosystem of repositories that support an OAEI track for defence, intelligence, and security ontologies.
 
-[https://github.com/city-artificial-intelligence/DISO-mappings](https://github.com/city-artificial-intelligence/DISO-mappings)**DISO-mappings** is a Python pipeline that consumes the DISO compact distribution and produces pairwise alignments between selected ontology pairs. It uses a configurable set of ontology matching systems (AML, LogMap, LogMapLt, BERTMap, and BERTMapLt by default; with an extendable `Matcher` base class that enables custom external matchers). The pipeline aggregates the per-system alignments into an unverified silver-standard consensus alignment via a family-based voting mechanism. This alignment is then manually verified, adapted and used as the basis for a partial reference alignment. To reproduce our alignments, follow the steps within the repository’s `make` workflow.
+[**DISO-mappings**](https://github.com/city-artificial-intelligence/DISO-mappings) is a Python pipeline that consumes the DISO compact distribution and produces pairwise alignments between selected ontology pairs. It uses a configurable set of ontology matching systems (AML, LogMap, LogMapLt, BERTMap, and BERTMapLt by default; with an extendable `Matcher` base class that enables custom external matchers). The pipeline aggregates the per-system alignments into an unverified silver-standard consensus alignment via a family-based voting mechanism. This alignment is then manually verified, adapted and used as the basis for a partial reference alignment. To reproduce our alignments, follow the steps within the repository’s `make` workflow.
 
-[https://github.com/city-artificial-intelligence/DISO-oaei](https://github.com/city-artificial-intelligence/DISO-oaei)**DISO-oaei** is the home page for the OAEI track and will describe and house the evaluation harness that scores participant-submitted matchers against the above-mentioned reference alignment.
+[**DISO-oaei**](https://github.com/city-artificial-intelligence/DISO-oaei) is the home page for the OAEI track and will describe and house the evaluation harness that scores participant-submitted matchers against the above-mentioned reference alignment.
 
 ## Versioning
 
@@ -59,10 +61,6 @@ Major version bumps are most likely to follow an annual release cadence (mirrori
 ## Citation
 
 If you use DISO, please cite the dataset using the metadata in [CITATION.cff](CITATION.cff). If the accompanying resource paper is published, the paper will be added as the preferred citation.
-
-## License
-
-The curation layer of this repository is released under the [MIT License](LICENSE). Each ontology in this collection retains its original upstream license.
 
 ## Contributing
 
@@ -75,3 +73,7 @@ This research was supported by Turing Innovations Limited and The Alan Turing In
 ## Contributors
 
 [Ernesto Jiménez-Ruiz](https://ernestojimenezruiz.github.io/), [Pedro Cotovio](https://pedrocotovio.github.io/), [Jon Dilworth](https://dilworth.io/), and [Dave Herron](https://djherron.github.io/).
+
+## License
+
+The curation layer of this repository is released under the [MIT License](LICENSE). Each ontology in this collection retains its original upstream license.
