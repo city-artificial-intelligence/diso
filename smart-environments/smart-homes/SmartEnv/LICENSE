@@ -1,0 +1,21 @@
+Ontology:               Smart Home Environments Ontology (eCare@Home) (SmartEnv)
+DISO directory:         smart-environments/smart-homes/SmartEnv
+Ontology files:         SmartEnvMerged.ttl (plus README.md recording provenance)
+Obtained from:          http://ecareathome-ontology.mpi.aass.oru.se/ (per the
+                        local README.md: the master ontology SmartEnv.owl and
+                        its 8 imported component pattern ontologies were merged
+                        with Protege into SmartEnvMerged.ttl). The canonical
+                        identifier https://w3id.org/smartenvironment/smartenv.owl
+                        redirects (302) to the same host.
+License(s):             none located for the SmartEnv ontology itself
+                        (SPDX: NOASSERTION)
+Rights holder(s):       not established. Presumed: the ontology authors Marjan
+                        Alirezaie, Karl Hammar and Eva Blomqvist, and/or the
+                        E-care@home project consortium (coordinated at Orebro
+                        University, Sweden; funded by the Swedish Knowledge
+                        Foundation), per the publishing paper "SmartEnv as a
+                        Network of Ontology Patterns", Semantic Web 9(6), 2018,
+                        DOI 10.3233/SW-180303.
+Required attribution:   n/a — no license
+License source(s):      none located
+Retrieved:              2026-06-13

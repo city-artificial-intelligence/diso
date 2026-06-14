@@ -1,0 +1,109 @@
+---8<--- VERBATIM LICENSE TEXT 1 of 4 ----------------------------------------
+Source:  https://labs.etsi.org/rep/saref/saref-core/-/raw/develop-v4.1.1/LICENSE
+Method:  exact-bytes
+SHA-256: 8f102e377f1ad7ed9fa90d9dd6cb9ab75e071949dcdb8cb413a10dc98d80b9d4
+-----BEGIN VERBATIM LICENSE TEXT 1-----
+Copyright 2019 ETSI
+
+Redistribution and use in source and binary forms, with or without 
+modification, are permitted provided that the following conditions are met:
+1. Redistributions of source code must retain the above copyright notice, 
+   this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice, 
+   this list of conditions and the following disclaimer in the documentation 
+   and/or other materials provided with the distribution.
+3. Neither the name of the copyright holder nor the names of its contributors 
+   may be used to endorse or promote products derived from this software without 
+   specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED 
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
+IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, 
+INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, 
+BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, 
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF 
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE 
+OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED 
+OF THE POSSIBILITY OF SUCH DAMAGE.
+-----END VERBATIM LICENSE TEXT 1-----
+
+---8<--- VERBATIM LICENSE TEXT 2 of 4 ----------------------------------------
+Source:  https://labs.etsi.org/rep/saref/saref4city/-/raw/develop-v2.1.1/LICENSE
+Method:  exact-bytes
+SHA-256: cef08f53c72a0871b711a77a725182ea2b0aac57e394c5f6d81dd10a00e58024
+-----BEGIN VERBATIM LICENSE TEXT 2-----
+Copyright 2020 ETSI
+
+Redistribution and use in source and binary forms, with or without 
+modification, are permitted provided that the following conditions are met:
+1. Redistributions of source code must retain the above copyright notice, 
+   this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice, 
+   this list of conditions and the following disclaimer in the documentation 
+   and/or other materials provided with the distribution.
+3. Neither the name of the copyright holder nor the names of its contributors 
+   may be used to endorse or promote products derived from this software without 
+   specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED 
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
+IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, 
+INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, 
+BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, 
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF 
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE 
+OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED 
+OF THE POSSIBILITY OF SUCH DAMAGE.
+-----END VERBATIM LICENSE TEXT 2-----
+
+---8<--- VERBATIM LICENSE TEXT 3 of 4 ----------------------------------------
+Source:  https://labs.etsi.org/rep/saref/saref4bldg/-/raw/develop-v2.1.1/LICENSE
+Method:  exact-bytes
+SHA-256: cef08f53c72a0871b711a77a725182ea2b0aac57e394c5f6d81dd10a00e58024
+-----BEGIN VERBATIM LICENSE TEXT 3-----
+Copyright 2020 ETSI
+
+Redistribution and use in source and binary forms, with or without 
+modification, are permitted provided that the following conditions are met:
+1. Redistributions of source code must retain the above copyright notice, 
+   this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice, 
+   this list of conditions and the following disclaimer in the documentation 
+   and/or other materials provided with the distribution.
+3. Neither the name of the copyright holder nor the names of its contributors 
+   may be used to endorse or promote products derived from this software without 
+   specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED 
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
+IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, 
+INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, 
+BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, 
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF 
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE 
+OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED 
+OF THE POSSIBILITY OF SUCH DAMAGE.
+-----END VERBATIM LICENSE TEXT 3-----
+
+---8<--- VERBATIM LICENSE TEXT 4 of 4 ----------------------------------------
+Source:  https://forge.etsi.org/etsi-software-license (redirects to https://forge.etsi.org/index.php/legal-matters)
+Method:  html-extract
+SHA-256: ca1476b377f8a4446c402cd240930a5ca7fe68f546f9a9fd97c8d106540e14e9
+-----BEGIN VERBATIM LICENSE TEXT 4-----
+ Contributions to the ETSI Forge may be incorporated in ETSI normative deliverables (GS, TS, ES, EN) and therefore are made under the ETSI IPR policy.
+
+ Unless specified otherwise, the content of the repositories in the ETSI Forge is licensed under the terms of the BSD-3-Clause LICENSE:
+
+https://opensource.org/licenses/BSD-3-Clause
+
+ 
+
+How the LICENSE is applied
+
+ A text  file named LICENSE is created in the root of the repository with the text of the LICENSE, [year] is replaced with the current year and “ETSI” included as copyright holder.
+
+Every source file in the ETSI Forge (including, but not limited to YAML, JSON, ASN.1, TTCN-3, TDL) includes a LICENSE header and/or a reference to the LICENSE.
+-----END VERBATIM LICENSE TEXT 4-----

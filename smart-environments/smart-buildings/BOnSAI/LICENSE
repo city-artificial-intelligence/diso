@@ -1,0 +1,25 @@
+Ontology:               Smart Building Ontology for Ambient Intelligence (BOnSAI)
+DISO directory:         smart-environments/smart-buildings/BOnSAI
+Ontology files:         BOnSAI.owl, CoDAMoS.owl, Service.owl, bonsaiMerged.ttl,
+                        catalog-v001.xml
+Obtained from:          http://lpis.csd.auth.gr/ontologies/ontolist.html#bonsai
+                        (per the local README.md), i.e.
+                        http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl;
+                        imports fetched from
+                        http://www.daml.org/services/owl-s/1.2/Service.owl and
+                        http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl
+License(s):             None located (SPDX: NOASSERTION)
+Rights holder(s):       not established. Presumed: the BOnSAI authors — Thanos
+                        G. Stavropoulos, Nick Bassiliades and Dimitris Vrakas,
+                        members of the ISKP and LPIS groups, Computer Science
+                        Department, Aristotle University of Thessaloniki (per
+                        the upstream release notes,
+                        http://lpis.csd.auth.gr/ontologies/bonsai/Bonsaireadme.txt);
+                        Danai Vlachava is a co-author of the publishing paper.
+                        Third-party rights subsist in the imported components:
+                        Service.owl (OWL-S 1.2, the OWL-S Coalition / DAML
+                        program, www.daml.org) and CoDAMoS.owl (CoDAMoS project,
+                        DistriNet, KU Leuven; re-hosted at LPIS).
+Required attribution:   n/a — no license
+License source(s):      none located
+Retrieved:              2026-06-13

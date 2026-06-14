@@ -1,0 +1,22 @@
+Ontology:               Information Modelling Framework (IMF)
+DISO directory:         smart-environments/smart-buildings/IMF
+Ontology files:         imf.ttl (the ontology; upstream filename
+                        imf-ontology.owl.ttl, version 0.3.0, 2024-05-31),
+                        IMF-Manual-v0.3.0.pdf (documentation),
+                        README.md (DISO curation note)
+Obtained from:          https://github.com/imf-lab/imf-ontology-semweb
+                        (imf-ontology.owl.ttl, version 0.3.0 from 20240531;
+                        renamed to imf.ttl for DISO). The IMF Manual v0.3.0
+                        (2024-05-29) was downloaded from https://ns.imfid.org/
+License(s):             NONE LOCATED (SPDX: NOASSERTION)
+Rights holder(s):       not established. Presumed: the IMF ontology authors
+                        per the pav: metadata embedded in imf.ttl — creator
+                        Martin G. Skjæveland (imf.ttl:269 pav:createdBy ->
+                        imf.ttl:1495-1496) and contributor Arild Waaler
+                        (imf.ttl:266-267) — and/or the organisations behind
+                        the IMF Lab project (https://www.imfid.org/,
+                        https://gitlab.com/groups/imf-lab), which grew out of
+                        the READI Joint Industry Project.
+Required attribution:   n/a — no license
+License source(s):      none located
+Retrieved:              2026-06-13
