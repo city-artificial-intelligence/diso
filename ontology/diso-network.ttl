@@ -1,0 +1,701 @@
+@prefix diso:    <https://city-artificial-intelligence.github.io/diso/ontology#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+
+<https://city-artificial-intelligence.github.io/diso/dataset>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> ;
+    <http://www.w3.org/2002/07/owl#imports> <https://city-artificial-intelligence.github.io/diso/ontology> ;
+    <http://purl.org/dc/terms/title> "DISO (defence, intelligence and security ontologies) Network" ;
+    <http://purl.org/dc/terms/description> "DISO (defence, intelligence and security ontologies) Network - the network of defence, intelligence and security ontologies - its subdomain clusters and its member ontologies." ;
+    <http://www.w3.org/2002/07/owl#versionInfo> "1.0.0" ;
+    <http://purl.org/dc/terms/issued> "2026-05-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<https://city-artificial-intelligence.github.io/diso/ontology#OntologyNetwork>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+
+<https://city-artificial-intelligence.github.io/diso/ontology#Cluster>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+
+<https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+
+<http://rdfs.org/ns/void#Dataset>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+
+<http://rdfs.org/ns/void#subset>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://purl.org/dc/terms/title>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://purl.org/dc/terms/description>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://purl.org/dc/terms/abstract>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://purl.org/dc/terms/creator>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://purl.org/dc/terms/publisher>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://purl.org/dc/terms/issued>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://purl.org/dc/terms/identifier>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://purl.org/dc/terms/license>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://purl.org/dc/terms/source>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://www.w3.org/2000/01/rdf-schema#label>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/network/DISO>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#OntologyNetwork> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "DISO" ;
+    <http://purl.org/dc/terms/title> "DISO: Defence, Intelligence and Security Ontologies" ;
+    <http://purl.org/dc/terms/description> "DISO is a curated collection of publicly available OWL ontologies covering the domains of defence, intelligence and security, organised into subdomain clusters. It was assembled to support a defence, intelligence and security track for the Ontology Alignment Evaluation Initiative (OAEI)." ;
+    <http://purl.org/dc/terms/abstract> "The use of ontologies and knowledge graphs is becoming increasingly widespread in the defence and national security domain. Numerous ontologies have been developed through initiatives led by academia, industry, and government. Achieving interoperability across diverse defence and national security ontologies remains a major challenge due to the domain's breadth and specialisation. In this work, we analyse and document over 60 publicly available ontologies and introduce a new track for the Ontology Alignment Evaluation Initiative (OAEI). This track comprises eight matching tasks, consensus alignments and a subset of manually-curated mappings. The consensus alignments are derived by aggregating the outputs of several state-of-the-art ontology alignment systems." ;
+    <http://purl.org/dc/terms/creator> <https://orcid.org/0009-0009-0260-0492> ;
+    <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0001-6724-899X> ;
+    <http://purl.org/dc/terms/creator> <https://orcid.org/0009-0008-2736-6789> ;
+    <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-1847-9393> ;
+    <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-9083-4599> ;
+    <http://purl.org/dc/terms/publisher> "City St Georges, University of London" ;
+    <http://purl.org/dc/terms/issued> "2026-05-07"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    <http://purl.org/dc/terms/identifier> "10.5281/zenodo.20059507" ;
+    <http://purl.org/dc/terms/license> <https://spdx.org/licenses/MIT> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "MIT" ;
+    <http://www.w3.org/2002/07/owl#versionInfo> "1.0.0" ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/cluster/agentic> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/cluster/ambient-intelligence> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/cluster/context-awareness> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/cluster/cyber-security> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/cluster/digital-twins> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/cluster/information-exchange> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/cluster/information-security> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/cluster/mid-level> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/cluster/risk-management> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/cluster/robotics> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/cluster/situation-awareness> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/cluster/smart-environments> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/cluster/upper-level> .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/cluster/agentic>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#Cluster> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Agentic" ;
+    <http://purl.org/dc/terms/title> "Agentic" ;
+    <http://purl.org/dc/terms/description> "Ontologies relating to agentic AI and (semantic) services." ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/OWL-S> .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/cluster/ambient-intelligence>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#Cluster> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Ambient Intelligence" ;
+    <http://purl.org/dc/terms/title> "Ambient Intelligence" ;
+    <http://purl.org/dc/terms/description> "Environments with electronic devices that are aware of and adapt to human presence, enhancing interaction through context-aware, interconnected systems." ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/BOnSAI> .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/cluster/context-awareness>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#Cluster> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Context Awareness" ;
+    <http://purl.org/dc/terms/title> "Context Awareness" ;
+    <http://purl.org/dc/terms/description> "A special case of situation awareness focused on individuals and their immediate context, supporting pervasive computing where services adapt to user context." ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/CoDAMoS> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/mIO> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/SOUPA> .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/cluster/cyber-security>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#Cluster> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Cyber Security" ;
+    <http://purl.org/dc/terms/title> "Cyber Security" ;
+    <http://purl.org/dc/terms/description> "Information security strictly within the digital domain: securing assets against digital threats. The largest cluster in DISO." ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/ATTACK> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/CAPEC> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/CPE> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/CVE> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/CVSS> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/CWE> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/D3FEND> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/ICSA> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/ICS-SEC-KG-ONTO> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/ITIO> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/Ops> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/SNORT> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/STIX> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/UCO_1> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/UCO_2> .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/cluster/digital-twins>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#Cluster> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Digital Twins" ;
+    <http://purl.org/dc/terms/title> "Digital Twins" ;
+    <http://purl.org/dc/terms/description> "Digital representations of physical-world entities, environments or processes with two-way data flow between the physical and digital." ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/SAREF> .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/cluster/information-exchange>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#Cluster> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Information Exchange" ;
+    <http://purl.org/dc/terms/title> "Information Exchange" ;
+    <http://purl.org/dc/terms/description> "Ontologies that standardise data representations to facilitate the exchange and aggregation of data across diverse domains, organisations and systems." ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/IES> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/JC3IEDM> .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/cluster/information-security>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#Cluster> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Information Security" ;
+    <http://purl.org/dc/terms/title> "Information Security" ;
+    <http://purl.org/dc/terms/description> "Protecting information in all forms, physical and digital, around the CIA triad of confidentiality, integrity and availability." ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/CordaSecOnt> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/MDISOnt> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/OntoSecRPA> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/SecAOnto> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/SO> .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/cluster/mid-level>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#Cluster> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Mid-level Ontologies" ;
+    <http://purl.org/dc/terms/title> "Mid-level Ontologies" ;
+    <http://purl.org/dc/terms/description> "Ontologies that bridge domain-specific ontologies and upper-level ontologies." ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/CCO> .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/cluster/risk-management>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#Cluster> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Risk Management" ;
+    <http://purl.org/dc/terms/title> "Risk Management" ;
+    <http://purl.org/dc/terms/description> "Ontologies relating to the identification, assessment and management of risk." ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/IRIS> .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/cluster/robotics>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#Cluster> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Robotics" ;
+    <http://purl.org/dc/terms/title> "Robotics" ;
+    <http://purl.org/dc/terms/description> "Ontologies for robotics and for robotic process automation." ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/CORA> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/OntoSecRPA> .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/cluster/situation-awareness>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#Cluster> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Situation Awareness" ;
+    <http://purl.org/dc/terms/title> "Situation Awareness" ;
+    <http://purl.org/dc/terms/description> "The perception, comprehension and prediction of an environment, its elements and their meaning within dynamic task settings." ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/SAWCore> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/SOUPA> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/STO> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/JC3IEDM> .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/cluster/smart-environments>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#Cluster> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Smart Environments" ;
+    <http://purl.org/dc/terms/title> "Smart Environments" ;
+    <http://purl.org/dc/terms/description> "Ontologies that model environments at different scales (cities, buildings, homes) with smart or intelligent aspects." ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/cluster/smart-buildings> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/cluster/smart-cities> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/cluster/smart-homes> .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/cluster/upper-level>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#Cluster> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Upper-level Ontologies" ;
+    <http://purl.org/dc/terms/title> "Upper-level Ontologies" ;
+    <http://purl.org/dc/terms/description> "Abstract, general (foundational / top-level) ontologies whose concepts apply across domains to support broad semantic interoperability." ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/BFO> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/DOLCE> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/DUL> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/GFO> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/GFO-Bio> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/gUFO> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/SUMO> .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/cluster/smart-buildings>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#Cluster> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Smart Buildings" ;
+    <http://purl.org/dc/terms/title> "Smart Buildings" ;
+    <http://purl.org/dc/terms/description> "Ontologies for smart buildings." ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/BOnSAI> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/BOT> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/BRICK> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/IMF> .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/cluster/smart-cities>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#Cluster> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Smart Cities" ;
+    <http://purl.org/dc/terms/title> "Smart Cities" ;
+    <http://purl.org/dc/terms/description> "Ontologies for smart cities." ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/CityOWL> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/SMOF> .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/cluster/smart-homes>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#Cluster> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Smart Homes" ;
+    <http://purl.org/dc/terms/title> "Smart Homes" ;
+    <http://purl.org/dc/terms/description> "Ontologies for smart homes." ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/SmartEnv> ;
+    <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/ThinkHome> .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/OWL-S>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "Semantic Markup for Web Services" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "OWL-S" ;
+    <http://purl.org/dc/terms/description> "An OWL ontology for describing Semantic Web services, enabling automated discovery, invocation and composition." ;
+    <http://purl.org/dc/terms/source> <http://www.daml.org/services/owl-s/> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "NOASSERTION" .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/CoDAMoS>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "Context-Driven Adaptation of Mobile Services" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "CoDAMoS" ;
+    <http://purl.org/dc/terms/description> "An ontology modelling user, platform, environment and service for context-aware applications in pervasive computing." ;
+    <http://purl.org/dc/terms/source> <http://lpis.csd.auth.gr/ontologies/ontolist.html> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "NOASSERTION" .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/mIO>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "mIO! Ontology Network (context for mobile environments)" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "mIO!" ;
+    <http://purl.org/dc/terms/description> "An ontology network representing user context for mobile environments: location, environment, services, devices and social information." ;
+    <http://purl.org/dc/terms/source> <https://oeg.fi.upm.es/index.php/en/ontologies/82-mio-ontologies/index.html> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "CC-BY-3.0" ;
+    <http://purl.org/dc/terms/license> <https://spdx.org/licenses/CC-BY-3.0> .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/ATTACK>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "MITRE ATT&CK" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "ATTACK" ;
+    <http://purl.org/dc/terms/description> "A knowledge base of adversary tactics and techniques based on real-world observations." ;
+    <http://purl.org/dc/terms/source> <https://attack.mitre.org/> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "LicenseRef-MITRE-ATTACK-ToU AND CC-BY-4.0" .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/CAPEC>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "Common Attack Pattern Enumerations and Classifications" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "CAPEC" ;
+    <http://purl.org/dc/terms/description> "A dictionary of known attack patterns used by adversaries to exploit weaknesses." ;
+    <http://purl.org/dc/terms/source> <https://capec.mitre.org/> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "LicenseRef-MITRE-CAPEC-ToU AND CC-BY-4.0 AND MIT" .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/CPE>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "Common Platform Enumeration" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "CPE" ;
+    <http://purl.org/dc/terms/description> "A structured naming scheme for IT systems, software and packages." ;
+    <http://purl.org/dc/terms/source> <https://nvd.nist.gov/products/cpe> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "MIT AND LicenseRef-NIST-CPE-Dictionary-PD" .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/CVE>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "Common Vulnerabilities and Exposures" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "CVE" ;
+    <http://purl.org/dc/terms/description> "A catalogue of publicly disclosed cybersecurity vulnerabilities." ;
+    <http://purl.org/dc/terms/source> <https://www.cve.org/> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "CC-BY-4.0 AND MIT AND LicenseRef-MITRE-CVE-Terms-of-Use" .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/CVSS>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "Common Vulnerability Scoring System" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "CVSS" ;
+    <http://purl.org/dc/terms/description> "An open framework for rating the severity of security vulnerabilities." ;
+    <http://purl.org/dc/terms/source> <https://www.first.org/cvss/> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "(CC-BY-4.0 OR MIT) AND LicenseRef-FIRST-CVSS-ToU" .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/CWE>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "Common Weakness Enumeration" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "CWE" ;
+    <http://purl.org/dc/terms/description> "A community-developed list of common software and hardware weakness types." ;
+    <http://purl.org/dc/terms/source> <https://cwe.mitre.org/> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "(MIT AND CC-BY-4.0) AND LicenseRef-MITRE-CWE-ToU" .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/D3FEND>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "Detection, Denial & Disruption Framework Empowering Network Defense" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "D3FEND" ;
+    <http://purl.org/dc/terms/description> "A knowledge graph of cybersecurity countermeasures (defensive techniques)." ;
+    <http://purl.org/dc/terms/source> <https://d3fend.mitre.org/> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "MIT AND LicenseRef-MITRE-D3FEND-ToU" .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/ICSA>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "Industrial Control Systems Advisory ontology" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "ICSA" ;
+    <http://purl.org/dc/terms/description> "An ontology representing Industrial Control Systems security advisories." ;
+    <http://purl.org/dc/terms/source> <https://github.com/sepses/ics-sec-kg> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "CC-BY-4.0" ;
+    <http://purl.org/dc/terms/license> <https://spdx.org/licenses/CC-BY-4.0> .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/ICS-SEC-KG-ONTO>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "ICS Security Knowledge Graph Ontology" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "ICS-SEC-KG-ONTO" ;
+    <http://purl.org/dc/terms/description> "The ontology of the SEPSES Industrial Control Systems security knowledge graph, integrating several cyber-security vocabularies." ;
+    <http://purl.org/dc/terms/source> <https://github.com/sepses/ics-sec-kg> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "MIT AND CC-BY-4.0" .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/ITIO>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "Insider Threat Indicator Ontology" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "ITIO" ;
+    <http://purl.org/dc/terms/description> "An ontology of insider-threat indicators." ;
+    <http://purl.org/dc/terms/source> <https://www.sei.cmu.edu/library/an-insider-threat-indicator-ontology/> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "LicenseRef-CMU-SEI-Distribution-Statement-A" .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/Ops>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "Ops (Operations) Ontology" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Ops" ;
+    <http://purl.org/dc/terms/description> "A cyber-security ontology focused on the operations domain." ;
+    <http://purl.org/dc/terms/source> <https://github.com/CDSRV/ops-ontology> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "GPL-3.0-only AND CC-BY-4.0" .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/SNORT>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "SNORT Network Intrusion Detection ontologies" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "SNORT" ;
+    <http://purl.org/dc/terms/description> "Ontologies describing the SNORT intrusion detection and prevention system, its rules and its alerts." ;
+    <http://purl.org/dc/terms/source> <https://www.snort.org/> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "CC-BY-4.0" ;
+    <http://purl.org/dc/terms/license> <https://spdx.org/licenses/CC-BY-4.0> .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/STIX>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "Structured Threat Information eXpression (2.1)" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "STIX" ;
+    <http://purl.org/dc/terms/description> "An OWL representation of the OASIS STIX 2.1 cyber-threat-intelligence specification." ;
+    <http://purl.org/dc/terms/source> <https://github.com/oasis-tcs/tac-ontology> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "LicenseRef-OASIS-IPR-Policy-Non-Assertion-Mode" .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/UCO_1>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "Unified Cyber Ontology" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "UCO_1" ;
+    <http://purl.org/dc/terms/description> "A community ontology providing a consistent foundation for representing information across the cyber-security domain (UCO Project)." ;
+    <http://purl.org/dc/terms/source> <https://unifiedcyberontology.org/> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "Apache-2.0 AND CC-BY-3.0" .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/UCO_2>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "Unified Cybersecurity Ontology (Syed et al.)" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "UCO_2" ;
+    <http://purl.org/dc/terms/description> "A semantic ontology extending STIX with cyber-security standards (Syed et al.)." ;
+    <http://purl.org/dc/terms/source> <https://github.com/Ebiquity/Unified-Cybersecurity-Ontology> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "NOASSERTION" .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/SAREF>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "Smart Applications REFerence ontology" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "SAREF" ;
+    <http://purl.org/dc/terms/description> "A suite of reference ontologies for semantic interoperability across IoT domains." ;
+    <http://purl.org/dc/terms/source> <https://saref.etsi.org/> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "BSD-3-Clause" ;
+    <http://purl.org/dc/terms/license> <https://spdx.org/licenses/BSD-3-Clause> .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/IES>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "Information Exchange Standard (v5)" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "IES" ;
+    <http://purl.org/dc/terms/description> "The UK Government Information Exchange Standard for consistent, interoperable data exchange." ;
+    <http://purl.org/dc/terms/source> <https://github.com/IES-Org> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "MIT" ;
+    <http://purl.org/dc/terms/license> <https://spdx.org/licenses/MIT> .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/JC3IEDM>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "Joint Consultation, Command & Control Information Exchange Data Model" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "JC3IEDM" ;
+    <http://purl.org/dc/terms/description> "A data model for the exchange of joint command, control and consultation information (military C2)." ;
+    <http://purl.org/dc/terms/source> <https://vistology.com/ont/JC3IEDM/JC3IEDM3.0/JC3IEDM.owl> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "CC-BY-NC-3.0" ;
+    <http://purl.org/dc/terms/license> <https://spdx.org/licenses/CC-BY-NC-3.0> .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/CordaSecOnt>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "Corda Security Ontology" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "CordaSecOnt" ;
+    <http://purl.org/dc/terms/description> "A security ontology classifying assets, threats, vulnerabilities and countermeasures for Corda applications." ;
+    <http://purl.org/dc/terms/source> <https://github.com/mubashar-iqbal/corda-security-ontology> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "CC-BY-4.0 AND MIT" .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/MDISOnt>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "Multi-dimensional Information Security Ontology" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "MDISOnt" ;
+    <http://purl.org/dc/terms/description> "A multi-dimensional information security ontology that decomposes security into dimensional views." ;
+    <http://purl.org/dc/terms/source> <https://github.com/inesmeriah/MDISOnt> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "NOASSERTION" .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/OntoSecRPA>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "Security Ontology for Robotic Process Automation" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "OntoSecRPA" ;
+    <http://purl.org/dc/terms/description> "A security ontology for Robotic Process Automation: assets, risks, threats, vulnerabilities and countermeasures." ;
+    <http://purl.org/dc/terms/source> <https://github.com/oleferovich/-OntoSecRPA> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "NOASSERTION" .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/SecAOnto>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "Security Assessment Ontology" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "SecAOnto" ;
+    <http://purl.org/dc/terms/description> "An ontology for security assessment, at the intersection of security and software assessment." ;
+    <http://purl.org/dc/terms/source> <https://github.com/ferruciof/Files/tree/master/SecAOnto> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "NOASSERTION" .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/SO>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "Security Ontology" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "SO" ;
+    <http://purl.org/dc/terms/description> "A security ontology modelling assets, threats, vulnerabilities and countermeasures, with extension ontologies." ;
+    <http://purl.org/dc/terms/source> <https://www.ida.liu.se/divisions/adit/security/projects/secont/> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "NOASSERTION" .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/CCO>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "Common Core Ontologies" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "CCO" ;
+    <http://purl.org/dc/terms/description> "A suite of mid-level ontologies extending BFO with terms common across domains." ;
+    <http://purl.org/dc/terms/source> <https://github.com/CommonCoreOntology/CommonCoreOntologies> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "BSD-3-Clause AND CC-BY-4.0" .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/IRIS>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "IRIS Risk Core Ontology" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "IRIS" ;
+    <http://purl.org/dc/terms/description> "A core ontology of terms and relationships for risk identification and assessment." ;
+    <http://purl.org/dc/terms/source> <http://lpis.csd.auth.gr/ontologies/ontolist.html> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "NOASSERTION" .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/CORA>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "Core Ontology for Robotics and Automation" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "CORA" ;
+    <http://purl.org/dc/terms/description> "The IEEE 1872-2015 core ontology for robotics and automation." ;
+    <http://purl.org/dc/terms/source> <https://github.com/srfiorini/IEEE1872-owl> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "CC-BY-4.0" ;
+    <http://purl.org/dc/terms/license> <https://spdx.org/licenses/CC-BY-4.0> .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/SAWCore>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "Situation Awareness Core ontology" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "SAWCore" ;
+    <http://purl.org/dc/terms/description> "A domain-independent upper ontology for situation awareness." ;
+    <http://purl.org/dc/terms/source> <https://vistology.com/ont/SAWCore/> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "CC-BY-NC-3.0" ;
+    <http://purl.org/dc/terms/license> <https://spdx.org/licenses/CC-BY-NC-3.0> .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/SOUPA>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "Standard Ontology for Ubiquitous and Pervasive Applications" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "SOUPA" ;
+    <http://purl.org/dc/terms/description> "A standard ontology for ubiquitous and pervasive applications: agents, time, space, events and policies." ;
+    <http://purl.org/dc/terms/source> <https://cobra.umbc.edu/ontologies.html> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "CC-BY-1.0" ;
+    <http://purl.org/dc/terms/license> <https://spdx.org/licenses/CC-BY-1.0> .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/STO>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "Situation Theory Ontology" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "STO" ;
+    <http://purl.org/dc/terms/description> "An OWL formalisation of situation theory for situation awareness." ;
+    <http://purl.org/dc/terms/source> <https://vistology.com/ont/STO/STO.owl> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "CC-BY-NC-3.0" ;
+    <http://purl.org/dc/terms/license> <https://spdx.org/licenses/CC-BY-NC-3.0> .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/BOnSAI>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "Smart Building Ontology for Ambient Intelligence" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "BOnSAI" ;
+    <http://purl.org/dc/terms/description> "A smart-building ontology for ambient intelligence, extending OWL-S and CoDAMoS." ;
+    <http://purl.org/dc/terms/source> <http://lpis.csd.auth.gr/ontologies/ontolist.html> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "NOASSERTION" .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/BOT>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "Building Topology Ontology" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "BOT" ;
+    <http://purl.org/dc/terms/description> "A minimal ontology for describing the core topological concepts of a building." ;
+    <http://purl.org/dc/terms/source> <https://github.com/w3c-lbd-cg/bot> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "CC-BY-1.0" ;
+    <http://purl.org/dc/terms/license> <https://spdx.org/licenses/CC-BY-1.0> .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/BRICK>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "Brick (buildings ontology)" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "BRICK" ;
+    <http://purl.org/dc/terms/description> "An open ontology standardising semantic descriptions of building assets and their relationships." ;
+    <http://purl.org/dc/terms/source> <https://github.com/BrickSchema/Brick> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "BSD-3-Clause AND CC-BY-4.0" .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/IMF>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "Information Modelling Framework" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "IMF" ;
+    <http://purl.org/dc/terms/description> "An ontology for modelling facility assets across the design, construction and operation of industrial facilities." ;
+    <http://purl.org/dc/terms/source> <https://github.com/imf-lab/imf-ontology-semweb> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "NOASSERTION" .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/CityOWL>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "OWL rendering of CityGML 3.0" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "CityOWL" ;
+    <http://purl.org/dc/terms/description> "An OWL rendering of the CityGML 3.0 model as a network of ontologies." ;
+    <http://purl.org/dc/terms/source> <https://dataset-dl.liris.cnrs.fr/rdf-owl-urban-data-ontologies/Ontologies/Readme.html> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "CC-BY-4.0 AND LicenseRef-OGC-Document-License" .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/SMOF>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "Smart City Ontology Framework" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "SMOF" ;
+    <http://purl.org/dc/terms/description> "A hierarchical ontology framework for integrating urban (smart-city) data across domains." ;
+    <http://purl.org/dc/terms/source> <https://figshare.com/articles/dataset/SMOF_IJGIS_/24996683> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "CC-BY-4.0" ;
+    <http://purl.org/dc/terms/license> <https://spdx.org/licenses/CC-BY-4.0> .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/SmartEnv>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "Smart Home Environments Ontology (eCare@Home)" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "SmartEnv" ;
+    <http://purl.org/dc/terms/description> "A smart-home environment ontology network (eCare@Home) covering time, geometry, events, sensing, situation and place." ;
+    <http://purl.org/dc/terms/source> <http://ecareathome-ontology.mpi.aass.oru.se/> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "NOASSERTION" .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/ThinkHome>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "ThinkHome Smart Home Ontology" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "ThinkHome" ;
+    <http://purl.org/dc/terms/description> "A smart-home ontology for home control and energy efficiency." ;
+    <http://purl.org/dc/terms/source> <https://www.auto.tuwien.ac.at/downloads/thinkhome/> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "NOASSERTION" .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/BFO>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "Basic Formal Ontology" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "BFO" ;
+    <http://purl.org/dc/terms/description> "A small upper-level ontology built around the continuant/occurrent distinction; an ISO/IEC 21838-2 standard." ;
+    <http://purl.org/dc/terms/source> <https://github.com/bfo-ontology/BFO-2020> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "CC-BY-4.0" ;
+    <http://purl.org/dc/terms/license> <https://spdx.org/licenses/CC-BY-4.0> .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/DOLCE>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "Descriptive Ontology for Linguistic and Cognitive Engineering" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "DOLCE" ;
+    <http://purl.org/dc/terms/description> "A foundational ontology capturing core cognitive and linguistic categories of common-sense knowledge." ;
+    <http://purl.org/dc/terms/source> <https://github.com/appliedontolab/DOLCE> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "CC-BY-4.0" ;
+    <http://purl.org/dc/terms/license> <https://spdx.org/licenses/CC-BY-4.0> .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/DUL>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "DOLCE+DnS Ultralite" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "DUL" ;
+    <http://purl.org/dc/terms/description> "A lightweight simplification of parts of the DOLCE foundational ontology." ;
+    <http://purl.org/dc/terms/source> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "NOASSERTION" .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/GFO>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "General Formal Ontology" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "GFO" ;
+    <http://purl.org/dc/terms/description> "A general formal (upper-level) ontology of objects, processes, time, space, properties and relations." ;
+    <http://purl.org/dc/terms/source> <https://www.onto-med.de/ontologies/gfo> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "BSD-3-Clause" ;
+    <http://purl.org/dc/terms/license> <https://spdx.org/licenses/BSD-3-Clause> .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/GFO-Bio>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "General Formal Ontology for Biology" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "GFO-Bio" ;
+    <http://purl.org/dc/terms/description> "A biological core ontology grounded in the GFO upper-level ontology." ;
+    <http://purl.org/dc/terms/source> <https://www.onto-med.de/ontologies/gfo-bio> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "BSD-3-Clause" ;
+    <http://purl.org/dc/terms/license> <https://spdx.org/licenses/BSD-3-Clause> .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/gUFO>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "gUFO: lightweight Unified Foundational Ontology" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "gUFO" ;
+    <http://purl.org/dc/terms/description> "A lightweight OWL 2 implementation of the Unified Foundational Ontology (UFO)." ;
+    <http://purl.org/dc/terms/source> <https://nemo-ufes.github.io/gufo/> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "CC-BY-4.0" ;
+    <http://purl.org/dc/terms/license> <https://spdx.org/licenses/CC-BY-4.0> .
+
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/SUMO>
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology> ;
+    <http://purl.org/dc/terms/title> "Suggested Upper Merged Ontology" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "SUMO" ;
+    <http://purl.org/dc/terms/description> "The Suggested Upper Merged Ontology: a large formal upper ontology with linked domain ontologies." ;
+    <http://purl.org/dc/terms/source> <https://www.ontologyportal.org/> ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "GPL-3.0-only AND LicenseRef-IEEE-SUMO-License" .
