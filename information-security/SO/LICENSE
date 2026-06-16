@@ -1,0 +1,20 @@
+Ontology:               Security Ontology (SO)
+DISO directory:         information-security/SO
+Ontology files:         Security.owl, SecurityViews.owl, SourceCodeAnalysis.owl,
+                        MemoryProtection.owl, SecurityLiterature.owl,
+                        SOmerged.ttl, catalog-v001.xml
+Obtained from:          https://www.ida.liu.se/divisions/adit/security/projects/secont/
+                        (per README.md in this directory; SecurityLiterature.owl
+                        from https://www.ida.liu.se/divisions/adit/security/projects/secont/SecurityLiterature.owl)
+License(s):             None located (SPDX: NOASSERTION)
+Rights holder(s):       Not established by an explicit notice. Presumed:
+                        Almut Herzog (creator, per dc:creator in the ontology
+                        files), John Wilander (contributor, per dc:contributor
+                        in MemoryProtection.owl and SourceCodeAnalysis.owl),
+                        and/or Dept. of Computer and Information Science,
+                        Linköpings universitet, Sweden (publisher, per
+                        dc:publisher in Security.owl). Co-authors of the
+                        associated publication: Nahid Shahmehri, Claudiu Duma.
+Required attribution:   n/a — no license
+License source(s):      none found
+Retrieved:              2026-06-13

@@ -1,0 +1,16 @@
+Ontology:               Security Assessment Ontology (SecAOnto)
+DISO directory:         information-security/SecAOnto
+Ontology files:         SecAOnto_V4.owl (README.md and this LICENSE file are
+                        DISO curation additions, not upstream artefacts)
+Obtained from:          https://github.com/ferruciof/Files
+                        (https://github.com/ferruciof/Files/tree/master/SecAOnto,
+                        file SecAOnto_V4.owl), per the local README.md
+License(s):             None found (SPDX: NOASSERTION)
+Rights holder(s):       not established — presumed to be the ontology authors
+                        Ferrucio de Franco Rosa, Mario Jino and Rodrigo Bonacin
+                        (Center for Information Technology Renato Archer (CTI)
+                        and University of Campinas (UNICAMP), Brazil), and/or
+                        their institutions
+Required attribution:   n/a — no license
+License source(s):      none located
+Retrieved:              2026-06-13

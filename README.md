@@ -54,6 +54,10 @@ This repository serves as the resource layer for a small ecosystem of repositori
 
 [**DISO-oaei**](https://github.com/city-artificial-intelligence/DISO-oaei) is the home page for the OAEI track and will describe and house the evaluation harness that scores participant-submitted matchers against the above-mentioned reference alignment.
 
+## Ontology Licensing
+
+For licensing information regarding the ontologies included in DISO, see the [ontology licensing table](ONTOLOGY-LICENSING.md).
+
 ## Versioning
 
 Major version bumps are most likely to follow an annual release cadence (mirroring the OAEI competition year). Minor version bumps may be used to capture upstream ontology updates and curation fixes.

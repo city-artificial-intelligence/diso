@@ -1,0 +1,85 @@
+---8<--- VERBATIM LICENSE TEXT 1 of 3 ----------------------------------------
+Source:  https://raw.githubusercontent.com/d3fend/d3fend-ontology/1.2.0/LICENSE.md
+Method:  exact-bytes
+SHA-256: a799333707a5a1c4c863ab137af4cdd659b081de07058f715ebdde001db68731
+-----BEGIN VERBATIM LICENSE TEXT 1-----
+MIT License
+
+Copyright (c) 2022 The MITRE Corporation
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-----END VERBATIM LICENSE TEXT 1-----
+
+---8<--- VERBATIM LICENSE TEXT 2 of 3 ----------------------------------------
+Source:  https://d3fend.mitre.org/tou
+Method:  html-extract
+SHA-256: d7884098331bdd362fe3f4d9fb4e3b90fbcc0d60585d6892aff9003228e60fdf
+-----BEGIN VERBATIM LICENSE TEXT 2-----
+Terms of Use
+
+LICENSE
+
+The MITRE Corporation (MITRE) hereby grants you a non-exclusive,
+royalty-free license to use D3FEND for research, development, and commercial
+purposes. Any copy you make for such purposes is authorized provided that
+you reproduce MITRE's copyright designation and this license in any such
+copy.
+
+DISCLAIMERS
+
+ALL DOCUMENTS AND THE INFORMATION CONTAINED THEREIN ARE PROVIDED ON AN "AS
+IS" BASIS AND THE CONTRIBUTOR, THE ORGANIZATION HE/SHE REPRESENTS OR IS
+SPONSORED BY (IF ANY), THE MITRE CORPORATION, ITS BOARD OF TRUSTEES,
+OFFICERS, AGENTS, AND EMPLOYEES, DISCLAIM ALL WARRANTIES, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTY THAT THE USE OF THE
+INFORMATION THEREIN WILL NOT INFRINGE ANY RIGHTS OR ANY IMPLIED WARRANTIES
+OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+
+THIRD-PARTY LICENSES
+
+This project makes use of MITRE ATT&CK®.
+MITRE ATT&CK® and ATT&CK® are registered trademarks of
+The MITRE Corporation. MITRE ATT&CK content is subject to the MITRE ATT&CK terms of use.
+
+This project makes use of MITRE ATLAS™.
+MITRE ATLAS™ and MITRE ATT&CK® are a trademark and registered trademark of The MITRE Corporation.
+MITRE ATLAS content is subject to the ATLAS terms of use.
+
+This project makes use of the Aerospace SPARTA ®.
+©2023 The Aerospace Corporation. This work is reproduced and distributed with the permission of The Aerospace Corporation.
+SPARTA® Terms of Service - https://sparta.aerospace.org/terms-of-service
+License
+The Aerospace Corporation hereby grants you a non-exclusive, royalty-free license to use SPARTA for research, development, and commercial purposes. Any copy you make for such purposes is authorized provided that you reproduce Aerospace's copyright designation and this license in any such copy.
+-----END VERBATIM LICENSE TEXT 2-----
+
+---8<--- VERBATIM LICENSE TEXT 3 of 3 ----------------------------------------
+Source:  cyber-security/D3FEND/d3fend.owl (lines 12-20, owl:Ontology header)
+Method:  local-file
+SHA-256: d2b8ca58d0db5cfed5d1cae12202a33b9e456f54bf73d9691ec47e1d0c72b017
+-----BEGIN VERBATIM LICENSE TEXT 3-----
+    <owl:Ontology rdf:about="http://d3fend.mitre.org/ontologies/d3fend.owl">
+        <owl:versionIRI rdf:resource="http://d3fend.mitre.org/ontologies/d3fend/1.2.0/d3fend.owl"/>
+        <release-date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-01T00:12:00+00:00</release-date>
+        <dcterms:description>D3FEND is a framework which encodes a countermeasure knowledge base as a knowledge graph. The graph contains the types and relations that define key concepts in the cybersecurity countermeasure domain and the relations necessary to link those concepts to each other. Each of these concepts and relations are linked to references in the cybersecurity literature.</dcterms:description>
+        <dcterms:license>MIT</dcterms:license>
+        <dcterms:title>D3FEND™ - A knowledge graph of cybersecurity countermeasures</dcterms:title>
+        <rdfs:comment>Use of the D3FEND Knowledge Graph, and the associated references from this ontology are subject to the Terms of Use. D3FEND is funded by the National Security Agency (NSA) Cybersecurity Directorate and managed by the National Security Engineering Center (NSEC) which is operated by The MITRE Corporation. D3FEND™ and the D3FEND logo are trademarks of The MITRE Corporation. This software was produced for the U.S. Government under Basic Contract No. W56KGU-18-D0004, and is subject to the Rights in Noncommercial Computer Software and Noncommercial Computer Software Documentation Clause 252.227-7014 (FEB 2012) Copyright 2022 The MITRE Corporation.</rdfs:comment>
+        <owl:versionInfo>1.2.0</owl:versionInfo>
+    </owl:Ontology>
+-----END VERBATIM LICENSE TEXT 3-----

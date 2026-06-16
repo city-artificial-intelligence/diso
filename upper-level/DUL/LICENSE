@@ -1,0 +1,17 @@
+Ontology:               DOLCE+DnS Ultralite (DUL)
+DISO directory:         upper-level/DUL
+Ontology files:         DUL.owl
+Obtained from:          http://www.ontologydesignpatterns.org/ont/dul/DUL.owl
+                        (per upper-level/DUL/README.md; ontology version 4.2
+                        per owl:versionInfo at DUL.owl line 30)
+License(s):             NONE LOCATED (SPDX: NOASSERTION)
+Rights holder(s):       not established — presumed Aldo Gangemi (creator, per
+                        the owl:versionInfo note at DUL.owl line 31 and the
+                        dc:creator "Aldo Gangemi" annotations, e.g. DUL.owl
+                        line 495) and/or the Semantic Technology Laboratory,
+                        ISTC-CNR (Institute of Cognitive Sciences and
+                        Technologies, Italian National Research Council),
+                        which publishes ontologydesignpatterns.org
+Required attribution:   n/a — no license
+License source(s):      none located
+Retrieved:              2026-06-13
