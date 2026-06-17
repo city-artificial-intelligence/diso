@@ -1,0 +1,242 @@
+{
+ "OWL-S": {
+  "upstream": "https://www.daml.org/services/owl-s/1.2/Service.owl",
+  "mirrors": []
+ },
+ "CoDAMoS": {
+  "upstream": "http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl",
+  "mirrors": []
+ },
+ "mIO!": {
+  "upstream": null,
+  "mirrors": []
+ },
+ "ATTACK": {
+  "upstream": "https://raw.githubusercontent.com/sepses/ics-sec-kg/726bd315e4d23a96f3c434d9a03903c6c085c65c/src/main/resources/owl/ATTACK.ttl",
+  "mirrors": [
+   "https://raw.githubusercontent.com/sepses/ics-sec-kg/master/src/main/resources/owl/ATTACK.ttl",
+   "https://raw.githubusercontent.com/city-artificial-intelligence/diso/main/cyber-security/ATTACK/attack.ttl"
+  ]
+ },
+ "CAPEC": {
+  "upstream": "https://raw.githubusercontent.com/sepses/ics-sec-kg/726bd315e4d23a96f3c434d9a03903c6c085c65c/src/main/resources/owl/CAPEC.ttl",
+  "mirrors": [
+   "https://raw.githubusercontent.com/sepses/ics-sec-kg/master/src/main/resources/owl/CAPEC.ttl",
+   "https://raw.githubusercontent.com/city-artificial-intelligence/diso/main/cyber-security/CAPEC/capec.ttl"
+  ]
+ },
+ "CPE": {
+  "upstream": "https://raw.githubusercontent.com/sepses/ics-sec-kg/1bb8268daf8d3cb01bb0caa9118057ac2dcc7bea/src/main/resources/owl/CPE.ttl",
+  "mirrors": [
+   "https://raw.githubusercontent.com/sepses/ics-sec-kg/master/src/main/resources/owl/CPE.ttl",
+   "https://raw.githubusercontent.com/city-artificial-intelligence/diso/main/cyber-security/CPE/cpe.ttl"
+  ]
+ },
+ "CVE": {
+  "upstream": "https://raw.githubusercontent.com/sepses/ics-sec-kg/master/src/main/resources/owl/CVE.ttl",
+  "mirrors": [
+   "https://raw.githubusercontent.com/city-artificial-intelligence/diso/main/cyber-security/CVE/cve.ttl"
+  ]
+ },
+ "CVSS": {
+  "upstream": "https://raw.githubusercontent.com/sepses/ics-sec-kg/726bd315e4d23a96f3c434d9a03903c6c085c65c/src/main/resources/owl/CVSS.ttl",
+  "mirrors": [
+   "https://raw.githubusercontent.com/sepses/ics-sec-kg/master/src/main/resources/owl/CVSS.ttl",
+   "https://raw.githubusercontent.com/city-artificial-intelligence/diso/main/cyber-security/CVSS/cvss.ttl"
+  ]
+ },
+ "CWE": {
+  "upstream": "https://raw.githubusercontent.com/sepses/ics-sec-kg/master/src/main/resources/owl/CWE.ttl",
+  "mirrors": [
+   "https://raw.githubusercontent.com/city-artificial-intelligence/diso/main/cyber-security/CWE/cwe.ttl"
+  ]
+ },
+ "D3FEND": {
+  "upstream": "https://d3fend.mitre.org/ontologies/d3fend/1.2.0/d3fend.owl",
+  "mirrors": []
+ },
+ "ICSA": {
+  "upstream": "https://raw.githubusercontent.com/sepses/ics-sec-kg/master/src/main/resources/owl/ICSA.ttl",
+  "mirrors": [
+   "https://raw.githubusercontent.com/city-artificial-intelligence/diso/main/cyber-security/ICSA/icsa.ttl"
+  ]
+ },
+ "ICS-SEC-KG-ONTO": {
+  "upstream": "https://raw.githubusercontent.com/sepses/ics-sec-kg/master/src/main/resources/owl/integrated.ttl",
+  "mirrors": [
+   "https://raw.githubusercontent.com/city-artificial-intelligence/diso/main/cyber-security/ICS-SEC-KG-ONTO/ics-sec-kg-onto.ttl"
+  ]
+ },
+ "ITIO": {
+  "upstream": "https://www.sei.cmu.edu/documents/1261/2016_005_112_465537.owl",
+  "mirrors": []
+ },
+ "Ops": {
+  "upstream": null,
+  "mirrors": []
+ },
+ "SNORT": {
+  "upstream": "https://raw.githubusercontent.com/sepses/vocab/master/raw/snort.ttl",
+  "mirrors": []
+ },
+ "STIX": {
+  "upstream": "https://raw.githubusercontent.com/oasis-tcs/tac-ontology/ad1ac00009eb4a72105463ad9f7ab17aa396103e/stix-spec/stix-spec.owl",
+  "mirrors": []
+ },
+ "UCO_1": {
+  "upstream": null,
+  "mirrors": []
+ },
+ "UCO_2": {
+  "upstream": "https://raw.githubusercontent.com/Ebiquity/Unified-Cybersecurity-Ontology/master/uco2.ttl",
+  "mirrors": []
+ },
+ "SAREF": {
+  "upstream": "https://saref.etsi.org/core/v4.1.1/saref.ttl",
+  "mirrors": [
+   "https://raw.githubusercontent.com/city-artificial-intelligence/diso/main/digital-twins/SAREF/saref.ttl"
+  ]
+ },
+ "IES": {
+  "upstream": "https://raw.githubusercontent.com/IES-Org/ont-ies/ies-5.0.0/docs/specification/ies-common.ttl",
+  "mirrors": [
+   "https://raw.githubusercontent.com/city-artificial-intelligence/diso/main/information-exchange/IES/ies-common.ttl"
+  ]
+ },
+ "JC3IEDM": {
+  "upstream": null,
+  "mirrors": []
+ },
+ "CordaSecOnt": {
+  "upstream": "https://raw.githubusercontent.com/mubashar-iqbal/corda-security-ontology/master/V1/CordaSecOnt.owl",
+  "mirrors": []
+ },
+ "MDISOnt": {
+  "upstream": "https://raw.githubusercontent.com/inesmeriah/MDISOnt/main/MDISOnt.owl",
+  "mirrors": [
+   "https://raw.githubusercontent.com/inesmeriah/MDISOnt/master/MDISOnt.owl"
+  ]
+ },
+ "OntoSecRPA": {
+  "upstream": "https://raw.githubusercontent.com/oleferovich/-OntoSecRPA/main/OntoSecRPA_2.owx",
+  "mirrors": []
+ },
+ "SecAOnto": {
+  "upstream": "https://raw.githubusercontent.com/ferruciof/Files/master/SecAOnto/SecAOnto_V4.owl",
+  "mirrors": []
+ },
+ "SO": {
+  "upstream": "https://www.ida.liu.se/divisions/adit/security/projects/secont/Security.owl",
+  "mirrors": []
+ },
+ "CCO": {
+  "upstream": "https://raw.githubusercontent.com/CommonCoreOntology/CommonCoreOntologies/v2.0-2024-11-06/src/cco-merged/CommonCoreOntologiesMerged.ttl",
+  "mirrors": [
+   "https://raw.githubusercontent.com/city-artificial-intelligence/diso/main/mid-level/CCO/CommonCoreOntologiesMerged.ttl"
+  ]
+ },
+ "IRIS": {
+  "upstream": "http://lpis.csd.auth.gr/ontologies/2010/iris.owl",
+  "mirrors": []
+ },
+ "CORA": {
+  "upstream": "https://raw.githubusercontent.com/srfiorini/IEEE1872-owl/ffb6613350b28c3a710f8daf2a1e9e953ded7ed8/cora.owl",
+  "mirrors": [
+   "https://raw.githubusercontent.com/srfiorini/IEEE1872-owl/master/cora.owl",
+   "https://raw.githubusercontent.com/city-artificial-intelligence/diso/main/robotics/CORA/cora.owl"
+  ]
+ },
+ "SAWCore": {
+  "upstream": "https://web.archive.org/web/20170504190944id_/http://vistology.com/ont/SAWCore/SAWCore.owl",
+  "mirrors": [
+   "https://web.archive.org/web/20170504190944/http://vistology.com/ont/SAWCore/SAWCore.owl",
+   "https://raw.githubusercontent.com/city-artificial-intelligence/diso/main/situation-awareness/SAWCore/SAWCore.owl"
+  ]
+ },
+ "SOUPA": {
+  "upstream": null,
+  "mirrors": []
+ },
+ "STO": {
+  "upstream": "https://web.archive.org/web/20230522170458id_/https://vistology.com/ont/STO/STO.owl",
+  "mirrors": [
+   "https://raw.githubusercontent.com/city-artificial-intelligence/diso/main/situation-awareness/STO/STO.owl"
+  ]
+ },
+ "BOnSAI": {
+  "upstream": "http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl",
+  "mirrors": []
+ },
+ "BOT": {
+  "upstream": "https://w3id.org/bot/bot.ttl",
+  "mirrors": [
+   "https://raw.githubusercontent.com/w3c-lbd-cg/bot/master/bot.ttl",
+   "https://raw.githubusercontent.com/city-artificial-intelligence/diso/main/smart-environments/smart-buildings/BOT/bot.ttl"
+  ]
+ },
+ "BRICK": {
+  "upstream": "https://github.com/BrickSchema/Brick/releases/download/v1.4.4/Brick+imports.ttl",
+  "mirrors": [
+   "https://raw.githubusercontent.com/city-artificial-intelligence/diso/main/smart-environments/smart-buildings/BRICK/Brick%2Bimports.ttl"
+  ]
+ },
+ "IMF": {
+  "upstream": "https://ns.imfid.org/20240531/imf-ontology.owl.ttl",
+  "mirrors": []
+ },
+ "CityOWL": {
+  "upstream": "https://dataset-dl.liris.cnrs.fr/rdf-owl-urban-data-ontologies/Ontologies/CityOWL/CWA/3.0/CityOWL.ttl",
+  "mirrors": []
+ },
+ "SMOF": {
+  "upstream": null,
+  "mirrors": []
+ },
+ "SmartEnv": {
+  "upstream": "https://w3id.org/smartenvironment/smartenv.owl",
+  "mirrors": []
+ },
+ "ThinkHome": {
+  "upstream": null,
+  "mirrors": []
+ },
+ "BFO": {
+  "upstream": "https://raw.githubusercontent.com/BFO-ontology/BFO-2020/master/21838-2/owl/bfo-core.owl",
+  "mirrors": [
+   "https://raw.githubusercontent.com/city-artificial-intelligence/diso/main/upper-level/BFO/bfo-core.owl"
+  ]
+ },
+ "DOLCE": {
+  "upstream": "https://raw.githubusercontent.com/appliedontolab/DOLCE/main/OWL/DOLCEbasic.owl",
+  "mirrors": [
+   "https://raw.githubusercontent.com/city-artificial-intelligence/diso/main/upper-level/DOLCE/DOLCEbasic.owl"
+  ]
+ },
+ "DUL": {
+  "upstream": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
+  "mirrors": []
+ },
+ "GFO": {
+  "upstream": "http://www.onto-med.de/ontologies/gfo.owl",
+  "mirrors": [
+   "https://www.onto-med.de/ontologies/gfo.owl",
+   "https://raw.githubusercontent.com/city-artificial-intelligence/diso/main/upper-level/GFO/gfo.owl"
+  ]
+ },
+ "GFO-Bio": {
+  "upstream": null,
+  "mirrors": []
+ },
+ "gUFO": {
+  "upstream": "https://raw.githubusercontent.com/nemo-ufes/gufo/v1.0.0/gufo.ttl",
+  "mirrors": [
+   "https://raw.githubusercontent.com/city-artificial-intelligence/diso/main/upper-level/gUFO/gufo.ttl"
+  ]
+ },
+ "SUMO": {
+  "upstream": "https://raw.githubusercontent.com/abrahaj/SUMO.owl/b7e227b4f0d0b4395c5e1bcb26872c492b41823e/SUMO.owl",
+  "mirrors": [
+   "https://raw.githubusercontent.com/abrahaj/SUMO.owl/master/SUMO.owl"
+  ]
+ }
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <!-- Resolve the DISO vocabulary import to the local file so the ABox can
+         be built/validated offline. The published vocabulary will eventually
+         resolve from its IRI directly. -->
+    <uri name="https://city-artificial-intelligence.github.io/diso/ontology" uri="diso-ontology.owl"/>
+    <uri name="https://city-artificial-intelligence.github.io/diso/ontology#" uri="diso-ontology.owl"/>
+</catalog>

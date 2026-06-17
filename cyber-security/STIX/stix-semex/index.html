@@ -1,0 +1,23 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content='width=device-width, initial-scale=1'><title>stix-semex — DISO</title><style>body{font-family:system-ui,sans-serif;max-width:54rem;margin:2rem auto;padding:0 1rem;line-height:1.5}pre,code{background:#f4f4f4}pre{padding:.6em;overflow:auto;white-space:pre-wrap}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}</style></head><body>
+<h1>Threat Actor Context Technical Committee Repository</h1>
+<p>The <em>OASIS Threat Actor Context Technical Committee</em> (TAC-TC) is chartered to create an ontology for expressing the rich context around Threat Actors. The OASIS TAC-TC is a separate Technical Committee from the OASIS CTI-TC, it will <em>embrace and extend</em> the CTI-TC's release of the STIX 2.1 standard.</p>
+<p>This repositiory is for TAC-TC members to collaborate on the development of the ontologies necessary for supporting Threat Analysts to assert facts into a graph knowledgebase and formally reason over those facts.</p>
+<h2>Embrace &amp; Extend</h2>
+<p>In order to extend the STIX 2.1 standard in a <em>semantically interoperable</em> way, the TAC-TC will develop and use a formal ontological representation of the specification. This representation will expose multiple levels of semantics.</p>
+<p>The adoption of multiple models, including the STIX 2.1 specification, will be a benefit of adopting the TAC Ontology.</p>
+<h2>Property Graphs and Semantic Graphs</h2>
+<p>The TAC-TC is providing a solution built upon the semantic technologies, in specific, a <strong>Semantic Graph</strong> based solution. Rather than attempt to provide a background on Property Graphs and Semantic Graphs in this readme.md file, the reader can investigate many discussions such as <a href="https://www.linkedin.com/pulse/semantic-knowledge-graphs-versus-property-andreas-blumauer/">this article on LinkedIn.</a></p>
+<p>The STIX 2.1 specification content more closely aligns with a Property Graph representation rather than a Semantic Graph representation. This is due to the use of <strong>Relationship</strong> nodes between STIX Objects. This is a perfectly legitimate structure choice, but does not afford us with the full set of semantic tools we would like. Therefore, a series of representations to represent the STIX 2.1 standard as a full Semantic Graph have been taken.</p>
+<h3>STIX Semantic Extension Graph (stix-semex.owl)</h3>
+<p>This representation will extend the stix.owl representation with the ObjectProperty and DataProperty predicates encapsulated in the <em>Relationship</em> objects in the STIX 2.1 specification.</p>
+<ol>
+<li>stix-semex.owl   <ol>
+<li>stix-spec.owl</li>
+<li>marking.owl</li>
+</ol>
+</li>
+<li>stix-semex-context.owl</li>
+</ol>
+<h1>Editing Style and Syntax Normalization</h1>
+<p>Developers have their own preferences when in comes to ontology editors and writing styles. This causes dificulties in managing a common repository used by multiple ontology contributors. To resolve the problem, all ontology content submitted and persisted in the TAC ontology repository must be <strong><em>Normalized</em></strong> with a utility called the <strong>RDF Toolkit</strong>. This utility puts the submitted content into a standardized form. It removes any stylistic differences between contributors.</p>
+</body></html>

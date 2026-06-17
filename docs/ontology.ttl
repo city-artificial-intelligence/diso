@@ -1,0 +1,144 @@
+@prefix : <https://city-artificial-intelligence.github.io/diso/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://city-artificial-intelligence.github.io/diso/ontology#> .
+
+<https://city-artificial-intelligence.github.io/diso/ontology> rdf:type owl:Ontology ;
+                                                                <http://purl.org/dc/terms/creator> <https://orcid.org/0009-0009-0260-0492> ;
+                                                                <http://purl.org/dc/terms/description> "A small OWL vocabulary for describing DISO (Defence, Intelligence and Security Ontologies) as a VoID / Dublin Core network of ontologies. It specialises void:Dataset into the ontology network, its subdomain clusters, and its member ontologies. Descriptive metadata reuses Dublin Core Terms and VoID terms directly." ;
+                                                                <http://purl.org/dc/terms/issued> "2026-05-07"^^xsd:date ;
+                                                                <http://purl.org/dc/terms/license> <https://spdx.org/licenses/MIT> ;
+                                                                <http://purl.org/dc/terms/publisher> "City St George's, University of London" ;
+                                                                <http://purl.org/dc/terms/title> "The DISO Vocabulary" ;
+                                                                rdfs:seeAlso <https://github.com/city-artificial-intelligence/diso> ;
+                                                                owl:versionInfo "1.0.0" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/abstract
+<http://purl.org/dc/terms/abstract> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/identifier
+<http://purl.org/dc/terms/identifier> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://rdfs.org/ns/void#dataDump
+<http://rdfs.org/ns/void#dataDump> rdf:type owl:AnnotationProperty .
+
+
+###  http://rdfs.org/ns/void#sparqlEndpoint
+<http://rdfs.org/ns/void#sparqlEndpoint> rdf:type owl:AnnotationProperty .
+
+
+###  http://rdfs.org/ns/void#subset
+<http://rdfs.org/ns/void#subset> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2000/01/rdf-schema#label
+rdfs:label rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/page
+<http://xmlns.com/foaf/0.1/page> rdf:type owl:AnnotationProperty .
+
+
+###  https://city-artificial-intelligence.github.io/diso/ontology#landingPage
+:landingPage rdf:type owl:AnnotationProperty ;
+             rdfs:comment "A human-facing page for the ontology — its project homepage or source repository." ;
+             rdfs:label "landing page" ;
+             rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/page> .
+
+
+###  https://city-artificial-intelligence.github.io/diso/ontology#mirror
+:mirror rdf:type owl:AnnotationProperty ;
+        rdfs:comment "An alternative location of the ontology's RDF: a DISO-hosted copy, a version-pinned URL, or a web-archive snapshot." ;
+        rdfs:label "mirror" ;
+        rdfs:subPropertyOf <http://rdfs.org/ns/void#dataDump> .
+
+
+###  https://city-artificial-intelligence.github.io/diso/ontology#upstreamRDF
+:upstreamRDF rdf:type owl:AnnotationProperty ;
+             rdfs:comment "The authoritative RDF file at the ontology's origin (RDF/XML where available)." ;
+             rdfs:label "upstream RDF" ;
+             rdfs:subPropertyOf <http://rdfs.org/ns/void#dataDump> .
+
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#date
+xsd:date rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression
+:spdxLicenseExpression rdf:type owl:DatatypeProperty ;
+                       rdfs:range xsd:string ;
+                       rdfs:comment "The licence of a dataset expressed as an SPDX licence expression, recorded verbatim. Captures compound expressions (e.g. 'MIT AND CC-BY-4.0') and the value 'NOASSERTION' where no licence could be established." ;
+                       rdfs:label "SPDX licence expression" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://rdfs.org/ns/void#Dataset
+<http://rdfs.org/ns/void#Dataset> rdf:type owl:Class .
+
+
+###  https://city-artificial-intelligence.github.io/diso/ontology#Cluster
+:Cluster rdf:type owl:Class ;
+         rdfs:subClassOf <http://rdfs.org/ns/void#Dataset> ;
+         rdfs:comment "A subdomain grouping (cluster) within an ontology network. Its void:subset members are member ontologies, or — for a grouping cluster — further sub-clusters." ;
+         rdfs:label "Cluster" .
+
+
+###  https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology
+:MemberOntology rdf:type owl:Class ;
+                rdfs:subClassOf <http://rdfs.org/ns/void#Dataset> ;
+                rdfs:comment "An individual ontology that is a member of the network, described as a VoID dataset." ;
+                rdfs:label "Member Ontology" .
+
+
+###  https://city-artificial-intelligence.github.io/diso/ontology#OntologyNetwork
+:OntologyNetwork rdf:type owl:Class ;
+                 rdfs:subClassOf <http://rdfs.org/ns/void#Dataset> ;
+                 rdfs:comment "A curated network (collection) of ontologies, described as a VoID dataset whose void:subset members are its clusters. DISO itself is the sole instance." ;
+                 rdfs:label "Ontology Network" .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
