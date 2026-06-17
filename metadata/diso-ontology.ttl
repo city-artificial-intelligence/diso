@@ -1,0 +1,102 @@
+@prefix diso:    <https://city-artificial-intelligence.github.io/diso/ontology#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+
+#################################################################
+#    Ontology
+#################################################################
+
+<https://city-artificial-intelligence.github.io/diso/ontology>
+    a owl:Ontology ;
+    dcterms:title "The DISO Vocabulary" ;
+    dcterms:description "A small OWL vocabulary for describing DISO (Defence, Intelligence and Security Ontologies) as a VoID / Dublin Core network of ontologies. It specialises void:Dataset into the ontology network, its subdomain clusters, and its member ontologies. Descriptive metadata reuses Dublin Core Terms and VoID terms directly." ;
+    dcterms:creator <https://orcid.org/0009-0009-0260-0492> ;
+    dcterms:publisher "City St George's, University of London" ;
+    dcterms:license <https://spdx.org/licenses/MIT> ;
+    dcterms:issued "2026-05-07"^^xsd:date ;
+    owl:versionInfo "1.0.0" ;
+    rdfs:seeAlso <https://github.com/city-artificial-intelligence/diso> .
+
+#################################################################
+#    Classes
+#################################################################
+
+diso:OntologyNetwork
+    a owl:Class ;
+    rdfs:subClassOf void:Dataset ;
+    rdfs:label "Ontology Network" ;
+    rdfs:comment "A curated network (collection) of ontologies, described as a VoID dataset whose void:subset members are its clusters. DISO itself is the sole instance." .
+
+diso:Cluster
+    a owl:Class ;
+    rdfs:subClassOf void:Dataset ;
+    rdfs:label "Cluster" ;
+    rdfs:comment "A subdomain grouping (cluster) within an ontology network. Its void:subset members are member ontologies, or - for a grouping cluster - further sub-clusters." .
+
+diso:MemberOntology
+    a owl:Class ;
+    rdfs:subClassOf void:Dataset ;
+    rdfs:label "Member Ontology" ;
+    rdfs:comment "An individual ontology that is a member of the network, described as a VoID dataset." .
+
+#################################################################
+#    Datatype property
+#################################################################
+
+diso:spdxLicenseExpression
+    a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    rdfs:label "SPDX licence expression" ;
+    rdfs:comment "The licence of a dataset expressed as an SPDX licence expression, recorded verbatim. Captures compound expressions (e.g. 'MIT AND CC-BY-4.0') and the value 'NOASSERTION' where no licence could be established." .
+
+#################################################################
+#    Access-point properties (where a member ontology's RDF can be
+#    obtained). The local DISO copy uses void:dataDump directly;
+#    these refine it by role so a generic VoID consumer still sees
+#    every dump location via the void:dataDump superproperty.
+#################################################################
+
+diso:upstreamRDF
+    a owl:AnnotationProperty ;
+    rdfs:subPropertyOf void:dataDump ;
+    rdfs:label "upstream RDF" ;
+    rdfs:comment "The authoritative RDF file at the ontology's origin (RDF/XML where available)." .
+
+diso:mirror
+    a owl:AnnotationProperty ;
+    rdfs:subPropertyOf void:dataDump ;
+    rdfs:label "mirror" ;
+    rdfs:comment "An alternative location of the ontology's RDF: a DISO-hosted copy, a version-pinned URL, or a web-archive snapshot." .
+
+diso:landingPage
+    a owl:AnnotationProperty ;
+    rdfs:subPropertyOf foaf:page ;
+    rdfs:label "landing page" ;
+    rdfs:comment "A human-facing page for the ontology - its project homepage or source repository." .
+
+#################################################################
+#    Reused external terms - declarations only.
+#    These make the ABox parse losslessly without importing the
+#    full VoID and Dublin Core Terms ontologies.
+#################################################################
+
+void:Dataset      a owl:Class .
+
+rdfs:label        a owl:AnnotationProperty .
+void:subset       a owl:AnnotationProperty .
+void:dataDump     a owl:AnnotationProperty .
+dcterms:title     a owl:AnnotationProperty .
+dcterms:description a owl:AnnotationProperty .
+dcterms:abstract  a owl:AnnotationProperty .
+dcterms:creator   a owl:AnnotationProperty .
+dcterms:publisher a owl:AnnotationProperty .
+dcterms:issued    a owl:AnnotationProperty .
+dcterms:identifier a owl:AnnotationProperty .
+dcterms:license   a owl:AnnotationProperty .
+void:sparqlEndpoint a owl:AnnotationProperty .
+foaf:page         a owl:AnnotationProperty .

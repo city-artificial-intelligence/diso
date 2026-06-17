@@ -1,0 +1,38 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content='width=device-width, initial-scale=1'><title>digital-twins — DISO</title><style>body{font-family:system-ui,sans-serif;max-width:54rem;margin:2rem auto;padding:0 1rem;line-height:1.5}pre,code{background:#f4f4f4}pre{padding:.6em;overflow:auto;white-space:pre-wrap}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}</style></head><body>
+<h1>Digital Twins</h1>
+<p>DISO does not yet contain ontologies that explicitly target the domain of <strong>digital twins</strong>. But some of the DISO clusters clearly overlap strongly with the notion of <strong>digital twins</strong>. For example, the <code>smart-environments</code> cluster of ontologies, which model things like cities, buildings and homes, clearly are very close to the concept of a <strong>digital twin</strong>. Indeed, these undoubtedly are technology enablers of <strong>digital twins</strong>.</p>
+<h2>What are digital twins?</h2>
+<p>Digital twins, as defined by the UK's <strong>National Digital Twin Programme</strong>:
+* https://ndtp.co.uk/digital-twin-definition/</p>
+<p>A digital twin:</p>
+<blockquote>
+<p>is a <strong>digital representation of a physical-world entity or environment or a process</strong> that includes a <strong>two-way data flow</strong> into and out of the physical world; (ie to/from the physical thing and its digital twin)</p>
+<p>replicates its physical-world counterpart to a known tolerance, performs without statistical bias, and is <strong>able to predict what the associated physical-world entity would do given a stimulus</strong>; and</p>
+<p>provides a level of <strong>prediction confidence</strong> within specified validation envelope and an associated <strong>assumption set</strong></p>
+</blockquote>
+<h2>The UK's National Digital Twin Programme</h2>
+<p>NDTP website:
+* https://ndtp.co.uk/</p>
+<p>The following diagram (a cross between a knowledge graph and a mind-map) describes the UK's National Digital Twin Programme:</p>
+<p><img alt="NDTP" src="NDTP-KG-Mindmap.png" title="UK National Digital Twin Programme" /></p>
+<p>It is clear from the NDTP diagram that it is not only DISO <code>smart-environment</code> ontologies that have relevance to the concept of <strong>digital twins</strong> and the UK <strong>national digital twin</strong> vision. The <strong>IES</strong> ontology, in the DISO <code>information-exchange</code> cluster, plays a key role in enabling the <strong>IMF</strong> (Information Management Framework) component of the <strong>NDTP</strong>.</p>
+<p>The diagram also shows that the <strong>IMF</strong> needs its own <strong>top-level</strong> (upper-level) ontology, as well as <strong>mid-level</strong> ontology (the FDM and RDL depected in the diagram). With version 5 of <strong>IES</strong>, released in November 2025, these <strong>IMF-specific</strong> top-level and mid-level ontologies have been delivered.  The <strong>IMF-specific</strong> <strong>top-level</strong> ontology is called <code>ies-top</code>; the <strong>mid-level</strong> ontology (corresponding roughly to the FDM/RDL) is called <code>ies-core</code>.  See the <strong>IES</strong> entry in DISO cluster <code>information-exchange</code> for these ontologies.</p>
+<h2>The IMF (Information Management Framework)</h2>
+<p>The following diagram, from the Digital Twin Hub website [1], provides a conceptual view of the architecture of the NDTP's <strong>IMF</strong> (Information Management Framework).</p>
+<p><img alt="IMF" src="The_7_circles_of_Information_Management_(NDTP).png" title="The 7 circles of Information Management (NDTP)" /></p>
+<p>As of version 5 of <strong>IES</strong>,:
+* the <strong>IES-top</strong> ontology corresponds to the IMF layer 2: <strong>Top Level Ontology</strong>
+* the <strong>IES-core</strong> ontology corresponds roughly to the IMF layer 3:  <strong>Foundation Data Model</strong>
+* and <strong>IES</strong> itself is a component of the IMF layer 5: <strong>Integration Architecture</strong></p>
+<h2>NDTP analysis of upper-level ontologies</h2>
+<p>The following diagram, from an NDTP publication [2], shows the set of <strong>upper-level</strong> ontologies reviewed and considered by the team responsible for designing the <strong>IMF's</strong> top-level ontology.  The diagram classifies this set of top-level ontologies according to the requirements for the <strong>IMF's</strong> top-level ontology, as identified by the <strong>IMF</strong> team.</p>
+<p><img alt="top-level-onto-classification" src="top-level_ontology_classification_(NDTP).png" title="Top-level ontology classification for IMF by NDTP" /></p>
+<p>At the heart of the diagram we see the 4 top-level ontologies that satisify all of the NDTP's requirements for the <strong>IMF's</strong> top-level ontology. These are all variants of <strong>BORO</strong> which is proprietary. DISO does not contain any of these 4 ontologies.</p>
+<p>However, DISO contains several of the nearby ontologies that satisfy many or most of the NDTP's requirements, such as: BFO, a version of UFO called gUFO, GFO and DOLCE.</p>
+<h2>Digital Twins and Smart Environments</h2>
+<p>There is strong overlap between the DISO clusters of <code>digital-twins</code> and <code>smart-environments</code></p>
+<p>Many of the DISO <code>smart-environments</code> ontologies can arguably be regarded as <code>digital-twin</code> ontologies. </p>
+<hr />
+<p>[1] https://digitaltwinhub.co.uk/information-management-framework-imf/7-circles-of-information-management/</p>
+<p>[2] <code>The Approach to Develop the Foundation Data Model for the Information Management Framework (NDTP, 2020)</code></p>
+</body></html>

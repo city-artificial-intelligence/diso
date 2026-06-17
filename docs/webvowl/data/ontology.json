@@ -1,0 +1,187 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://rdfs.org/ns/void", "http://www.w3.org/2000/01/rdf-schema", "https://city-artificial-intelligence.github.io/diso/ontology", "http://www.w3.org/2001/XMLSchema" ],
+    "title" : {
+      "undefined" : "The DISO Vocabulary"
+    },
+    "iri" : "https://city-artificial-intelligence.github.io/diso/ontology",
+    "version" : "1.0.0",
+    "author" : [ "https://orcid.org/0009-0009-0260-0492" ],
+    "description" : {
+      "undefined" : "A small OWL vocabulary for describing DISO (Defence, Intelligence and Security Ontologies) as a VoID / Dublin Core network of ontologies. It specialises void:Dataset into the ontology network, its subdomain clusters, and its member ontologies. Descriptive metadata reuses Dublin Core Terms and VoID terms directly."
+    },
+    "other" : {
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "https://spdx.org/licenses/MIT",
+        "type" : "iri"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "https://orcid.org/0009-0009-0260-0492",
+        "type" : "iri"
+      } ],
+      "publisher" : [ {
+        "identifier" : "publisher",
+        "language" : "undefined",
+        "value" : "City St George's, University of London",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "1.0.0",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "undefined",
+        "value" : "The DISO Vocabulary",
+        "type" : "label"
+      } ],
+      "issued" : [ {
+        "identifier" : "issued",
+        "language" : "undefined",
+        "value" : "2026-05-07",
+        "type" : "label"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://github.com/city-artificial-intelligence/diso",
+        "type" : "iri"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "8",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://rdfs.org/ns/void#Dataset",
+    "baseIri" : "http://rdfs.org/ns/void",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Dataset"
+    },
+    "subClasses" : [ "1", "2", "3" ],
+    "attributes" : [ "external" ],
+    "id" : "0"
+  }, {
+    "iri" : "https://city-artificial-intelligence.github.io/diso/ontology#Cluster",
+    "baseIri" : "https://city-artificial-intelligence.github.io/diso/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cluster",
+      "undefined" : "Cluster"
+    },
+    "comment" : {
+      "undefined" : "A subdomain grouping (cluster) within an ontology network. Its void:subset members are member ontologies, or - for a grouping cluster - further sub-clusters."
+    },
+    "id" : "1",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "https://city-artificial-intelligence.github.io/diso/ontology#OntologyNetwork",
+    "baseIri" : "https://city-artificial-intelligence.github.io/diso/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OntologyNetwork",
+      "undefined" : "Ontology Network"
+    },
+    "comment" : {
+      "undefined" : "A curated network (collection) of ontologies, described as a VoID dataset whose void:subset members are its clusters. DISO itself is the sole instance."
+    },
+    "id" : "3",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "7",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "8",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology",
+    "baseIri" : "https://city-artificial-intelligence.github.io/diso/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MemberOntology",
+      "undefined" : "Member Ontology"
+    },
+    "comment" : {
+      "undefined" : "An individual ontology that is a member of the network, described as a VoID dataset."
+    },
+    "id" : "2",
+    "superClasses" : [ "0" ]
+  } ],
+  "property" : [ {
+    "id" : "4",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "5",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "6",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "9",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "0",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "4"
+  }, {
+    "range" : "0",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "5"
+  }, {
+    "range" : "0",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "6"
+  }, {
+    "iri" : "https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression",
+    "baseIri" : "https://city-artificial-intelligence.github.io/diso/ontology",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "spdxLicenseExpression",
+      "undefined" : "SPDX licence expression"
+    },
+    "domain" : "8",
+    "comment" : {
+      "undefined" : "The licence of a dataset expressed as an SPDX licence expression, recorded verbatim. Captures compound expressions (e.g. 'MIT AND CC-BY-4.0') and the value 'NOASSERTION' where no licence could be established."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "9"
+  } ]
+}

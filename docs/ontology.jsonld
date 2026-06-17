@@ -1,0 +1,158 @@
+[ {
+  "@id" : "http://purl.org/dc/terms/abstract",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/identifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/issued",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/publisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://rdfs.org/ns/void#Dataset",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://rdfs.org/ns/void#dataDump",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://rdfs.org/ns/void#sparqlEndpoint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://rdfs.org/ns/void#subset",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#date",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/page",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://city-artificial-intelligence.github.io/diso/ontology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@id" : "https://orcid.org/0009-0009-0260-0492"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "A small OWL vocabulary for describing DISO (Defence, Intelligence and Security Ontologies) as a VoID / Dublin Core network of ontologies. It specialises void:Dataset into the ontology network, its subdomain clusters, and its member ontologies. Descriptive metadata reuses Dublin Core Terms and VoID terms directly."
+  } ],
+  "http://purl.org/dc/terms/issued" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-05-07"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "https://spdx.org/licenses/MIT"
+  } ],
+  "http://purl.org/dc/terms/publisher" : [ {
+    "@value" : "City St George's, University of London"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "The DISO Vocabulary"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://github.com/city-artificial-intelligence/diso"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "1.0.0"
+  } ]
+}, {
+  "@id" : "https://city-artificial-intelligence.github.io/diso/ontology#Cluster",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A subdomain grouping (cluster) within an ontology network. Its void:subset members are member ontologies, or — for a grouping cluster — further sub-clusters."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Cluster"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://rdfs.org/ns/void#Dataset"
+  } ]
+}, {
+  "@id" : "https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An individual ontology that is a member of the network, described as a VoID dataset."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Member Ontology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://rdfs.org/ns/void#Dataset"
+  } ]
+}, {
+  "@id" : "https://city-artificial-intelligence.github.io/diso/ontology#OntologyNetwork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A curated network (collection) of ontologies, described as a VoID dataset whose void:subset members are its clusters. DISO itself is the sole instance."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Ontology Network"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://rdfs.org/ns/void#Dataset"
+  } ]
+}, {
+  "@id" : "https://city-artificial-intelligence.github.io/diso/ontology#landingPage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A human-facing page for the ontology — its project homepage or source repository."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "landing page"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/page"
+  } ]
+}, {
+  "@id" : "https://city-artificial-intelligence.github.io/diso/ontology#mirror",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An alternative location of the ontology's RDF: a DISO-hosted copy, a version-pinned URL, or a web-archive snapshot."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "mirror"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://rdfs.org/ns/void#dataDump"
+  } ]
+}, {
+  "@id" : "https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The licence of a dataset expressed as an SPDX licence expression, recorded verbatim. Captures compound expressions (e.g. 'MIT AND CC-BY-4.0') and the value 'NOASSERTION' where no licence could be established."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "SPDX licence expression"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://city-artificial-intelligence.github.io/diso/ontology#upstreamRDF",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The authoritative RDF file at the ontology's origin (RDF/XML where available)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "upstream RDF"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://rdfs.org/ns/void#dataDump"
+  } ]
+} ]

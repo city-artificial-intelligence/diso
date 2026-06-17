@@ -1,0 +1,100 @@
+# DISO persistent-URL redirects (w3id / perma-id style).
+# One rule per member ontology. Targets: local copy where the licence
+# permits redistribution, otherwise the original upstream source.
+Options +FollowSymLinks
+RewriteEngine On
+
+# OWL-S            [source]     NOASSERTION
+RewriteRule ^agentic/OWL-S/?$ https://www.daml.org/services/owl-s/1.2/Service.owl [R=302,L]
+# CoDAMoS          [source]     NOASSERTION
+RewriteRule ^context-awareness/CoDAMoS/?$ http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl [R=302,L]
+# mIO!             [local]      CC-BY-3.0
+RewriteRule ^context-awareness/mIO!/?$ https://city-artificial-intelligence.github.io/diso/context-awareness/mIO%21/mIOmerged.ttl [R=302,L]
+# ATTACK           [local]      LicenseRef-MITRE-ATTACK-ToU AND CC-BY-4.0
+RewriteRule ^cyber-security/ATTACK/?$ https://city-artificial-intelligence.github.io/diso/cyber-security/ATTACK/attack.ttl [R=302,L]
+# CAPEC            [local]      LicenseRef-MITRE-CAPEC-ToU AND CC-BY-4.0 AND MIT
+RewriteRule ^cyber-security/CAPEC/?$ https://city-artificial-intelligence.github.io/diso/cyber-security/CAPEC/capec.ttl [R=302,L]
+# CPE              [local]      MIT AND LicenseRef-NIST-CPE-Dictionary-PD
+RewriteRule ^cyber-security/CPE/?$ https://city-artificial-intelligence.github.io/diso/cyber-security/CPE/cpe.ttl [R=302,L]
+# CVE              [local]      CC-BY-4.0 AND MIT AND LicenseRef-MITRE-CVE-Terms-of-Use
+RewriteRule ^cyber-security/CVE/?$ https://city-artificial-intelligence.github.io/diso/cyber-security/CVE/cve.ttl [R=302,L]
+# CVSS             [local]      (CC-BY-4.0 OR MIT) AND LicenseRef-FIRST-CVSS-ToU
+RewriteRule ^cyber-security/CVSS/?$ https://city-artificial-intelligence.github.io/diso/cyber-security/CVSS/cvss.ttl [R=302,L]
+# CWE              [local]      (MIT AND CC-BY-4.0) AND LicenseRef-MITRE-CWE-ToU
+RewriteRule ^cyber-security/CWE/?$ https://city-artificial-intelligence.github.io/diso/cyber-security/CWE/cwe.ttl [R=302,L]
+# D3FEND           [source]     MIT AND LicenseRef-MITRE-D3FEND-ToU
+RewriteRule ^cyber-security/D3FEND/?$ https://d3fend.mitre.org/ontologies/d3fend/1.2.0/d3fend.owl [R=302,L]
+# ICSA             [local]      CC-BY-4.0
+RewriteRule ^cyber-security/ICSA/?$ https://city-artificial-intelligence.github.io/diso/cyber-security/ICSA/icsa.ttl [R=302,L]
+# ICS-SEC-KG-ONTO  [local]      MIT AND CC-BY-4.0
+RewriteRule ^cyber-security/ICS-SEC-KG-ONTO/?$ https://city-artificial-intelligence.github.io/diso/cyber-security/ICS-SEC-KG-ONTO/ics-sec-kg-onto.ttl [R=302,L]
+# ITIO             [source]     LicenseRef-CMU-SEI-Distribution-Statement-A
+RewriteRule ^cyber-security/ITIO/?$ https://www.sei.cmu.edu/documents/1261/2016_005_112_465537.owl [R=302,L]
+# Ops              [local]      GPL-3.0-only AND CC-BY-4.0
+RewriteRule ^cyber-security/Ops/?$ https://city-artificial-intelligence.github.io/diso/cyber-security/Ops/ops-merged.ttl [R=302,L]
+# SNORT            [local]      CC-BY-4.0
+RewriteRule ^cyber-security/SNORT/?$ https://city-artificial-intelligence.github.io/diso/cyber-security/SNORT/snortMerged.ttl [R=302,L]
+# STIX             [source]     LicenseRef-OASIS-IPR-Policy-Non-Assertion-Mode
+RewriteRule ^cyber-security/STIX/?$ https://raw.githubusercontent.com/oasis-tcs/tac-ontology/ad1ac00009eb4a72105463ad9f7ab17aa396103e/stix-spec/stix-spec.owl [R=302,L]
+# UCO_1            [local]      Apache-2.0 AND CC-BY-3.0
+RewriteRule ^cyber-security/UCO_1/?$ https://city-artificial-intelligence.github.io/diso/cyber-security/UCO_1/uco1-merge.ttl [R=302,L]
+# UCO_2            [source]     NOASSERTION
+RewriteRule ^cyber-security/UCO_2/?$ https://raw.githubusercontent.com/Ebiquity/Unified-Cybersecurity-Ontology/master/uco2.ttl [R=302,L]
+# SAREF            [local]      BSD-3-Clause
+RewriteRule ^digital-twins/SAREF/?$ https://city-artificial-intelligence.github.io/diso/digital-twins/SAREF/saref.ttl [R=302,L]
+# IES              [local]      MIT
+RewriteRule ^information-exchange/IES/?$ https://city-artificial-intelligence.github.io/diso/information-exchange/IES/ [R=302,L]
+# JC3IEDM          [local]      CC-BY-NC-3.0
+RewriteRule ^information-exchange/JC3IEDM/?$ https://city-artificial-intelligence.github.io/diso/information-exchange/JC3IEDM/JC3IEDM.owl [R=302,L]
+# CordaSecOnt      [local]      CC-BY-4.0 AND MIT
+RewriteRule ^information-security/CordaSecOnt/?$ https://city-artificial-intelligence.github.io/diso/information-security/CordaSecOnt/CordaSecOnt-v2.owl [R=302,L]
+# MDISOnt          [source]     NOASSERTION
+RewriteRule ^information-security/MDISOnt/?$ https://raw.githubusercontent.com/inesmeriah/MDISOnt/main/MDISOnt.owl [R=302,L]
+# OntoSecRPA       [source]     NOASSERTION
+RewriteRule ^information-security/OntoSecRPA/?$ https://raw.githubusercontent.com/oleferovich/-OntoSecRPA/main/OntoSecRPA_2.owx [R=302,L]
+# SecAOnto         [source]     NOASSERTION
+RewriteRule ^information-security/SecAOnto/?$ https://raw.githubusercontent.com/ferruciof/Files/master/SecAOnto/SecAOnto_V4.owl [R=302,L]
+# SO               [source]     NOASSERTION
+RewriteRule ^information-security/SO/?$ https://www.ida.liu.se/divisions/adit/security/projects/secont/Security.owl [R=302,L]
+# CCO              [local]      BSD-3-Clause AND CC-BY-4.0
+RewriteRule ^mid-level/CCO/?$ https://city-artificial-intelligence.github.io/diso/mid-level/CCO/CommonCoreOntologiesMerged.ttl [R=302,L]
+# IRIS             [source]     NOASSERTION
+RewriteRule ^risk-management/IRIS/?$ http://lpis.csd.auth.gr/ontologies/2010/iris.owl [R=302,L]
+# CORA             [local]      CC-BY-4.0
+RewriteRule ^robotics/CORA/?$ https://city-artificial-intelligence.github.io/diso/robotics/CORA/cora-merged.ttl [R=302,L]
+# SAWCore          [local]      CC-BY-NC-3.0
+RewriteRule ^situation-awareness/SAWCore/?$ https://city-artificial-intelligence.github.io/diso/situation-awareness/SAWCore/SAWCore.owl [R=302,L]
+# SOUPA            [local]      CC-BY-1.0
+RewriteRule ^situation-awareness/SOUPA/?$ https://city-artificial-intelligence.github.io/diso/situation-awareness/SOUPA/soupa-merged.ttl [R=302,L]
+# STO              [local]      CC-BY-NC-3.0
+RewriteRule ^situation-awareness/STO/?$ https://city-artificial-intelligence.github.io/diso/situation-awareness/STO/STO.owl [R=302,L]
+# BOnSAI           [source]     NOASSERTION
+RewriteRule ^smart-environments/smart-buildings/BOnSAI/?$ http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl [R=302,L]
+# BOT              [local]      CC-BY-1.0
+RewriteRule ^smart-environments/smart-buildings/BOT/?$ https://city-artificial-intelligence.github.io/diso/smart-environments/smart-buildings/BOT/bot.ttl [R=302,L]
+# BRICK            [local]      BSD-3-Clause AND CC-BY-4.0
+RewriteRule ^smart-environments/smart-buildings/BRICK/?$ https://city-artificial-intelligence.github.io/diso/smart-environments/smart-buildings/BRICK/Brick%2Bimports.ttl [R=302,L]
+# IMF              [source]     NOASSERTION
+RewriteRule ^smart-environments/smart-buildings/IMF/?$ https://ns.imfid.org/20240531/imf-ontology.owl.ttl [R=302,L]
+# CityOWL          [source]     CC-BY-4.0 AND LicenseRef-OGC-Document-License
+RewriteRule ^smart-environments/smart-cities/CityOWL/?$ https://dataset-dl.liris.cnrs.fr/rdf-owl-urban-data-ontologies/Ontologies/CityOWL/CWA/3.0/CityOWL.ttl [R=302,L]
+# SMOF             [local]      CC-BY-4.0
+RewriteRule ^smart-environments/smart-cities/SMOF/?$ https://city-artificial-intelligence.github.io/diso/smart-environments/smart-cities/SMOF/SMOF.ttl [R=302,L]
+# SmartEnv         [source]     NOASSERTION
+RewriteRule ^smart-environments/smart-homes/SmartEnv/?$ https://w3id.org/smartenvironment/smartenv.owl [R=302,L]
+# ThinkHome        [source]     NOASSERTION
+RewriteRule ^smart-environments/smart-homes/ThinkHome/?$ https://www.auto.tuwien.ac.at/downloads/thinkhome/ [R=302,L]
+# BFO              [local]      CC-BY-4.0
+RewriteRule ^upper-level/BFO/?$ https://city-artificial-intelligence.github.io/diso/upper-level/BFO/bfo-core.owl [R=302,L]
+# DOLCE            [local]      CC-BY-4.0
+RewriteRule ^upper-level/DOLCE/?$ https://city-artificial-intelligence.github.io/diso/upper-level/DOLCE/DOLCEbasic.owl [R=302,L]
+# DUL              [source]     NOASSERTION
+RewriteRule ^upper-level/DUL/?$ http://www.ontologydesignpatterns.org/ont/dul/DUL.owl [R=302,L]
+# GFO              [local]      BSD-3-Clause
+RewriteRule ^upper-level/GFO/?$ https://city-artificial-intelligence.github.io/diso/upper-level/GFO/gfo.owl [R=302,L]
+# GFO-Bio          [local]      BSD-3-Clause
+RewriteRule ^upper-level/GFO-Bio/?$ https://city-artificial-intelligence.github.io/diso/upper-level/GFO-Bio/gfo-bio-merged.ttl [R=302,L]
+# gUFO             [local]      CC-BY-4.0
+RewriteRule ^upper-level/gUFO/?$ https://city-artificial-intelligence.github.io/diso/upper-level/gUFO/gufo.ttl [R=302,L]
+# SUMO             [source]     GPL-3.0-only AND LicenseRef-IEEE-SUMO-License
+RewriteRule ^upper-level/SUMO/?$ https://raw.githubusercontent.com/abrahaj/SUMO.owl/b7e227b4f0d0b4395c5e1bcb26872c492b41823e/SUMO.owl [R=302,L]
