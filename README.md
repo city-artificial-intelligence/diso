@@ -61,7 +61,7 @@ This repository serves as the resource layer for a small ecosystem of repositori
 
 ## Ontology Licensing
 
-For licensing information regarding the ontologies included in DISO, see the [ontology licensing table](ONTOLOGY-LICENSING.md).
+For licensing information regarding the ontologies included in DISO, see the [ontology licensing table](ONTOLOGY-LICENSING.md). For the academic citation of each member ontology, see the [member ontology citations](CITATIONS.md).
 
 ## Versioning
 

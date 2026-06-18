@@ -461,6 +461,7 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/ATTACK">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>LicenseRef-MITRE-ATTACK-ToU AND CC-BY-4.0</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Kabul Kurniawan, Andreas Ekelhart, Elmar Kiesling. &quot;An ATT&amp;CK-KG for Linking Cybersecurity Attacks to Adversary Tactics and Techniques.&quot; In ISWC 2021 Posters, Demos, and Industry Tracks, CEUR Workshop Proceedings, Vol. 2980, paper363. CEUR-WS.org, 2021. https://ceur-ws.org/Vol-2980/paper363.pdf</dcterms:bibliographicCitation>
         <dcterms:description>A knowledge base of adversary tactics and techniques based on real-world observations.</dcterms:description>
         <dcterms:title>MITRE ATT&amp;CK</dcterms:title>
         <void:dataDump rdf:resource="https://city-artificial-intelligence.github.io/diso/cyber-security/ATTACK/attack.ttl"/>
@@ -478,6 +479,7 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/BFO">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>CC-BY-4.0</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Otte, J.N., Beverley, J., and Ruttenberg, A. (2022). BFO: Basic Formal Ontology. Applied Ontology, 17(1), 17–43. https://doi.org/10.3233/AO-220262</dcterms:bibliographicCitation>
         <dcterms:description>A small upper-level ontology built around the continuant/occurrent distinction; an ISO/IEC 21838-2 standard.</dcterms:description>
         <dcterms:license rdf:resource="https://spdx.org/licenses/CC-BY-4.0"/>
         <dcterms:title>Basic Formal Ontology</dcterms:title>
@@ -495,6 +497,7 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/BOT">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>CC-BY-1.0</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Rasmussen, M. H., Lefrançois, M., Schneider, G. F., &amp; Pauwels, P. (2021). BOT: the Building Topology Ontology of the W3C Linked Building Data Group. Semantic Web, 12(1), 143–161. IOS Press. https://doi.org/10.3233/SW-200385</dcterms:bibliographicCitation>
         <dcterms:description>A minimal ontology for describing the core topological concepts of a building.</dcterms:description>
         <dcterms:license rdf:resource="https://spdx.org/licenses/CC-BY-1.0"/>
         <dcterms:title>Building Topology Ontology</dcterms:title>
@@ -513,6 +516,7 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/BOnSAI">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>CC-BY-NC-SA-4.0</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Thanos G. Stavropoulos, Dimitris Vrakas, Danai Vlachava, and Nick Bassiliades. 2012. BOnSAI: a smart building ontology for ambient intelligence. In Proc. 2nd Int. Conf. on Web Intelligence, Mining and Semantics (WIMS &apos;12), Article 30, 1–12. ACM. https://doi.org/10.1145/2254129.2254166</dcterms:bibliographicCitation>
         <dcterms:description>A smart-building ontology for ambient intelligence, extending OWL-S and CoDAMoS.</dcterms:description>
         <dcterms:license rdf:resource="https://spdx.org/licenses/CC-BY-NC-SA-4.0"/>
         <dcterms:title>Smart Building Ontology for Ambient Intelligence</dcterms:title>
@@ -529,6 +533,7 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/BRICK">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>BSD-3-Clause AND CC-BY-4.0</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Balaji, B., Bhattacharya, A., Fierro, G., Gao, J., Gluck, J., Hong, D., Johansen, A., Koh, J., Ploennigs, J., Agarwal, Y., Bergés, M., Culler, D., Gupta, R. K., Kjærgaard, M. B., Srivastava, M., and Whitehouse, K. (2018). Brick: Metadata schema for portable smart building applications. Applied Energy, 226, 1273–1292. https://doi.org/10.1016/j.apenergy.2018.02.091</dcterms:bibliographicCitation>
         <dcterms:description>An open ontology standardising semantic descriptions of building assets and their relationships.</dcterms:description>
         <dcterms:title>Brick (buildings ontology)</dcterms:title>
         <void:dataDump rdf:resource="https://city-artificial-intelligence.github.io/diso/smart-environments/smart-buildings/BRICK/Brick%2Bimports.ttl"/>
@@ -545,6 +550,7 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/CAPEC">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>LicenseRef-MITRE-CAPEC-ToU AND CC-BY-4.0 AND MIT</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Kurniawan, K., Kiesling, E., Winkler, D., and Ekelhart, A. (2024). The ICS-SEC KG: An Integrated Cybersecurity Resource for Industrial Control Systems. In: The Semantic Web – ISWC 2024, Lecture Notes in Computer Science, vol. 15233, pp. 153–170. Springer, Cham. https://doi.org/10.1007/978-3-031-77847-6_9</dcterms:bibliographicCitation>
         <dcterms:description>A dictionary of known attack patterns used by adversaries to exploit weaknesses.</dcterms:description>
         <dcterms:title>Common Attack Pattern Enumerations and Classifications</dcterms:title>
         <void:dataDump rdf:resource="https://city-artificial-intelligence.github.io/diso/cyber-security/CAPEC/capec.ttl"/>
@@ -562,6 +568,7 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/CCO">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>BSD-3-Clause AND CC-BY-4.0</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Mark Jensen, Giacomo De Colle, Sean Kindya, Cameron More, Alexander P. Cox, and John Beverley. &quot;The Common Core Ontologies.&quot; In Formal Ontology in Information Systems: Proceedings of the 14th International Conference (FOIS 2024), Volume 394, pp. 47–58. IOS Press, 2024. DOI: 10.3233/FAIA241292</dcterms:bibliographicCitation>
         <dcterms:description>A suite of mid-level ontologies extending BFO with terms common across domains.</dcterms:description>
         <dcterms:title>Common Core Ontologies</dcterms:title>
         <void:dataDump rdf:resource="https://city-artificial-intelligence.github.io/diso/mid-level/CCO/CommonCoreOntologiesMerged.ttl"/>
@@ -578,6 +585,7 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/CORA">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>CC-BY-4.0</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Prestes, E., Carbonera, J. L., Fiorini, S. R., Jorge, V. A. M., Abel, M., Madhavan, R., Locoro, A., Gonçalves, P. J. S., Barreto, M. E., Habib, M. K., Chibani, A., Gérard, S., Amirat, Y., and Schlenoff, C. I. (2013). Towards a core ontology for robotics and automation. Robotics and Autonomous Systems, 61(11), 1193–1204. https://doi.org/10.1016/j.robot.2013.04.005</dcterms:bibliographicCitation>
         <dcterms:description>The IEEE 1872-2015 core ontology for robotics and automation.</dcterms:description>
         <dcterms:license rdf:resource="https://spdx.org/licenses/CC-BY-4.0"/>
         <dcterms:title>Core Ontology for Robotics and Automation</dcterms:title>
@@ -596,6 +604,7 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/CPE">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>MIT AND LicenseRef-NIST-CPE-Dictionary-PD</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Kiesling, E., Ekelhart, A., Kurniawan, K., and Ekaputra, F. (2019). The SEPSES Knowledge Graph: An Integrated Resource for Cybersecurity. In C. Ghidini et al. (Eds.), The Semantic Web – ISWC 2019, Lecture Notes in Computer Science, vol. 11779, pp. 198–214. Springer, Cham. https://doi.org/10.1007/978-3-030-30796-7_13</dcterms:bibliographicCitation>
         <dcterms:description>A structured naming scheme for IT systems, software and packages.</dcterms:description>
         <dcterms:title>Common Platform Enumeration</dcterms:title>
         <void:dataDump rdf:resource="https://city-artificial-intelligence.github.io/diso/cyber-security/CPE/cpe.ttl"/>
@@ -613,6 +622,7 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/CVE">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>CC-BY-4.0 AND MIT AND LicenseRef-MITRE-CVE-Terms-of-Use</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Kiesling, E., Ekelhart, A., Kurniawan, K., &amp; Ekaputra, F. (2019). The SEPSES Knowledge Graph: An Integrated Resource for Cybersecurity. In The Semantic Web – ISWC 2019, Lecture Notes in Computer Science vol. 11779, pp. 198–214. Springer, Cham. https://doi.org/10.1007/978-3-030-30796-7_13</dcterms:bibliographicCitation>
         <dcterms:description>A catalogue of publicly disclosed cybersecurity vulnerabilities.</dcterms:description>
         <dcterms:title>Common Vulnerabilities and Exposures</dcterms:title>
         <void:dataDump rdf:resource="https://city-artificial-intelligence.github.io/diso/cyber-security/CVE/cve.ttl"/>
@@ -629,6 +639,7 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/CVSS">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>(CC-BY-4.0 OR MIT) AND LicenseRef-FIRST-CVSS-ToU</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Kiesling, E., Ekelhart, A., Kurniawan, K., &amp; Ekaputra, F. (2019). The SEPSES Knowledge Graph: An Integrated Resource for Cybersecurity. In C. Ghidini et al. (Eds.), The Semantic Web – ISWC 2019 (Lecture Notes in Computer Science, vol. 11779, pp. 198–214). Springer, Cham. https://doi.org/10.1007/978-3-030-30796-7_13</dcterms:bibliographicCitation>
         <dcterms:description>An open framework for rating the severity of security vulnerabilities.</dcterms:description>
         <dcterms:title>Common Vulnerability Scoring System</dcterms:title>
         <void:dataDump rdf:resource="https://city-artificial-intelligence.github.io/diso/cyber-security/CVSS/cvss.ttl"/>
@@ -646,6 +657,7 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/CWE">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>(MIT AND CC-BY-4.0) AND LicenseRef-MITRE-CWE-ToU</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Kiesling, E., Ekelhart, A., Kurniawan, K., and Ekaputra, F. (2019). The SEPSES Knowledge Graph: An Integrated Resource for Cybersecurity. In: The Semantic Web – ISWC 2019, Lecture Notes in Computer Science, vol. 11779, pp. 198–214. Springer, Cham. https://doi.org/10.1007/978-3-030-30796-7_13</dcterms:bibliographicCitation>
         <dcterms:description>A community-developed list of common software and hardware weakness types.</dcterms:description>
         <dcterms:title>Common Weakness Enumeration</dcterms:title>
         <void:dataDump rdf:resource="https://city-artificial-intelligence.github.io/diso/cyber-security/CWE/cwe.ttl"/>
@@ -662,8 +674,10 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/CityOWL">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>CC-BY-4.0 AND LicenseRef-OGC-Document-License</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Vinasco-Alvarez, D., Samuel, J., Servigne, S., and Gesquiere, G. (2024). Towards an Automated Transformation of an nD Urban Data Model to a Computational Ontology Network: From UML to OWL, From CityGML 3.0 to CityOWL. ISPRS Annals of Photogrammetry, Remote Sensing and Spatial Information Sciences, X-4/W4-2024, pp. 231-238. https://doi.org/10.5194/isprs-annals-X-4-W4-2024-231-2024</dcterms:bibliographicCitation>
         <dcterms:description>An OWL rendering of the CityGML 3.0 model as a network of ontologies.</dcterms:description>
         <dcterms:title>OWL rendering of CityGML 3.0</dcterms:title>
+        <void:dataDump rdf:resource="https://city-artificial-intelligence.github.io/diso/smart-environments/smart-cities/CityOWL/CityOWLmerged.ttl"/>
         <rdfs:label>CityOWL</rdfs:label>
         <diso:projectPage rdf:resource="https://dataset-dl.liris.cnrs.fr/rdf-owl-urban-data-ontologies/Ontologies/Readme.html"/>
         <diso:upstreamSource rdf:resource="https://dataset-dl.liris.cnrs.fr/rdf-owl-urban-data-ontologies/Ontologies/CityOWL/CWA/3.0/CityOWL.ttl"/>
@@ -676,6 +690,7 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/CoDAMoS">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>LicenseRef-author-permission</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Preuveneers, D., Van den Bergh, J., Wagelaar, D., Georges, A., Rigole, P., Clerckx, T., Berbers, Y., Coninx, K., Jonckers, V., De Bosschere, K. (2004). Towards an extensible context ontology for ambient intelligence. In European Symposium on Ambient Intelligence (EUSAI 2004), pp. 148–159. Springer. https://doi.org/10.1007/978-3-540-30473-9_15</dcterms:bibliographicCitation>
         <dcterms:description>An ontology modelling user, platform, environment and service for context-aware applications in pervasive computing.</dcterms:description>
         <dcterms:title>Context-Driven Adaptation of Mobile Services</dcterms:title>
         <void:dataDump rdf:resource="https://city-artificial-intelligence.github.io/diso/context-awareness/CoDAMoS/CoDAMoS.owl"/>
@@ -691,6 +706,7 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/CordaSecOnt">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>CC-BY-4.0 AND MIT</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Mubashar Iqbal and Raimundas Matulevičius, &quot;Corda Security Ontology: Example of Post-Trade Matching and Confirmation&quot;, Baltic Journal of Modern Computing, Vol. 8, No. 4, pp. 638–674, 2020. DOI: 10.22364/bjmc.2020.8.4.11</dcterms:bibliographicCitation>
         <dcterms:description>A security ontology classifying assets, threats, vulnerabilities and countermeasures for Corda applications.</dcterms:description>
         <dcterms:title>Corda Security Ontology</dcterms:title>
         <void:dataDump rdf:resource="https://city-artificial-intelligence.github.io/diso/information-security/CordaSecOnt/CordaSecOnt-v2.owl"/>
@@ -706,8 +722,10 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/D3FEND">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>MIT AND LicenseRef-MITRE-D3FEND-ToU</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Kaloroumakis, P. E. and Smith, M. J. (2021). Toward a Knowledge Graph of Cybersecurity Countermeasures. Technical Report Case 20-2034. The MITRE Corporation, Annapolis Junction, MD. Approved for Public Release; Distribution Unlimited. Available: https://d3fend.mitre.org/resources/D3FEND.pdf (also indexed at DTIC accession AD1156977).</dcterms:bibliographicCitation>
         <dcterms:description>A knowledge graph of cybersecurity countermeasures (defensive techniques).</dcterms:description>
         <dcterms:title>Detection, Denial &amp; Disruption Framework Empowering Network Defense</dcterms:title>
+        <void:dataDump rdf:resource="https://city-artificial-intelligence.github.io/diso/cyber-security/D3FEND/d3fend.ttl"/>
         <rdfs:label>D3FEND</rdfs:label>
         <diso:projectPage rdf:resource="https://d3fend.mitre.org/"/>
         <diso:upstreamSource rdf:resource="https://d3fend.mitre.org/ontologies/d3fend/1.2.0/d3fend.owl"/>
@@ -720,6 +738,7 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/DOLCE">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>CC-BY-4.0</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Borgo, S., Ferrario, R., Gangemi, A., Guarino, N., Masolo, C., Porello, D., Sanfilippo, E. M., &amp; Vieu, L. (2022). DOLCE: A descriptive ontology for linguistic and cognitive engineering. Applied Ontology, 17(1). https://doi.org/10.3233/AO-210259</dcterms:bibliographicCitation>
         <dcterms:description>A foundational ontology capturing core cognitive and linguistic categories of common-sense knowledge.</dcterms:description>
         <dcterms:license rdf:resource="https://spdx.org/licenses/CC-BY-4.0"/>
         <dcterms:title>Descriptive Ontology for Linguistic and Cognitive Engineering</dcterms:title>
@@ -737,9 +756,11 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/DUL">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>CC-BY-SA-3.0</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Presutti, V. &amp; Gangemi, A. (2016). Dolce+D&amp;S Ultralite and its main ontology design patterns. In Ontology Engineering with Ontology Design Patterns: Foundations and Applications (Studies on the Semantic Web, vol. 25, pp. 81–103). IOS Press. https://doi.org/10.3233/978-1-61499-676-7-81</dcterms:bibliographicCitation>
         <dcterms:description>A lightweight simplification of parts of the DOLCE foundational ontology.</dcterms:description>
         <dcterms:license rdf:resource="https://spdx.org/licenses/CC-BY-SA-3.0"/>
         <dcterms:title>DOLCE+DnS Ultralite</dcterms:title>
+        <void:dataDump rdf:resource="https://city-artificial-intelligence.github.io/diso/upper-level/DUL/DUL.owl"/>
         <rdfs:label>DUL</rdfs:label>
         <diso:projectPage rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl"/>
         <diso:upstreamSource rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl"/>
@@ -752,6 +773,7 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/GFO">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>BSD-3-Clause</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Loebe, F., Burek, P., &amp; Herre, H. (2022). GFO: The General Formal Ontology. Applied Ontology, 17(1), 71–106. https://doi.org/10.3233/AO-220264</dcterms:bibliographicCitation>
         <dcterms:description>A general formal (upper-level) ontology of objects, processes, time, space, properties and relations.</dcterms:description>
         <dcterms:license rdf:resource="https://spdx.org/licenses/BSD-3-Clause"/>
         <dcterms:title>General Formal Ontology</dcterms:title>
@@ -770,6 +792,7 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/GFO-Bio">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>BSD-3-Clause</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Hoehndorf, R., Loebe, F., Poli, R., Herre, H., &amp; Kelso, J. (2008). GFO-Bio: A biological core ontology. Applied Ontology, 3(4), 219–227. https://doi.org/10.3233/AO-2008-0055</dcterms:bibliographicCitation>
         <dcterms:description>A biological core ontology grounded in the GFO upper-level ontology.</dcterms:description>
         <dcterms:license rdf:resource="https://spdx.org/licenses/BSD-3-Clause"/>
         <dcterms:title>General Formal Ontology for Biology</dcterms:title>
@@ -785,6 +808,7 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/ICS-SEC-KG-ONTO">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>MIT AND CC-BY-4.0</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Kabul Kurniawan, Elmar Kiesling, Dietmar Winkler, Andreas Ekelhart. &quot;The ICS-SEC KG: An Integrated Cybersecurity Resource for Industrial Control Systems.&quot; In: The Semantic Web – ISWC 2024, Lecture Notes in Computer Science, vol. 15233, pp. 153–170. Springer, 2024. https://doi.org/10.1007/978-3-031-77847-6_9</dcterms:bibliographicCitation>
         <dcterms:description>The ontology of the SEPSES Industrial Control Systems security knowledge graph, integrating several cyber-security vocabularies.</dcterms:description>
         <dcterms:title>ICS Security Knowledge Graph Ontology</dcterms:title>
         <void:dataDump rdf:resource="https://city-artificial-intelligence.github.io/diso/cyber-security/ICS-SEC-KG-ONTO/ics-sec-kg-onto.ttl"/>
@@ -801,6 +825,7 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/ICSA">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>CC-BY-4.0</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Kurniawan, K., Kiesling, E., Winkler, D., and Ekelhart, A. (2024). The ICS-SEC KG: An Integrated Cybersecurity Resource for Industrial Control Systems. In: The Semantic Web – ISWC 2024, Lecture Notes in Computer Science, vol. 15233, pp. 153–170. Springer, Cham. https://doi.org/10.1007/978-3-031-77847-6_9</dcterms:bibliographicCitation>
         <dcterms:description>An ontology representing Industrial Control Systems security advisories.</dcterms:description>
         <dcterms:license rdf:resource="https://spdx.org/licenses/CC-BY-4.0"/>
         <dcterms:title>Industrial Control Systems Advisory ontology</dcterms:title>
@@ -818,6 +843,7 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/IES">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>MIT</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Ian Bailey, John Beverley, Helena Blackmore, Andreas Cola, Paul Cripps, Giacomo de Colle, Federico Donato, Amanda Hicks, David Limbaugh, Elena Milivinti, Chris Partridge, Rebecca Rafferty, Barry Smith. &quot;Comparing Information Exchange Standard and Basic Formal Ontology Design Patterns.&quot; In: The Joint Ontology Workshops (JOWO) — Episode XI, co-located with FOIS 2025, Catania, Italy, 8–12 September 2025. CEUR Workshop Proceedings, Vol. 4176.</dcterms:bibliographicCitation>
         <dcterms:description>The UK Government Information Exchange Standard for consistent, interoperable data exchange.</dcterms:description>
         <dcterms:license rdf:resource="https://spdx.org/licenses/MIT"/>
         <dcterms:title>Information Exchange Standard (v5)</dcterms:title>
@@ -838,6 +864,7 @@
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:redistributionStatus>withheld</diso:redistributionStatus>
         <diso:spdxLicenseExpression>NOASSERTION</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Information Modelling Framework (IMF) — an industry ontology/framework for facility asset modelling. Source: ns.imfid.org / github.com/imf-lab (IMF Manual). No associated peer-reviewed publication was identified.</dcterms:bibliographicCitation>
         <dcterms:description>An ontology for modelling facility assets across the design, construction and operation of industrial facilities.</dcterms:description>
         <dcterms:title>Information Modelling Framework</dcterms:title>
         <rdfs:label>IMF</rdfs:label>
@@ -852,6 +879,7 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/IRIS">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>CC-BY-NC-SA-4.0</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Georgios Meditskos, Nick Bassiliades, Dimitris Vrakas, and Ioannis Vlahavas. 2012. IRISPortal: a semantic portal for industrial risk cases management. In Proc. 2nd Int. Conf. on Web Intelligence, Mining and Semantics (WIMS &apos;12), Article 28, 1–8. ACM. https://doi.org/10.1145/2254129.2254164</dcterms:bibliographicCitation>
         <dcterms:description>A core ontology of terms and relationships for risk identification and assessment.</dcterms:description>
         <dcterms:license rdf:resource="https://spdx.org/licenses/CC-BY-NC-SA-4.0"/>
         <dcterms:title>IRIS Risk Core Ontology</dcterms:title>
@@ -868,8 +896,10 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/ITIO">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>LicenseRef-CMU-SEI-Distribution-Statement-A</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Costa, D., Albrethsen, M. J., Collins, M. L., Perl, S., Silowash, G., &amp; Spooner, D. (2016). An Insider Threat Indicator Ontology. Technical Report CMU/SEI-2016-TR-007. Carnegie Mellon University, Software Engineering Institute.</dcterms:bibliographicCitation>
         <dcterms:description>An ontology of insider-threat indicators.</dcterms:description>
         <dcterms:title>Insider Threat Indicator Ontology</dcterms:title>
+        <void:dataDump rdf:resource="https://city-artificial-intelligence.github.io/diso/cyber-security/ITIO/itio.owl"/>
         <rdfs:label>ITIO</rdfs:label>
         <diso:projectPage rdf:resource="https://www.sei.cmu.edu/library/an-insider-threat-indicator-ontology/"/>
         <diso:upstreamSource rdf:resource="https://www.sei.cmu.edu/documents/1261/2016_005_112_465537.owl"/>
@@ -882,6 +912,7 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/JC3IEDM">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>CC-BY-NC-3.0</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Matheus, C.J. &amp; Ulicny, B. (2007). On the Automatic Generation of an OWL Ontology based on the Joint C3 Information Exchange Data Model. In Proceedings of the 12th International Command and Control Research and Technology Symposium (ICCRTS), Newport, RI, USA.</dcterms:bibliographicCitation>
         <dcterms:description>A data model for the exchange of joint command, control and consultation information (military C2).</dcterms:description>
         <dcterms:license rdf:resource="https://spdx.org/licenses/CC-BY-NC-3.0"/>
         <dcterms:title>Joint Consultation, Command &amp; Control Information Exchange Data Model</dcterms:title>
@@ -897,9 +928,11 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/MDISOnt">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>CC-BY-4.0</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Meriah, I., Ben Arfa Rabai, L., &amp; Khedri, R. (2025). Building a comprehensive and multi-dimensional information security ontology: elicitation process and OWL implementation. Knowledge and Information Systems, 67(1), 167–195. https://doi.org/10.1007/s10115-024-02308-y</dcterms:bibliographicCitation>
         <dcterms:description>A multi-dimensional information security ontology that decomposes security into dimensional views.</dcterms:description>
         <dcterms:license rdf:resource="https://spdx.org/licenses/CC-BY-4.0"/>
         <dcterms:title>Multi-dimensional Information Security Ontology</dcterms:title>
+        <void:dataDump rdf:resource="https://city-artificial-intelligence.github.io/diso/information-security/MDISOnt/MDISOnt.owl"/>
         <rdfs:label>MDISOnt</rdfs:label>
         <diso:mirror rdf:resource="https://raw.githubusercontent.com/inesmeriah/MDISOnt/master/MDISOnt.owl"/>
         <diso:projectPage rdf:resource="https://github.com/inesmeriah/MDISOnt"/>
@@ -913,8 +946,10 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/OWL-S">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>Nokia AND LicenseRef-W3C-Document-License</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>David Martin (ed.), Mark Burstein, Jerry Hobbs, Ora Lassila, Drew McDermott, Sheila McIlraith, Srini Narayanan, Massimo Paolucci, Bijan Parsia, Terry Payne, Evren Sirin, Naveen Srinivasan, Katia Sycara. OWL-S: Semantic Markup for Web Services. W3C Member Submission, 22 November 2004. https://www.w3.org/submissions/2004/SUBM-OWL-S-20041122/</dcterms:bibliographicCitation>
         <dcterms:description>An OWL ontology for describing Semantic Web services, enabling automated discovery, invocation and composition.</dcterms:description>
         <dcterms:title>Semantic Markup for Web Services</dcterms:title>
+        <void:dataDump rdf:resource="https://city-artificial-intelligence.github.io/diso/agentic/OWL-S/owl-s.ttl"/>
         <rdfs:label>OWL-S</rdfs:label>
         <diso:projectPage rdf:resource="http://www.daml.org/services/owl-s/"/>
         <diso:upstreamSource rdf:resource="https://www.daml.org/services/owl-s/1.2/Service.owl"/>
@@ -928,6 +963,7 @@
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:redistributionStatus>withheld</diso:redistributionStatus>
         <diso:spdxLicenseExpression>NOASSERTION</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Anastasiya Kurylets and Nikolaj Goranin, &quot;Security Ontology OntoSecRPA for Robotic Process Automation Domain,&quot; Applied Sciences, vol. 13, no. 9, art. 5568, 2023. DOI: 10.3390/app13095568</dcterms:bibliographicCitation>
         <dcterms:description>A security ontology for Robotic Process Automation: assets, risks, threats, vulnerabilities and countermeasures.</dcterms:description>
         <dcterms:title>Security Ontology for Robotic Process Automation</dcterms:title>
         <rdfs:label>OntoSecRPA</rdfs:label>
@@ -942,6 +978,7 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/Ops">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>GPL-3.0-only AND CC-BY-4.0</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Ops (Operations) Ontology — a community OWL ontology for interoperability between the software-development and operations domains; the upstream project bundles a MITRE ATT&amp;CK module that is not present in the DISO-merged artefact. Source: github.com/CDSRV/ops-ontology. No associated peer-reviewed publication was identified.</dcterms:bibliographicCitation>
         <dcterms:description>A cyber-security ontology focused on the operations domain.</dcterms:description>
         <dcterms:title>Ops (Operations) Ontology</dcterms:title>
         <void:dataDump rdf:resource="https://city-artificial-intelligence.github.io/diso/cyber-security/Ops/ops-merged.ttl"/>
@@ -956,6 +993,7 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/SAREF">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>BSD-3-Clause</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Daniele, L., den Hartog, F., and Roes, J. (2015). Created in Close Interaction with the Industry: The Smart Appliances REFerence (SAREF) Ontology. In: Cuel, R., Young, R. (eds) Formal Ontologies Meet Industry. FOMI 2015. Lecture Notes in Business Information Processing, vol 225. Springer, Cham. https://doi.org/10.1007/978-3-319-21545-7_9</dcterms:bibliographicCitation>
         <dcterms:description>A suite of reference ontologies for semantic interoperability across IoT domains.</dcterms:description>
         <dcterms:license rdf:resource="https://spdx.org/licenses/BSD-3-Clause"/>
         <dcterms:title>Smart Applications REFerence ontology</dcterms:title>
@@ -973,6 +1011,7 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/SAWCore">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>CC-BY-NC-3.0</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Matheus, C. J., Kokar, M. M., &amp; Baclawski, K. (2003). A core ontology for situation awareness. In Proceedings of the Sixth International Conference on Information Fusion (FUSION 2003), pp. 545–552.</dcterms:bibliographicCitation>
         <dcterms:description>A domain-independent upper ontology for situation awareness.</dcterms:description>
         <dcterms:license rdf:resource="https://spdx.org/licenses/CC-BY-NC-3.0"/>
         <dcterms:title>Situation Awareness Core ontology</dcterms:title>
@@ -991,6 +1030,7 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/SMOF">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>CC-BY-4.0</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>He, X.; Kuai, X.; Li, X.; Qiu, Z.; He, B.; Guo, R. Smart City Ontology Framework for Urban Data Integration and Application. Smart Cities 2025, 8(5), 165. https://doi.org/10.3390/smartcities8050165</dcterms:bibliographicCitation>
         <dcterms:description>A hierarchical ontology framework for integrating urban (smart-city) data across domains.</dcterms:description>
         <dcterms:license rdf:resource="https://spdx.org/licenses/CC-BY-4.0"/>
         <dcterms:title>Smart City Ontology Framework</dcterms:title>
@@ -1006,6 +1046,7 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/SNORT">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>CC-BY-4.0</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Kiesling, E., Ekelhart, A., Kurniawan, K., and Ekaputra, F. (2019). The SEPSES Knowledge Graph: An Integrated Resource for Cybersecurity. In: The Semantic Web – ISWC 2019, Lecture Notes in Computer Science, vol. 11779, pp. 198–214. Springer, Cham. https://doi.org/10.1007/978-3-030-30796-7_13</dcterms:bibliographicCitation>
         <dcterms:description>Ontologies describing the SNORT intrusion detection and prevention system, its rules and its alerts.</dcterms:description>
         <dcterms:license rdf:resource="https://spdx.org/licenses/CC-BY-4.0"/>
         <dcterms:title>SNORT Network Intrusion Detection ontologies</dcterms:title>
@@ -1022,8 +1063,10 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/SO">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>LicenseRef-author-permission</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Herzog, A., Shahmehri, N., and Duma, C. (2007). An Ontology of Information Security. International Journal of Information Security and Privacy (IJISP) 1(4): 1–23. https://doi.org/10.4018/jisp.2007100101</dcterms:bibliographicCitation>
         <dcterms:description>A security ontology modelling assets, threats, vulnerabilities and countermeasures, with extension ontologies.</dcterms:description>
         <dcterms:title>Security Ontology</dcterms:title>
+        <void:dataDump rdf:resource="https://city-artificial-intelligence.github.io/diso/information-security/SO/SOmerged.ttl"/>
         <rdfs:label>SO</rdfs:label>
         <diso:projectPage rdf:resource="https://www.ida.liu.se/divisions/adit/security/projects/secont/"/>
         <diso:upstreamSource rdf:resource="https://www.ida.liu.se/divisions/adit/security/projects/secont/Security.owl"/>
@@ -1036,6 +1079,7 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/SOUPA">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>CC-BY-1.0</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Harry Chen, Filip Perich, Tim Finin, Anupam Joshi. &quot;SOUPA: Standard Ontology for Ubiquitous and Pervasive Applications.&quot; Proceedings of the First Annual International Conference on Mobile and Ubiquitous Systems: Networking and Services (MobiQuitous 2004), IEEE, 2004. https://doi.org/10.1109/MOBIQ.2004.1331732</dcterms:bibliographicCitation>
         <dcterms:description>A standard ontology for ubiquitous and pervasive applications: agents, time, space, events and policies.</dcterms:description>
         <dcterms:license rdf:resource="https://spdx.org/licenses/CC-BY-1.0"/>
         <dcterms:title>Standard Ontology for Ubiquitous and Pervasive Applications</dcterms:title>
@@ -1051,8 +1095,10 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/STIX">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>LicenseRef-OASIS-IPR-Policy-Non-Assertion-Mode</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>OASIS Cyber Threat Intelligence Technical Committee. STIX Version 2.1. Edited by Bret Jordan, Rich Piazza, and Trey Darley. OASIS Standard. 10 June 2021. https://docs.oasis-open.org/cti/stix/v2.1/os/stix-v2.1-os.html. (OWL binding: OASIS Threat Actor Context TC, tac-ontology, https://github.com/oasis-tcs/tac-ontology)</dcterms:bibliographicCitation>
         <dcterms:description>An OWL representation of the OASIS STIX 2.1 cyber-threat-intelligence specification.</dcterms:description>
         <dcterms:title>Structured Threat Information eXpression (2.1)</dcterms:title>
+        <void:dataDump rdf:resource="https://city-artificial-intelligence.github.io/diso/cyber-security/STIX/stix-spec-merged.ttl"/>
         <rdfs:label>STIX</rdfs:label>
         <diso:projectPage rdf:resource="https://github.com/oasis-tcs/tac-ontology"/>
         <diso:upstreamSource rdf:resource="https://raw.githubusercontent.com/oasis-tcs/tac-ontology/ad1ac00009eb4a72105463ad9f7ab17aa396103e/stix-spec/stix-spec.owl"/>
@@ -1065,6 +1111,7 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/STO">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>CC-BY-NC-3.0</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Kokar, M. M., Matheus, C. J., and Baclawski, K. (2009). Ontology-based situation awareness. Information Fusion, 10(1), 83–98. https://doi.org/10.1016/j.inffus.2007.01.004</dcterms:bibliographicCitation>
         <dcterms:description>An OWL formalisation of situation theory for situation awareness.</dcterms:description>
         <dcterms:license rdf:resource="https://spdx.org/licenses/CC-BY-NC-3.0"/>
         <dcterms:title>Situation Theory Ontology</dcterms:title>
@@ -1082,8 +1129,10 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/SUMO">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>GPL-3.0-only AND LicenseRef-IEEE-SUMO-License</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Ian Niles and Adam Pease. &apos;Towards a Standard Upper Ontology.&apos; In Proceedings of the 2nd International Conference on Formal Ontology in Information Systems (FOIS 2001), Ogunquit, Maine, USA, October 17–19, 2001. ACM. DOI: 10.1145/505168.505170.</dcterms:bibliographicCitation>
         <dcterms:description>The Suggested Upper Merged Ontology: a large formal upper ontology with linked domain ontologies.</dcterms:description>
         <dcterms:title>Suggested Upper Merged Ontology</dcterms:title>
+        <void:dataDump rdf:resource="https://city-artificial-intelligence.github.io/diso/upper-level/SUMO/SUMO.owl"/>
         <rdfs:label>SUMO</rdfs:label>
         <diso:mirror rdf:resource="https://raw.githubusercontent.com/abrahaj/SUMO.owl/master/SUMO.owl"/>
         <diso:projectPage rdf:resource="https://www.ontologyportal.org/"/>
@@ -1098,6 +1147,7 @@
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:redistributionStatus>withheld</diso:redistributionStatus>
         <diso:spdxLicenseExpression>NOASSERTION</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>de Franco Rosa, F., Teixeira Junior, L.A.L., Bonacin, R., and Jino, M. (2020). SecAOnto: A Conceptual Model of Security Assessment. International Journal of Web Portals, 12(2), 57–80. https://doi.org/10.4018/IJWP.2020070104</dcterms:bibliographicCitation>
         <dcterms:description>An ontology for security assessment, at the intersection of security and software assessment.</dcterms:description>
         <dcterms:title>Security Assessment Ontology</dcterms:title>
         <rdfs:label>SecAOnto</rdfs:label>
@@ -1112,8 +1162,10 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/SmartEnv">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>LicenseRef-author-permission</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Alirezaie, M., Hammar, K., Blomqvist, E., Nyström, M., and Ivanova, V. (2018). SmartEnv Ontology in E-care@home. In SSN 2018 — 9th Int. Semantic Sensor Networks Workshop (ISWC 2018), vol. 2213, pp. 72–79.</dcterms:bibliographicCitation>
         <dcterms:description>A smart-home environment ontology network (eCare@Home) covering time, geometry, events, sensing, situation and place.</dcterms:description>
         <dcterms:title>Smart Home Environments Ontology (eCare@Home)</dcterms:title>
+        <void:dataDump rdf:resource="https://city-artificial-intelligence.github.io/diso/smart-environments/smart-homes/SmartEnv/SmartEnvMerged.ttl"/>
         <rdfs:label>SmartEnv</rdfs:label>
         <diso:projectPage rdf:resource="http://ecareathome-ontology.mpi.aass.oru.se/"/>
         <diso:upstreamSource rdf:resource="https://w3id.org/smartenvironment/smartenv.owl"/>
@@ -1126,8 +1178,10 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/ThinkHome">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>NOASSERTION</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Christian Reinisch, Mario J. Kofler, Félix Iglesias, Wolfgang Kastner. &quot;ThinkHome Energy Efficiency in Future Smart Homes.&quot; EURASIP Journal on Embedded Systems, vol. 2011, Article ID 104617, 18 pp., 2011. DOI: 10.1155/2011/104617.</dcterms:bibliographicCitation>
         <dcterms:description>A smart-home ontology for home control and energy efficiency.</dcterms:description>
         <dcterms:title>ThinkHome Smart Home Ontology</dcterms:title>
+        <void:dataDump rdf:resource="https://city-artificial-intelligence.github.io/diso/smart-environments/smart-homes/ThinkHome/ThinkHomeMerged.ttl"/>
         <rdfs:label>ThinkHome</rdfs:label>
         <diso:projectPage rdf:resource="https://www.auto.tuwien.ac.at/downloads/thinkhome/"/>
     </owl:NamedIndividual>
@@ -1139,6 +1193,7 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/UCO_1">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>Apache-2.0 AND CC-BY-3.0</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Casey, E., Barnum, S., Griffith, R., Snyder, J., van Beek, H., and Nelson, A. (2018). The Evolution of Expressing and Exchanging Cyber-investigation Information in a Standardized Form. In: Biasiotti et al. (eds), Handling and Exchanging Electronic Evidence Across Europe. Springer. [Foundational CASE/UCO reference; UCO is a community project, github.com/ucoProject/UCO.]</dcterms:bibliographicCitation>
         <dcterms:description>A community ontology providing a consistent foundation for representing information across the cyber-security domain (UCO Project).</dcterms:description>
         <dcterms:title>Unified Cyber Ontology</dcterms:title>
         <void:dataDump rdf:resource="https://city-artificial-intelligence.github.io/diso/cyber-security/UCO_1/uco1-merge.ttl"/>
@@ -1153,9 +1208,11 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/UCO_2">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>CC-BY-SA-4.0</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Zareen Syed, Ankur Padia, Tim Finin, Lisa Mathews, and Anupam Joshi. UCO: A Unified Cybersecurity Ontology. AAAI Workshop on Artificial Intelligence for Cyber Security (AICS), February 2016.</dcterms:bibliographicCitation>
         <dcterms:description>A semantic ontology extending STIX with cyber-security standards (Syed et al.).</dcterms:description>
         <dcterms:license rdf:resource="https://spdx.org/licenses/CC-BY-SA-4.0"/>
         <dcterms:title>Unified Cybersecurity Ontology (Syed et al.)</dcterms:title>
+        <void:dataDump rdf:resource="https://city-artificial-intelligence.github.io/diso/cyber-security/UCO_2/uco2.ttl"/>
         <rdfs:label>UCO_2</rdfs:label>
         <diso:projectPage rdf:resource="https://github.com/Ebiquity/Unified-Cybersecurity-Ontology"/>
         <diso:upstreamSource rdf:resource="https://raw.githubusercontent.com/Ebiquity/Unified-Cybersecurity-Ontology/master/uco2.ttl"/>
@@ -1168,6 +1225,7 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/gUFO">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>CC-BY-4.0</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>João Paulo A. Almeida, Giancarlo Guizzardi, Tiago Prince Sales, Ricardo A. Falbo. &quot;gUFO: A Lightweight Implementation of the Unified Foundational Ontology (UFO)&quot;. Version 1.0.0, 2019. Available: http://purl.org/nemo/doc/gufo. (A 2026 arXiv preprint expanding this work: Almeida et al., &quot;gUFO: A Gentle Foundational Ontology for Semantic Web Knowledge Graphs&quot;, arXiv:2603.20948, https://doi.org/10.48550/arXiv.2603.20948)</dcterms:bibliographicCitation>
         <dcterms:description>A lightweight OWL 2 implementation of the Unified Foundational Ontology (UFO).</dcterms:description>
         <dcterms:license rdf:resource="https://spdx.org/licenses/CC-BY-4.0"/>
         <dcterms:title>gUFO: lightweight Unified Foundational Ontology</dcterms:title>
@@ -1185,6 +1243,7 @@
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/mIO">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
         <diso:spdxLicenseExpression>CC-BY-3.0</diso:spdxLicenseExpression>
+        <dcterms:bibliographicCitation>Poveda-Villalón, M., Suárez-Figueroa, M. C., García-Castro, R., and Gómez-Pérez, A. (2010). A Context Ontology for Mobile Environments. In Proceedings of the Workshop on Context, Information and Ontologies (CIAO 2010), co-located with EKAW 2010, Lisbon, Portugal. CEUR Workshop Proceedings, Vol. 626. ISSN 1613-0073. https://ceur-ws.org/Vol-626/regular3.pdf</dcterms:bibliographicCitation>
         <dcterms:description>An ontology network representing user context for mobile environments: location, environment, services, devices and social information.</dcterms:description>
         <dcterms:license rdf:resource="https://spdx.org/licenses/CC-BY-3.0"/>
         <dcterms:title>mIO! Ontology Network (context for mobile environments)</dcterms:title>

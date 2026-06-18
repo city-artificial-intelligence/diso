@@ -105,5 +105,6 @@ dcterms:publisher a owl:AnnotationProperty .
 dcterms:issued    a owl:AnnotationProperty .
 dcterms:identifier a owl:AnnotationProperty .
 dcterms:license   a owl:AnnotationProperty .
+dcterms:bibliographicCitation a owl:AnnotationProperty .
 void:sparqlEndpoint a owl:AnnotationProperty .
 foaf:page         a owl:AnnotationProperty .
