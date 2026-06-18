@@ -121,11 +121,13 @@
  },
  "OntoSecRPA": {
   "upstream": "https://raw.githubusercontent.com/oleferovich/-OntoSecRPA/main/OntoSecRPA_2.owx",
-  "mirrors": []
+  "mirrors": [],
+  "withheld": true
  },
  "SecAOnto": {
   "upstream": "https://raw.githubusercontent.com/ferruciof/Files/master/SecAOnto/SecAOnto_V4.owl",
-  "mirrors": []
+  "mirrors": [],
+  "withheld": true
  },
  "SO": {
   "upstream": "https://www.ida.liu.se/divisions/adit/security/projects/secont/Security.owl",
@@ -188,7 +190,8 @@
  },
  "IMF": {
   "upstream": "https://ns.imfid.org/20240531/imf-ontology.owl.ttl",
-  "mirrors": []
+  "mirrors": [],
+  "withheld": true
  },
  "CityOWL": {
   "upstream": "https://dataset-dl.liris.cnrs.fr/rdf-owl-urban-data-ontologies/Ontologies/CityOWL/CWA/3.0/CityOWL.ttl",
