@@ -1,4 +1,4 @@
----8<--- VERBATIM LICENSE TEXT 1 of 2 ------------------------------------------
+---8<--- VERBATIM LICENSE TEXT 1 of 2 ----------------------------------------
 Source:  situation-awareness/STO/STO.owl (lines 8-27)
 Method:  local-file
 SHA-256: 6fa3ac9c243603ee69314f0857f500445276c2a79f13ef5759b308236dfc56dc
@@ -25,7 +25,7 @@ SHA-256: 6fa3ac9c243603ee69314f0857f500445276c2a79f13ef5759b308236dfc56dc
   </owl:Ontology>
 -----END VERBATIM LICENSE TEXT 1-----
 
----8<--- VERBATIM LICENSE TEXT 2 of 2 ------------------------------------------
+---8<--- VERBATIM LICENSE TEXT 2 of 2 ----------------------------------------
 Source:  https://creativecommons.org/licenses/by-nc/3.0/legalcode.txt
 Method:  exact-bytes
 SHA-256: 45526cb7a15234d8d686a3ba5f11b607516f90662d125d5423eb2b57f474e5e4

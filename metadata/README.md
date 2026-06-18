@@ -48,10 +48,12 @@ Dublin Core Terms (`dcterms:title`, `description`, `creator`, `publisher`,
 
 Each member ontology also carries its **access points**: the local DISO copy
 (`void:dataDump`, for the redistributable ones), the authoritative
-`diso:upstreamRDF`, alternative `diso:mirror`s (DISO-raw / pinned / web-archive),
-and a human `diso:landingPage`. The first three are `rdfs:subPropertyOf
+`diso:upstreamSource`, alternative `diso:mirror`s (DISO-raw / pinned / web-archive),
+and a human `diso:projectPage`. The first three are `rdfs:subPropertyOf
 void:dataDump`, so a generic VoID tool still sees every dump location; the DISO
-node also gets `void:sparqlEndpoint` when built with `DISO_SPARQL`.
+node also gets `void:sparqlEndpoint` when built with `DISO_SPARQL`. Canonical-vs-mirror
+precedence for `diso:mirror`: pinned-commit upstream, then branch upstream, then
+web-archive, then the DISO-hosted copy.
 
 Licence-aware redirects use a _persistent_ URL pointing at either the **local copy** 
 where the licence permits, otherwise the **upstream RDF**, e.g., the SEPSES renderings 

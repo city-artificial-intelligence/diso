@@ -402,7 +402,7 @@ Creative Commons may be contacted at creativecommons.org.
 -----END VERBATIM LICENSE TEXT 1-----
 
 ---8<--- VERBATIM LICENSE TEXT 2 of 2 ----------------------------------------
-Source:  robotics/CORA/cora.owl (lines 24-26; identical at upstream https://raw.githubusercontent.com/srfiorini/IEEE1872-owl/master/cora.owl lines 24-26)
+Source:  robotics/CORA/cora.owl lines 24-26 (identical at https://raw.githubusercontent.com/srfiorini/IEEE1872-owl/master/cora.owl lines 24-26)
 Method:  local-file
 SHA-256: c6befbbec20560076c4997062959d15d5e106e0de542b5253b2fe727c1ac66ab
 -----BEGIN VERBATIM LICENSE TEXT 2-----

@@ -1,11 +1,7 @@
----8<--- VERBATIM LICENSE TEXT 1 of 1 ------------------------------------------
+---8<--- VERBATIM LICENSE TEXT 1 of 1 ----------------------------------------
 Source:  https://creativecommons.org/licenses/by/4.0/legalcode.txt
 Method:  exact-bytes
 SHA-256: 9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411
-Coverage: the W3C OWL-Time axioms merged into ThinkHomeMerged.ttl (per the
-dcterms:license declaration at ThinkHomeMerged.ttl line 17, inherited from
-https://www.w3.org/2006/time.ttl line 19). NOT a license for the
-ThinkHome-authored content.
 -----BEGIN VERBATIM LICENSE TEXT 1-----
 Attribution 4.0 International
 
@@ -404,67 +400,3 @@ public licenses.
 Creative Commons may be contacted at creativecommons.org.
 
 -----END VERBATIM LICENSE TEXT 1-----
-
-================================================================================
-SEARCH TRAIL (no license located for the ThinkHome-authored content)
-================================================================================
-
-Places searched on 2026-06-13:
-
-1. ThinkHomeMerged.ttl (this directory) — the only license/rights triples
-   (lines 17 and 19) are OWL-Time (W3C/OGC) metadata, as established above.
-   No ThinkHome-specific license, rights or copyright statement anywhere in
-   the file.
-
-2. Upstream download site https://www.auto.tuwien.ac.at/downloads/thinkhome/
-   and .../thinkhome/ontology/ — both now 301-redirect to
-   https://informatics.tuwien.ac.at/orgs/e191-03 (no license or terms for
-   ThinkHome on that page).
-
-3. Internet Archive copies of the upstream originals — NO license, rights or
-   copyright declarations in any file (grep for
-   license|licence|rights|copyright|creativecommons|spdx returns nothing):
-   - https://web.archive.org/web/20211205175351id_/https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/ActorOntology.owl
-   - https://web.archive.org/web/20220205092253id_/https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/BuildingOntology.owl
-   - https://web.archive.org/web/20220120133622id_/https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/EnergyResourceOntology.owl
-   - https://web.archive.org/web/20220120115434id_/https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/ProcessOntology.owl
-   - https://web.archive.org/web/20220706144235id_/https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/WeatherOntology.owl
-   - https://web.archive.org/web/20221105202226id_/https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/BuildingOntologySharedVocabulary.owl
-
-4. Internet Archive copies of the download index pages
-   (https://web.archive.org/web/20220120060320/https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/
-   and the parent /downloads/thinkhome/ listing) — bare Apache directory
-   listings; no README, LICENSE or terms-of-use files were ever published
-   alongside the ontologies.
-
-5. Smart-city ontology catalogue entry
-   https://smartcity.linkeddata.es/ontologies/www.auto.tuwien.ac.atdownloadsthinkhomeontologyEnergyResourceOntology.owl.html
-   — no license recorded for the ontology.
-
-6. Linked Open Vocabularies (lov.linkeddata.es) — no ThinkHome entry found
-   (vocabulary search/autocomplete API queries for "thinkhome" returned no
-   vocabulary).
-
-7. Project publication: C. Reinisch, M. J. Kofler, F. Iglesias, W. Kastner,
-   "ThinkHome Energy Efficiency in Future Smart Homes", EURASIP Journal on
-   Embedded Systems 2011, doi:10.1155/2011/104617
-   (https://link.springer.com/article/10.1155/2011/104617). The article is
-   open access: "Copyright © 2011 Christian Reinisch et al. This is an open
-   access article distributed under the Creative Commons Attribution License,
-   which permits unrestricted use, distribution, and reproduction in any
-   medium, provided the original work is properly cited." That license covers
-   the ARTICLE text only; the paper states no license for the ontology files.
-
-Conclusion: in the absence of an explicit license, default copyright applies
-to the ThinkHome-authored content of ThinkHomeMerged.ttl — all rights are
-reserved by its authors. The presumed rights holders are the authors of the
-ThinkHome project at the Automation Systems Group, Vienna University of
-Technology (TU Wien) — Christian Reinisch, Mario J. Kofler, Félix Iglesias and
-Wolfgang Kastner — and/or TU Wien itself. The public posting of the ontology
-files for download implies, at most, permission to download and use them for
-research; any reuse beyond what the upstream has implicitly permitted
-(including redistribution or derivative works) requires contacting the rights
-holders (TU Wien Automation Systems Group,
-https://informatics.tuwien.ac.at/orgs/e191-03). The CC BY 4.0 text embedded
-above continues to govern the W3C OWL-Time material contained in the merged
-file.

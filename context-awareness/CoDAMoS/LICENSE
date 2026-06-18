@@ -1,21 +1,7 @@
-Ontology:               Context-Driven Adaptation of Mobile Services (CoDAMoS)
-DISO directory:         context-awareness/CoDAMoS
-Ontology files:         CoDAMoS.owl
-Obtained from:          http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl
-                        obtained as a component of the BOnSAI ontology
-                        this is the "fixed OWL file @ISOntologies" re-host, by
-                        LPIS/ISKP, Aristotle University of Thessaloniki, of the
-                        original DistriNet (KU Leuven) CoDAMoS context
-                        ontology, originally published at
-                        http://distrinet.cs.kuleuven.be/projects/CoDAMoS/ontology/context.owl
-License(s):             NONE LOCATED (SPDX: NOASSERTION)
-Rights holder(s):       not established — presumed: the CoDAMoS ontology
-                        authors, Davy Preuveneers, Jan Van den Bergh, Dennis
-                        Wagelaar, Andy Georges, Peter Rigole, Tim Clerckx,
-                        Yolande Berbers, Karin Coninx, Viviane Jonckers and
-                        Koen De Bosschere, and/or their employing institutions
-                        in the IWT-funded CoDAMoS project (KU Leuven/DistriNet
-                        and project partners)
-Required attribution:   n/a — no license
-License source(s):      none located
-Retrieved:              2026-06-13
+---8<--- VERBATIM LICENSE TEXT 1 of 1 ----------------------------------------
+Source:  author correspondence received 2026-06-18 (not publicly reproduced)
+Method:  author-correspondence
+SHA-256: c7fedcfb7ace11961525824da25b659e62473ee35abb779cf0ba9078dac06850
+-----BEGIN VERBATIM LICENSE TEXT 1-----
+DISO author-permission grant. The author(s) of Context-Driven Adaptation of Mobile Services (CoDAMoS) granted City St George's, University of London written permission to use and redistribute this ontology within DISO. Recorded from author correspondence received 2026-06-18. The correspondence is not publicly reproduced here; the grant is verifiable by contacting the ontology's original authors directly. SPDX: LicenseRef-author-permission.
+-----END VERBATIM LICENSE TEXT 1-----

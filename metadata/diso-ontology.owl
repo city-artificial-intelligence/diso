@@ -40,6 +40,12 @@
     
 
 
+    <!-- http://purl.org/dc/terms/bibliographicCitation -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/bibliographicCitation"/>
+    
+
+
     <!-- http://purl.org/dc/terms/creator -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
@@ -112,31 +118,31 @@
     
 
 
-    <!-- https://city-artificial-intelligence.github.io/diso/ontology#landingPage -->
-
-    <owl:AnnotationProperty rdf:about="https://city-artificial-intelligence.github.io/diso/ontology#landingPage">
-        <rdfs:comment>A human-facing page for the ontology - its project homepage or source repository.</rdfs:comment>
-        <rdfs:label>landing page</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/page"/>
-    </owl:AnnotationProperty>
-    
-
-
     <!-- https://city-artificial-intelligence.github.io/diso/ontology#mirror -->
 
     <owl:AnnotationProperty rdf:about="https://city-artificial-intelligence.github.io/diso/ontology#mirror">
-        <rdfs:comment>An alternative location of the ontology&apos;s RDF: a DISO-hosted copy, a version-pinned URL, or a web-archive snapshot.</rdfs:comment>
+        <rdfs:comment>An alternative location of the ontology&apos;s RDF: a DISO-hosted copy, a version-pinned URL, or a web-archive snapshot. Canonical-vs-mirror precedence: pinned-commit upstream, then branch upstream, then web-archive, then the DISO-hosted copy.</rdfs:comment>
         <rdfs:label>mirror</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://rdfs.org/ns/void#dataDump"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- https://city-artificial-intelligence.github.io/diso/ontology#upstreamRDF -->
+    <!-- https://city-artificial-intelligence.github.io/diso/ontology#projectPage -->
 
-    <owl:AnnotationProperty rdf:about="https://city-artificial-intelligence.github.io/diso/ontology#upstreamRDF">
-        <rdfs:comment>The authoritative RDF file at the ontology&apos;s origin (RDF/XML where available).</rdfs:comment>
-        <rdfs:label>upstream RDF</rdfs:label>
+    <owl:AnnotationProperty rdf:about="https://city-artificial-intelligence.github.io/diso/ontology#projectPage">
+        <rdfs:comment>A human-facing page for the ontology - its project homepage or source repository. Formerly diso:landingPage.</rdfs:comment>
+        <rdfs:label>project page</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/page"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://city-artificial-intelligence.github.io/diso/ontology#upstreamSource -->
+
+    <owl:AnnotationProperty rdf:about="https://city-artificial-intelligence.github.io/diso/ontology#upstreamSource">
+        <rdfs:comment>The authoritative RDF file at the ontology&apos;s origin (RDF/XML where available). Formerly diso:upstreamRDF.</rdfs:comment>
+        <rdfs:label>upstream source</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://rdfs.org/ns/void#dataDump"/>
     </owl:AnnotationProperty>
     
@@ -167,6 +173,16 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- https://city-artificial-intelligence.github.io/diso/ontology#redistributionStatus -->
+
+    <owl:DatatypeProperty rdf:about="https://city-artificial-intelligence.github.io/diso/ontology#redistributionStatus">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Whether DISO redistributes a member ontology&apos;s artefact (&quot;hosted&quot;) or has withdrawn it (&quot;withheld&quot; - e.g. because a right to redistribute could not be established). When withheld, the access point is the upstream source, not a DISO-hosted file.</rdfs:comment>
+        <rdfs:label>redistribution status</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
