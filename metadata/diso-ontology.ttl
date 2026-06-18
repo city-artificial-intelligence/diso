@@ -68,23 +68,23 @@ diso:redistributionStatus
 #    every dump location via the void:dataDump superproperty.
 #################################################################
 
-diso:upstreamRDF
+diso:upstreamSource
     a owl:AnnotationProperty ;
     rdfs:subPropertyOf void:dataDump ;
-    rdfs:label "upstream RDF" ;
-    rdfs:comment "The authoritative RDF file at the ontology's origin (RDF/XML where available)." .
+    rdfs:label "upstream source" ;
+    rdfs:comment "The authoritative RDF file at the ontology's origin (RDF/XML where available). Formerly diso:upstreamRDF." .
 
 diso:mirror
     a owl:AnnotationProperty ;
     rdfs:subPropertyOf void:dataDump ;
     rdfs:label "mirror" ;
-    rdfs:comment "An alternative location of the ontology's RDF: a DISO-hosted copy, a version-pinned URL, or a web-archive snapshot." .
+    rdfs:comment "An alternative location of the ontology's RDF: a DISO-hosted copy, a version-pinned URL, or a web-archive snapshot. Canonical-vs-mirror precedence: pinned-commit upstream, then branch upstream, then web-archive, then the DISO-hosted copy." .
 
-diso:landingPage
+diso:projectPage
     a owl:AnnotationProperty ;
     rdfs:subPropertyOf foaf:page ;
-    rdfs:label "landing page" ;
-    rdfs:comment "A human-facing page for the ontology - its project homepage or source repository." .
+    rdfs:label "project page" ;
+    rdfs:comment "A human-facing page for the ontology - its project homepage or source repository. Formerly diso:landingPage." .
 
 #################################################################
 #    Reused external terms - declarations only.

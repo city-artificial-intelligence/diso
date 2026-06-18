@@ -6,8 +6,8 @@ RewriteEngine On
 
 # OWL-S            [source]     NOASSERTION
 RewriteRule ^agentic/OWL-S/?$ https://www.daml.org/services/owl-s/1.2/Service.owl [R=302,L]
-# CoDAMoS          [source]     NOASSERTION
-RewriteRule ^context-awareness/CoDAMoS/?$ http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl [R=302,L]
+# CoDAMoS          [local]      LicenseRef-author-permission
+RewriteRule ^context-awareness/CoDAMoS/?$ https://city-artificial-intelligence.github.io/diso/context-awareness/CoDAMoS/CoDAMoS.owl [R=302,L]
 # mIO!             [local]      CC-BY-3.0
 RewriteRule ^context-awareness/mIO!/?$ https://city-artificial-intelligence.github.io/diso/context-awareness/mIO%21/mIOmerged.ttl [R=302,L]
 # ATTACK           [local]      LicenseRef-MITRE-ATTACK-ToU AND CC-BY-4.0
@@ -58,8 +58,8 @@ RewriteRule ^information-security/SecAOnto/?$ https://raw.githubusercontent.com/
 RewriteRule ^information-security/SO/?$ https://www.ida.liu.se/divisions/adit/security/projects/secont/Security.owl [R=302,L]
 # CCO              [local]      BSD-3-Clause AND CC-BY-4.0
 RewriteRule ^mid-level/CCO/?$ https://city-artificial-intelligence.github.io/diso/mid-level/CCO/CommonCoreOntologiesMerged.ttl [R=302,L]
-# IRIS             [source]     NOASSERTION
-RewriteRule ^risk-management/IRIS/?$ http://lpis.csd.auth.gr/ontologies/2010/iris.owl [R=302,L]
+# IRIS             [local]      CC-BY-NC-SA-4.0
+RewriteRule ^risk-management/IRIS/?$ https://city-artificial-intelligence.github.io/diso/risk-management/IRIS/iris.owl [R=302,L]
 # CORA             [local]      CC-BY-4.0
 RewriteRule ^robotics/CORA/?$ https://city-artificial-intelligence.github.io/diso/robotics/CORA/cora-merged.ttl [R=302,L]
 # SAWCore          [local]      CC-BY-NC-3.0
@@ -68,8 +68,8 @@ RewriteRule ^situation-awareness/SAWCore/?$ https://city-artificial-intelligence
 RewriteRule ^situation-awareness/SOUPA/?$ https://city-artificial-intelligence.github.io/diso/situation-awareness/SOUPA/soupa-merged.ttl [R=302,L]
 # STO              [local]      CC-BY-NC-3.0
 RewriteRule ^situation-awareness/STO/?$ https://city-artificial-intelligence.github.io/diso/situation-awareness/STO/STO.owl [R=302,L]
-# BOnSAI           [source]     NOASSERTION
-RewriteRule ^smart-environments/smart-buildings/BOnSAI/?$ http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl [R=302,L]
+# BOnSAI           [local]      CC-BY-NC-SA-4.0
+RewriteRule ^smart-environments/smart-buildings/BOnSAI/?$ https://city-artificial-intelligence.github.io/diso/smart-environments/smart-buildings/BOnSAI/bonsaiMerged.ttl [R=302,L]
 # BOT              [local]      CC-BY-1.0
 RewriteRule ^smart-environments/smart-buildings/BOT/?$ https://city-artificial-intelligence.github.io/diso/smart-environments/smart-buildings/BOT/bot.ttl [R=302,L]
 # BRICK            [local]      BSD-3-Clause AND CC-BY-4.0

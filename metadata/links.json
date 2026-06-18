@@ -5,7 +5,9 @@
  },
  "CoDAMoS": {
   "upstream": "http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl",
-  "mirrors": []
+  "mirrors": [
+   "https://raw.githubusercontent.com/city-artificial-intelligence/diso/main/context-awareness/CoDAMoS/CoDAMoS.owl"
+  ]
  },
  "mIO!": {
   "upstream": null,
@@ -137,7 +139,9 @@
  },
  "IRIS": {
   "upstream": "http://lpis.csd.auth.gr/ontologies/2010/iris.owl",
-  "mirrors": []
+  "mirrors": [
+   "https://raw.githubusercontent.com/city-artificial-intelligence/diso/main/risk-management/IRIS/iris.owl"
+  ]
  },
  "CORA": {
   "upstream": "https://raw.githubusercontent.com/srfiorini/IEEE1872-owl/ffb6613350b28c3a710f8daf2a1e9e953ded7ed8/cora.owl",
@@ -165,7 +169,9 @@
  },
  "BOnSAI": {
   "upstream": "http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl",
-  "mirrors": []
+  "mirrors": [
+   "https://raw.githubusercontent.com/city-artificial-intelligence/diso/main/smart-environments/smart-buildings/BOnSAI/bonsaiMerged.ttl"
+  ]
  },
  "BOT": {
   "upstream": "https://w3id.org/bot/bot.ttl",
