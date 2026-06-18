@@ -1,4 +1,4 @@
----8<--- VERBATIM LICENSE TEXT 1 of 2 ------------------------------------------
+---8<--- VERBATIM LICENSE TEXT 1 of 2 ----------------------------------------
 Source:  https://creativecommons.org/licenses/by/1.0/legalcode
 Method:  html-extract
 SHA-256: c2dd7fd72c0864cea9027a42b4b8163e67c5571474fad129e2e4efc342228114
@@ -84,8 +84,8 @@ Except for the limited purpose of indicating to the public that the Work is lice
 Creative Commons may be contacted at https://creativecommons.org/.
 -----END VERBATIM LICENSE TEXT 1-----
 
----8<--- VERBATIM LICENSE TEXT 2 of 2 ------------------------------------------
-Source:  smart-environments/smart-buildings/BOT/bot.ttl, lines 1-7 (byte-identical to https://w3id.org/bot/bot.ttl as of 2026-06-13)
+---8<--- VERBATIM LICENSE TEXT 2 of 2 ----------------------------------------
+Source:  smart-environments/smart-buildings/BOT/bot.ttl, lines 1-7
 Method:  local-file
 SHA-256: de389ff2892b4c3b80410360a56c11e353965209f9c983eb2465c0c16fa38f9a
 -----BEGIN VERBATIM LICENSE TEXT 2-----

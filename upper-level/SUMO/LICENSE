@@ -1,4 +1,4 @@
----8<--- VERBATIM LICENSE TEXT 1 of 2 ------------------------------------------
+---8<--- VERBATIM LICENSE TEXT 1 of 2 ----------------------------------------
 Source:  https://www.gnu.org/licenses/gpl-3.0.txt
 Method:  exact-bytes
 SHA-256: 3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986
@@ -679,7 +679,7 @@ Public License instead of this License.  But first, please read
 <https://www.gnu.org/licenses/why-not-lgpl.html>.
 -----END VERBATIM LICENSE TEXT 1-----
 
----8<--- VERBATIM LICENSE TEXT 2 of 2 ------------------------------------------
+---8<--- VERBATIM LICENSE TEXT 2 of 2 ----------------------------------------
 Source:  https://raw.githubusercontent.com/ontologyportal/sumo/master/Merge.kif (lines 1-46)
 Method:  html-extract
 SHA-256: 9d9d6b53b191826be7a7afca8b9e1d8e3eafdf5f2de44d74b0760124932f7993

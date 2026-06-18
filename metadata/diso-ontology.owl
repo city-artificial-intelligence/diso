@@ -170,6 +170,16 @@
     
 
 
+    <!-- https://city-artificial-intelligence.github.io/diso/ontology#redistributionStatus -->
+
+    <owl:DatatypeProperty rdf:about="https://city-artificial-intelligence.github.io/diso/ontology#redistributionStatus">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Whether DISO redistributes a member ontology&apos;s artefact (&quot;hosted&quot;) or has withdrawn it (&quot;withheld&quot; - e.g. because a right to redistribute could not be established). When withheld, the access point is the upstream source, not a DISO-hosted file.</rdfs:comment>
+        <rdfs:label>redistribution status</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression -->
 
     <owl:DatatypeProperty rdf:about="https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression">

@@ -4,8 +4,8 @@
 
 **DISO** is a collection of publicly available OWL ontologies covering the domains of **defence, intelligence, and security**. The resource is publicly available at this [DOI](https://doi.org/10.5281/zenodo.20059507).
 
-* ontology $\cdot$ [docs](docs/index.html) $\cdot$ [ttl](metadata/diso-ontology.ttl) $\cdot$ [owl](metadata/diso-ontology.owl)
-* dataset $\cdot$ [ttl](metadata/diso-network.ttl) $\cdot$ [owl](metadata/diso-network.owl)
+* ontology - [docs](docs/index.html) - [ttl](metadata/diso-ontology.ttl) - [owl](metadata/diso-ontology.owl)
+* dataset - [ttl](metadata/diso-network.ttl) - [owl](metadata/diso-network.owl)
 
 Base IRI: `https://city-artificial-intelligence.github.io/diso/`
 

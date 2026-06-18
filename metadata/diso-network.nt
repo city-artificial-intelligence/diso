@@ -143,7 +143,7 @@
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/OWL-S> <http://purl.org/dc/terms/title> "Semantic Markup for Web Services" .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/OWL-S> <http://www.w3.org/2000/01/rdf-schema#label> "OWL-S" .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/OWL-S> <http://purl.org/dc/terms/description> "An OWL ontology for describing Semantic Web services, enabling automated discovery, invocation and composition." .
-<https://city-artificial-intelligence.github.io/diso/dataset/ontology/OWL-S> <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "NOASSERTION" .
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/OWL-S> <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "Nokia AND LicenseRef-W3C-Document-License" .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/OWL-S> <https://city-artificial-intelligence.github.io/diso/ontology#landingPage> <http://www.daml.org/services/owl-s/> .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/OWL-S> <https://city-artificial-intelligence.github.io/diso/ontology#upstreamRDF> <https://www.daml.org/services/owl-s/1.2/Service.owl> .
 <https://city-artificial-intelligence.github.io/diso/dataset/cluster/agentic> <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/OWL-S> .
@@ -152,7 +152,7 @@
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/CoDAMoS> <http://purl.org/dc/terms/title> "Context-Driven Adaptation of Mobile Services" .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/CoDAMoS> <http://www.w3.org/2000/01/rdf-schema#label> "CoDAMoS" .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/CoDAMoS> <http://purl.org/dc/terms/description> "An ontology modelling user, platform, environment and service for context-aware applications in pervasive computing." .
-<https://city-artificial-intelligence.github.io/diso/dataset/ontology/CoDAMoS> <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "NOASSERTION" .
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/CoDAMoS> <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "LicenseRef-author-permission" .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/CoDAMoS> <https://city-artificial-intelligence.github.io/diso/ontology#landingPage> <http://lpis.csd.auth.gr/ontologies/ontolist.html> .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/CoDAMoS> <https://city-artificial-intelligence.github.io/diso/ontology#upstreamRDF> <http://lpis.csd.auth.gr/ontologies/CoDAMoS/CoDAMoS.owl> .
 <https://city-artificial-intelligence.github.io/diso/dataset/cluster/context-awareness> <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/CoDAMoS> .
@@ -320,7 +320,8 @@
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/UCO_2> <http://purl.org/dc/terms/title> "Unified Cybersecurity Ontology (Syed et al.)" .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/UCO_2> <http://www.w3.org/2000/01/rdf-schema#label> "UCO_2" .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/UCO_2> <http://purl.org/dc/terms/description> "A semantic ontology extending STIX with cyber-security standards (Syed et al.)." .
-<https://city-artificial-intelligence.github.io/diso/dataset/ontology/UCO_2> <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "NOASSERTION" .
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/UCO_2> <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "CC-BY-SA-4.0" .
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/UCO_2> <http://purl.org/dc/terms/license> <https://spdx.org/licenses/CC-BY-SA-4.0> .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/UCO_2> <https://city-artificial-intelligence.github.io/diso/ontology#landingPage> <https://github.com/Ebiquity/Unified-Cybersecurity-Ontology> .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/UCO_2> <https://city-artificial-intelligence.github.io/diso/ontology#upstreamRDF> <https://raw.githubusercontent.com/Ebiquity/Unified-Cybersecurity-Ontology/master/uco2.ttl> .
 <https://city-artificial-intelligence.github.io/diso/dataset/cluster/cyber-security> <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/UCO_2> .
@@ -375,7 +376,8 @@
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/MDISOnt> <http://purl.org/dc/terms/title> "Multi-dimensional Information Security Ontology" .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/MDISOnt> <http://www.w3.org/2000/01/rdf-schema#label> "MDISOnt" .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/MDISOnt> <http://purl.org/dc/terms/description> "A multi-dimensional information security ontology that decomposes security into dimensional views." .
-<https://city-artificial-intelligence.github.io/diso/dataset/ontology/MDISOnt> <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "NOASSERTION" .
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/MDISOnt> <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "CC-BY-4.0" .
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/MDISOnt> <http://purl.org/dc/terms/license> <https://spdx.org/licenses/CC-BY-4.0> .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/MDISOnt> <https://city-artificial-intelligence.github.io/diso/ontology#landingPage> <https://github.com/inesmeriah/MDISOnt> .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/MDISOnt> <https://city-artificial-intelligence.github.io/diso/ontology#upstreamRDF> <https://raw.githubusercontent.com/inesmeriah/MDISOnt/main/MDISOnt.owl> .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/MDISOnt> <https://city-artificial-intelligence.github.io/diso/ontology#mirror> <https://raw.githubusercontent.com/inesmeriah/MDISOnt/master/MDISOnt.owl> .
@@ -386,6 +388,7 @@
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/OntoSecRPA> <http://www.w3.org/2000/01/rdf-schema#label> "OntoSecRPA" .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/OntoSecRPA> <http://purl.org/dc/terms/description> "A security ontology for Robotic Process Automation: assets, risks, threats, vulnerabilities and countermeasures." .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/OntoSecRPA> <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "NOASSERTION" .
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/OntoSecRPA> <https://city-artificial-intelligence.github.io/diso/ontology#redistributionStatus> "withheld" .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/OntoSecRPA> <https://city-artificial-intelligence.github.io/diso/ontology#landingPage> <https://github.com/oleferovich/-OntoSecRPA> .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/OntoSecRPA> <https://city-artificial-intelligence.github.io/diso/ontology#upstreamRDF> <https://raw.githubusercontent.com/oleferovich/-OntoSecRPA/main/OntoSecRPA_2.owx> .
 <https://city-artificial-intelligence.github.io/diso/dataset/cluster/information-security> <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/OntoSecRPA> .
@@ -395,6 +398,7 @@
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/SecAOnto> <http://www.w3.org/2000/01/rdf-schema#label> "SecAOnto" .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/SecAOnto> <http://purl.org/dc/terms/description> "An ontology for security assessment, at the intersection of security and software assessment." .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/SecAOnto> <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "NOASSERTION" .
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/SecAOnto> <https://city-artificial-intelligence.github.io/diso/ontology#redistributionStatus> "withheld" .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/SecAOnto> <https://city-artificial-intelligence.github.io/diso/ontology#landingPage> <https://github.com/ferruciof/Files/tree/master/SecAOnto> .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/SecAOnto> <https://city-artificial-intelligence.github.io/diso/ontology#upstreamRDF> <https://raw.githubusercontent.com/ferruciof/Files/master/SecAOnto/SecAOnto_V4.owl> .
 <https://city-artificial-intelligence.github.io/diso/dataset/cluster/information-security> <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/SecAOnto> .
@@ -403,7 +407,7 @@
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/SO> <http://purl.org/dc/terms/title> "Security Ontology" .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/SO> <http://www.w3.org/2000/01/rdf-schema#label> "SO" .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/SO> <http://purl.org/dc/terms/description> "A security ontology modelling assets, threats, vulnerabilities and countermeasures, with extension ontologies." .
-<https://city-artificial-intelligence.github.io/diso/dataset/ontology/SO> <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "NOASSERTION" .
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/SO> <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "LicenseRef-author-permission" .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/SO> <https://city-artificial-intelligence.github.io/diso/ontology#landingPage> <https://www.ida.liu.se/divisions/adit/security/projects/secont/> .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/SO> <https://city-artificial-intelligence.github.io/diso/ontology#upstreamRDF> <https://www.ida.liu.se/divisions/adit/security/projects/secont/Security.owl> .
 <https://city-artificial-intelligence.github.io/diso/dataset/cluster/information-security> <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/SO> .
@@ -423,7 +427,8 @@
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/IRIS> <http://purl.org/dc/terms/title> "IRIS Risk Core Ontology" .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/IRIS> <http://www.w3.org/2000/01/rdf-schema#label> "IRIS" .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/IRIS> <http://purl.org/dc/terms/description> "A core ontology of terms and relationships for risk identification and assessment." .
-<https://city-artificial-intelligence.github.io/diso/dataset/ontology/IRIS> <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "NOASSERTION" .
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/IRIS> <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "CC-BY-NC-SA-4.0" .
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/IRIS> <http://purl.org/dc/terms/license> <https://spdx.org/licenses/CC-BY-NC-SA-4.0> .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/IRIS> <https://city-artificial-intelligence.github.io/diso/ontology#landingPage> <http://lpis.csd.auth.gr/ontologies/ontolist.html> .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/IRIS> <https://city-artificial-intelligence.github.io/diso/ontology#upstreamRDF> <http://lpis.csd.auth.gr/ontologies/2010/iris.owl> .
 <https://city-artificial-intelligence.github.io/diso/dataset/cluster/risk-management> <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/IRIS> .
@@ -480,7 +485,8 @@
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/BOnSAI> <http://purl.org/dc/terms/title> "Smart Building Ontology for Ambient Intelligence" .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/BOnSAI> <http://www.w3.org/2000/01/rdf-schema#label> "BOnSAI" .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/BOnSAI> <http://purl.org/dc/terms/description> "A smart-building ontology for ambient intelligence, extending OWL-S and CoDAMoS." .
-<https://city-artificial-intelligence.github.io/diso/dataset/ontology/BOnSAI> <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "NOASSERTION" .
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/BOnSAI> <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "CC-BY-NC-SA-4.0" .
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/BOnSAI> <http://purl.org/dc/terms/license> <https://spdx.org/licenses/CC-BY-NC-SA-4.0> .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/BOnSAI> <https://city-artificial-intelligence.github.io/diso/ontology#landingPage> <http://lpis.csd.auth.gr/ontologies/ontolist.html> .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/BOnSAI> <https://city-artificial-intelligence.github.io/diso/ontology#upstreamRDF> <http://lpis.csd.auth.gr/ontologies/bonsai/BOnSAI.owl> .
 <https://city-artificial-intelligence.github.io/diso/dataset/cluster/smart-buildings> <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/BOnSAI> .
@@ -514,6 +520,7 @@
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/IMF> <http://www.w3.org/2000/01/rdf-schema#label> "IMF" .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/IMF> <http://purl.org/dc/terms/description> "An ontology for modelling facility assets across the design, construction and operation of industrial facilities." .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/IMF> <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "NOASSERTION" .
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/IMF> <https://city-artificial-intelligence.github.io/diso/ontology#redistributionStatus> "withheld" .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/IMF> <https://city-artificial-intelligence.github.io/diso/ontology#landingPage> <https://github.com/imf-lab/imf-ontology-semweb> .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/IMF> <https://city-artificial-intelligence.github.io/diso/ontology#upstreamRDF> <https://ns.imfid.org/20240531/imf-ontology.owl.ttl> .
 <https://city-artificial-intelligence.github.io/diso/dataset/cluster/smart-buildings> <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/IMF> .
@@ -541,7 +548,7 @@
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/SmartEnv> <http://purl.org/dc/terms/title> "Smart Home Environments Ontology (eCare@Home)" .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/SmartEnv> <http://www.w3.org/2000/01/rdf-schema#label> "SmartEnv" .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/SmartEnv> <http://purl.org/dc/terms/description> "A smart-home environment ontology network (eCare@Home) covering time, geometry, events, sensing, situation and place." .
-<https://city-artificial-intelligence.github.io/diso/dataset/ontology/SmartEnv> <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "NOASSERTION" .
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/SmartEnv> <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "LicenseRef-author-permission" .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/SmartEnv> <https://city-artificial-intelligence.github.io/diso/ontology#landingPage> <http://ecareathome-ontology.mpi.aass.oru.se/> .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/SmartEnv> <https://city-artificial-intelligence.github.io/diso/ontology#upstreamRDF> <https://w3id.org/smartenvironment/smartenv.owl> .
 <https://city-artificial-intelligence.github.io/diso/dataset/cluster/smart-homes> <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/SmartEnv> .
@@ -582,7 +589,8 @@
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/DUL> <http://purl.org/dc/terms/title> "DOLCE+DnS Ultralite" .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/DUL> <http://www.w3.org/2000/01/rdf-schema#label> "DUL" .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/DUL> <http://purl.org/dc/terms/description> "A lightweight simplification of parts of the DOLCE foundational ontology." .
-<https://city-artificial-intelligence.github.io/diso/dataset/ontology/DUL> <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "NOASSERTION" .
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/DUL> <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "CC-BY-SA-3.0" .
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/DUL> <http://purl.org/dc/terms/license> <https://spdx.org/licenses/CC-BY-SA-3.0> .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/DUL> <https://city-artificial-intelligence.github.io/diso/ontology#landingPage> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl> .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/DUL> <https://city-artificial-intelligence.github.io/diso/ontology#upstreamRDF> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl> .
 <https://city-artificial-intelligence.github.io/diso/dataset/cluster/upper-level> <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/DUL> .

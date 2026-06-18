@@ -54,6 +54,13 @@ diso:spdxLicenseExpression
     rdfs:label "SPDX licence expression" ;
     rdfs:comment "The licence of a dataset expressed as an SPDX licence expression, recorded verbatim. Captures compound expressions (e.g. 'MIT AND CC-BY-4.0') and the value 'NOASSERTION' where no licence could be established." .
 
+diso:redistributionStatus
+    a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    rdfs:label "redistribution status" ;
+    rdfs:comment "Whether DISO redistributes a member ontology's artefact (\"hosted\") or has withdrawn it (\"withheld\" - e.g. because a right to redistribute could not be established). When withheld, the access point is the upstream source, not a DISO-hosted file." .
+
+
 #################################################################
 #    Access-point properties (where a member ontology's RDF can be
 #    obtained). The local DISO copy uses void:dataDump directly;

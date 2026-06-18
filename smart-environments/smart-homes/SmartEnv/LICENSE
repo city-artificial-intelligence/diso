@@ -1,21 +1,7 @@
-Ontology:               Smart Home Environments Ontology (eCare@Home) (SmartEnv)
-DISO directory:         smart-environments/smart-homes/SmartEnv
-Ontology files:         SmartEnvMerged.ttl (plus README.md recording provenance)
-Obtained from:          http://ecareathome-ontology.mpi.aass.oru.se/ (per the
-                        local README.md: the master ontology SmartEnv.owl and
-                        its 8 imported component pattern ontologies were merged
-                        with Protege into SmartEnvMerged.ttl). The canonical
-                        identifier https://w3id.org/smartenvironment/smartenv.owl
-                        redirects (302) to the same host.
-License(s):             none located for the SmartEnv ontology itself
-                        (SPDX: NOASSERTION)
-Rights holder(s):       not established. Presumed: the ontology authors Marjan
-                        Alirezaie, Karl Hammar and Eva Blomqvist, and/or the
-                        E-care@home project consortium (coordinated at Orebro
-                        University, Sweden; funded by the Swedish Knowledge
-                        Foundation), per the publishing paper "SmartEnv as a
-                        Network of Ontology Patterns", Semantic Web 9(6), 2018,
-                        DOI 10.3233/SW-180303.
-Required attribution:   n/a — no license
-License source(s):      none located
-Retrieved:              2026-06-13
+---8<--- VERBATIM LICENSE TEXT 1 of 1 ----------------------------------------
+Source:  author correspondence received 2026-06-18 (not publicly reproduced)
+Method:  author-correspondence
+SHA-256: 38f4ca4376be15e6f9ead78c4e4ec22b11a770e5cb7189622f65a626c1110c44
+-----BEGIN VERBATIM LICENSE TEXT 1-----
+DISO author-permission grant. The author(s) of Smart Home Environments Ontology (eCare@Home) (SmartEnv) granted City St George's, University of London written permission to use and redistribute this ontology within DISO. Recorded from author correspondence received 2026-06-18. The correspondence is not publicly reproduced here; the grant is verifiable by contacting the ontology's original authors directly. SPDX: LicenseRef-author-permission.
+-----END VERBATIM LICENSE TEXT 1-----

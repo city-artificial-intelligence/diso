@@ -1,5 +1,5 @@
 ---8<--- VERBATIM LICENSE TEXT 1 of 1 ----------------------------------------
-Source:  cyber-security/ITIO/itio.owl (lines 3-12)
+Source:  cyber-security/ITIO/itio.owl (lines 3-12, inside the XML comment at lines 2-13); identical notice served upstream at https://www.sei.cmu.edu/documents/1261/2016_005_112_465537.owl
 Method:  local-file
 SHA-256: 71618bfbecbd70c7409eb9117779c7be5f4b7a71485312a45dab63adfe2e9669
 -----BEGIN VERBATIM LICENSE TEXT 1-----

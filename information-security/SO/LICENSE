@@ -1,20 +1,7 @@
-Ontology:               Security Ontology (SO)
-DISO directory:         information-security/SO
-Ontology files:         Security.owl, SecurityViews.owl, SourceCodeAnalysis.owl,
-                        MemoryProtection.owl, SecurityLiterature.owl,
-                        SOmerged.ttl, catalog-v001.xml
-Obtained from:          https://www.ida.liu.se/divisions/adit/security/projects/secont/
-                        (per README.md in this directory; SecurityLiterature.owl
-                        from https://www.ida.liu.se/divisions/adit/security/projects/secont/SecurityLiterature.owl)
-License(s):             None located (SPDX: NOASSERTION)
-Rights holder(s):       Not established by an explicit notice. Presumed:
-                        Almut Herzog (creator, per dc:creator in the ontology
-                        files), John Wilander (contributor, per dc:contributor
-                        in MemoryProtection.owl and SourceCodeAnalysis.owl),
-                        and/or Dept. of Computer and Information Science,
-                        Linköpings universitet, Sweden (publisher, per
-                        dc:publisher in Security.owl). Co-authors of the
-                        associated publication: Nahid Shahmehri, Claudiu Duma.
-Required attribution:   n/a — no license
-License source(s):      none found
-Retrieved:              2026-06-13
+---8<--- VERBATIM LICENSE TEXT 1 of 1 ----------------------------------------
+Source:  author correspondence received 2026-06-18 (not publicly reproduced)
+Method:  author-correspondence
+SHA-256: e0bb290cfb793bfa432b9f4c58c2cbf1dff1421c7a85cbb8ea617422f6d776e0
+-----BEGIN VERBATIM LICENSE TEXT 1-----
+DISO author-permission grant. The author(s) of Security Ontology (SO) granted City St George's, University of London written permission to use and redistribute this ontology within DISO. Recorded from author correspondence received 2026-06-18. The correspondence is not publicly reproduced here; the grant is verifiable by contacting the ontology's original authors directly. SPDX: LicenseRef-author-permission.
+-----END VERBATIM LICENSE TEXT 1-----

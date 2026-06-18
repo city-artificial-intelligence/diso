@@ -512,8 +512,9 @@
 
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/BOnSAI">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
-        <diso:spdxLicenseExpression>NOASSERTION</diso:spdxLicenseExpression>
+        <diso:spdxLicenseExpression>CC-BY-NC-SA-4.0</diso:spdxLicenseExpression>
         <dcterms:description>A smart-building ontology for ambient intelligence, extending OWL-S and CoDAMoS.</dcterms:description>
+        <dcterms:license rdf:resource="https://spdx.org/licenses/CC-BY-NC-SA-4.0"/>
         <dcterms:title>Smart Building Ontology for Ambient Intelligence</dcterms:title>
         <rdfs:label>BOnSAI</rdfs:label>
         <diso:landingPage rdf:resource="http://lpis.csd.auth.gr/ontologies/ontolist.html"/>
@@ -673,7 +674,7 @@
 
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/CoDAMoS">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
-        <diso:spdxLicenseExpression>NOASSERTION</diso:spdxLicenseExpression>
+        <diso:spdxLicenseExpression>LicenseRef-author-permission</diso:spdxLicenseExpression>
         <dcterms:description>An ontology modelling user, platform, environment and service for context-aware applications in pervasive computing.</dcterms:description>
         <dcterms:title>Context-Driven Adaptation of Mobile Services</dcterms:title>
         <rdfs:label>CoDAMoS</rdfs:label>
@@ -733,8 +734,9 @@
 
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/DUL">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
-        <diso:spdxLicenseExpression>NOASSERTION</diso:spdxLicenseExpression>
+        <diso:spdxLicenseExpression>CC-BY-SA-3.0</diso:spdxLicenseExpression>
         <dcterms:description>A lightweight simplification of parts of the DOLCE foundational ontology.</dcterms:description>
+        <dcterms:license rdf:resource="https://spdx.org/licenses/CC-BY-SA-3.0"/>
         <dcterms:title>DOLCE+DnS Ultralite</dcterms:title>
         <rdfs:label>DUL</rdfs:label>
         <diso:landingPage rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl"/>
@@ -832,6 +834,7 @@
 
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/IMF">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
+        <diso:redistributionStatus>withheld</diso:redistributionStatus>
         <diso:spdxLicenseExpression>NOASSERTION</diso:spdxLicenseExpression>
         <dcterms:description>An ontology for modelling facility assets across the design, construction and operation of industrial facilities.</dcterms:description>
         <dcterms:title>Information Modelling Framework</dcterms:title>
@@ -846,8 +849,9 @@
 
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/IRIS">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
-        <diso:spdxLicenseExpression>NOASSERTION</diso:spdxLicenseExpression>
+        <diso:spdxLicenseExpression>CC-BY-NC-SA-4.0</diso:spdxLicenseExpression>
         <dcterms:description>A core ontology of terms and relationships for risk identification and assessment.</dcterms:description>
+        <dcterms:license rdf:resource="https://spdx.org/licenses/CC-BY-NC-SA-4.0"/>
         <dcterms:title>IRIS Risk Core Ontology</dcterms:title>
         <rdfs:label>IRIS</rdfs:label>
         <diso:landingPage rdf:resource="http://lpis.csd.auth.gr/ontologies/ontolist.html"/>
@@ -889,8 +893,9 @@
 
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/MDISOnt">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
-        <diso:spdxLicenseExpression>NOASSERTION</diso:spdxLicenseExpression>
+        <diso:spdxLicenseExpression>CC-BY-4.0</diso:spdxLicenseExpression>
         <dcterms:description>A multi-dimensional information security ontology that decomposes security into dimensional views.</dcterms:description>
+        <dcterms:license rdf:resource="https://spdx.org/licenses/CC-BY-4.0"/>
         <dcterms:title>Multi-dimensional Information Security Ontology</dcterms:title>
         <rdfs:label>MDISOnt</rdfs:label>
         <diso:landingPage rdf:resource="https://github.com/inesmeriah/MDISOnt"/>
@@ -904,7 +909,7 @@
 
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/OWL-S">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
-        <diso:spdxLicenseExpression>NOASSERTION</diso:spdxLicenseExpression>
+        <diso:spdxLicenseExpression>Nokia AND LicenseRef-W3C-Document-License</diso:spdxLicenseExpression>
         <dcterms:description>An OWL ontology for describing Semantic Web services, enabling automated discovery, invocation and composition.</dcterms:description>
         <dcterms:title>Semantic Markup for Web Services</dcterms:title>
         <rdfs:label>OWL-S</rdfs:label>
@@ -918,6 +923,7 @@
 
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/OntoSecRPA">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
+        <diso:redistributionStatus>withheld</diso:redistributionStatus>
         <diso:spdxLicenseExpression>NOASSERTION</diso:spdxLicenseExpression>
         <dcterms:description>A security ontology for Robotic Process Automation: assets, risks, threats, vulnerabilities and countermeasures.</dcterms:description>
         <dcterms:title>Security Ontology for Robotic Process Automation</dcterms:title>
@@ -1012,7 +1018,7 @@
 
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/SO">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
-        <diso:spdxLicenseExpression>NOASSERTION</diso:spdxLicenseExpression>
+        <diso:spdxLicenseExpression>LicenseRef-author-permission</diso:spdxLicenseExpression>
         <dcterms:description>A security ontology modelling assets, threats, vulnerabilities and countermeasures, with extension ontologies.</dcterms:description>
         <dcterms:title>Security Ontology</dcterms:title>
         <rdfs:label>SO</rdfs:label>
@@ -1087,6 +1093,7 @@
 
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/SecAOnto">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
+        <diso:redistributionStatus>withheld</diso:redistributionStatus>
         <diso:spdxLicenseExpression>NOASSERTION</diso:spdxLicenseExpression>
         <dcterms:description>An ontology for security assessment, at the intersection of security and software assessment.</dcterms:description>
         <dcterms:title>Security Assessment Ontology</dcterms:title>
@@ -1101,7 +1108,7 @@
 
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/SmartEnv">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
-        <diso:spdxLicenseExpression>NOASSERTION</diso:spdxLicenseExpression>
+        <diso:spdxLicenseExpression>LicenseRef-author-permission</diso:spdxLicenseExpression>
         <dcterms:description>A smart-home environment ontology network (eCare@Home) covering time, geometry, events, sensing, situation and place.</dcterms:description>
         <dcterms:title>Smart Home Environments Ontology (eCare@Home)</dcterms:title>
         <rdfs:label>SmartEnv</rdfs:label>
@@ -1142,8 +1149,9 @@
 
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/UCO_2">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
-        <diso:spdxLicenseExpression>NOASSERTION</diso:spdxLicenseExpression>
+        <diso:spdxLicenseExpression>CC-BY-SA-4.0</diso:spdxLicenseExpression>
         <dcterms:description>A semantic ontology extending STIX with cyber-security standards (Syed et al.).</dcterms:description>
+        <dcterms:license rdf:resource="https://spdx.org/licenses/CC-BY-SA-4.0"/>
         <dcterms:title>Unified Cybersecurity Ontology (Syed et al.)</dcterms:title>
         <rdfs:label>UCO_2</rdfs:label>
         <diso:landingPage rdf:resource="https://github.com/Ebiquity/Unified-Cybersecurity-Ontology"/>

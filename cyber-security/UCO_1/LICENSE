@@ -1,4 +1,4 @@
----8<--- VERBATIM LICENSE TEXT 1 of 2 ------------------------------------------
+---8<--- VERBATIM LICENSE TEXT 1 of 2 ----------------------------------------
 Source:  https://raw.githubusercontent.com/ucoProject/UCO/1.4.0/LICENSE
 Method:  exact-bytes
 SHA-256: c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4
@@ -206,7 +206,7 @@ SHA-256: c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4
    limitations under the License.
 -----END VERBATIM LICENSE TEXT 1-----
 
----8<--- VERBATIM LICENSE TEXT 2 of 2 ------------------------------------------
+---8<--- VERBATIM LICENSE TEXT 2 of 2 ----------------------------------------
 Source:  https://creativecommons.org/licenses/by/3.0/legalcode
 Method:  html-extract
 SHA-256: b6e3adb3bdd77f7c411eb161ca64430461fda905f613b00cf45ab3cdd1da2770

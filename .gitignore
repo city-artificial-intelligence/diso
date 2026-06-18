@@ -1,2 +1,7 @@
 .DS_store
 
+# Redistribution-withheld ontology artefacts (no establishable right to redistribute at this present moment in time; waiting on response from authors).
+# Withdrawn from the DISO distribution; node/record/link remain, access points upstream (as we can safely link).
+information-security/OntoSecRPA/OntoSecRPA_2.owl
+information-security/SecAOnto/SecAOnto_V4.owl
+smart-environments/smart-buildings/IMF/imf.ttl
