@@ -19,6 +19,9 @@
 # http://purl.org/dc/terms/abstract
 <http://purl.org/dc/terms/abstract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
+# http://purl.org/dc/terms/bibliographicCitation
+<http://purl.org/dc/terms/bibliographicCitation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
 # http://purl.org/dc/terms/creator
 <http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
@@ -55,21 +58,21 @@
 # http://xmlns.com/foaf/0.1/page
 <http://xmlns.com/foaf/0.1/page> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
-# https://city-artificial-intelligence.github.io/diso/ontology#projectPage
-<https://city-artificial-intelligence.github.io/diso/ontology#projectPage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<https://city-artificial-intelligence.github.io/diso/ontology#projectPage> <http://www.w3.org/2000/01/rdf-schema#comment> "A human-facing page for the ontology — its project homepage or source repository." .
-<https://city-artificial-intelligence.github.io/diso/ontology#projectPage> <http://www.w3.org/2000/01/rdf-schema#label> "project page" .
-<https://city-artificial-intelligence.github.io/diso/ontology#projectPage> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://xmlns.com/foaf/0.1/page> .
-# 
 # https://city-artificial-intelligence.github.io/diso/ontology#mirror
 <https://city-artificial-intelligence.github.io/diso/ontology#mirror> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<https://city-artificial-intelligence.github.io/diso/ontology#mirror> <http://www.w3.org/2000/01/rdf-schema#comment> "An alternative location of the ontology's RDF: a DISO-hosted copy, a version-pinned URL, or a web-archive snapshot." .
+<https://city-artificial-intelligence.github.io/diso/ontology#mirror> <http://www.w3.org/2000/01/rdf-schema#comment> "An alternative location of the ontology's RDF: a DISO-hosted copy, a version-pinned URL, or a web-archive snapshot. Canonical-vs-mirror precedence: pinned-commit upstream, then branch upstream, then web-archive, then the DISO-hosted copy." .
 <https://city-artificial-intelligence.github.io/diso/ontology#mirror> <http://www.w3.org/2000/01/rdf-schema#label> "mirror" .
 <https://city-artificial-intelligence.github.io/diso/ontology#mirror> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://rdfs.org/ns/void#dataDump> .
 # 
+# https://city-artificial-intelligence.github.io/diso/ontology#projectPage
+<https://city-artificial-intelligence.github.io/diso/ontology#projectPage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<https://city-artificial-intelligence.github.io/diso/ontology#projectPage> <http://www.w3.org/2000/01/rdf-schema#comment> "A human-facing page for the ontology - its project homepage or source repository. Formerly diso:landingPage." .
+<https://city-artificial-intelligence.github.io/diso/ontology#projectPage> <http://www.w3.org/2000/01/rdf-schema#label> "project page" .
+<https://city-artificial-intelligence.github.io/diso/ontology#projectPage> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://xmlns.com/foaf/0.1/page> .
+# 
 # https://city-artificial-intelligence.github.io/diso/ontology#upstreamSource
 <https://city-artificial-intelligence.github.io/diso/ontology#upstreamSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<https://city-artificial-intelligence.github.io/diso/ontology#upstreamSource> <http://www.w3.org/2000/01/rdf-schema#comment> "The authoritative RDF file at the ontology's origin (RDF/XML where available)." .
+<https://city-artificial-intelligence.github.io/diso/ontology#upstreamSource> <http://www.w3.org/2000/01/rdf-schema#comment> "The authoritative RDF file at the ontology's origin (RDF/XML where available). Formerly diso:upstreamRDF." .
 <https://city-artificial-intelligence.github.io/diso/ontology#upstreamSource> <http://www.w3.org/2000/01/rdf-schema#label> "upstream source" .
 <https://city-artificial-intelligence.github.io/diso/ontology#upstreamSource> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://rdfs.org/ns/void#dataDump> .
 # 
@@ -94,6 +97,12 @@
 # #################################################################
 # 
 # 
+# https://city-artificial-intelligence.github.io/diso/ontology#redistributionStatus
+<https://city-artificial-intelligence.github.io/diso/ontology#redistributionStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://city-artificial-intelligence.github.io/diso/ontology#redistributionStatus> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://city-artificial-intelligence.github.io/diso/ontology#redistributionStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "Whether DISO redistributes a member ontology's artefact (\"hosted\") or has withdrawn it (\"withheld\" - e.g. because a right to redistribute could not be established). When withheld, the access point is the upstream source, not a DISO-hosted file." .
+<https://city-artificial-intelligence.github.io/diso/ontology#redistributionStatus> <http://www.w3.org/2000/01/rdf-schema#label> "redistribution status" .
+# 
 # https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression
 <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
@@ -115,7 +124,7 @@
 # https://city-artificial-intelligence.github.io/diso/ontology#Cluster
 <https://city-artificial-intelligence.github.io/diso/ontology#Cluster> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://city-artificial-intelligence.github.io/diso/ontology#Cluster> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdfs.org/ns/void#Dataset> .
-<https://city-artificial-intelligence.github.io/diso/ontology#Cluster> <http://www.w3.org/2000/01/rdf-schema#comment> "A subdomain grouping (cluster) within an ontology network. Its void:subset members are member ontologies, or — for a grouping cluster — further sub-clusters." .
+<https://city-artificial-intelligence.github.io/diso/ontology#Cluster> <http://www.w3.org/2000/01/rdf-schema#comment> "A subdomain grouping (cluster) within an ontology network. Its void:subset members are member ontologies, or - for a grouping cluster - further sub-clusters." .
 <https://city-artificial-intelligence.github.io/diso/ontology#Cluster> <http://www.w3.org/2000/01/rdf-schema#label> "Cluster" .
 # 
 # https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology

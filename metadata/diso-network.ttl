@@ -786,7 +786,7 @@
     <http://www.w3.org/2000/01/rdf-schema#label> "ThinkHome" ;
     <http://purl.org/dc/terms/description> "A smart-home ontology for home control and energy efficiency." ;
     <http://purl.org/dc/terms/bibliographicCitation> "Christian Reinisch, Mario J. Kofler, Félix Iglesias, Wolfgang Kastner. \"ThinkHome Energy Efficiency in Future Smart Homes.\" EURASIP Journal on Embedded Systems, vol. 2011, Article ID 104617, 18 pp., 2011. DOI: 10.1155/2011/104617." ;
-    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "NOASSERTION" ;
+    <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "CC-BY-4.0" ;
     <http://rdfs.org/ns/void#dataDump> <https://city-artificial-intelligence.github.io/diso/smart-environments/smart-homes/ThinkHome/ThinkHomeMerged.ttl> ;
     <https://city-artificial-intelligence.github.io/diso/ontology#projectPage> <https://www.auto.tuwien.ac.at/downloads/thinkhome/> .
 

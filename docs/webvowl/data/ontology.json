@@ -37,16 +37,16 @@
         "value" : "1.0.0",
         "type" : "label"
       } ],
-      "title" : [ {
-        "identifier" : "title",
-        "language" : "undefined",
-        "value" : "The DISO Vocabulary",
-        "type" : "label"
-      } ],
       "issued" : [ {
         "identifier" : "issued",
         "language" : "undefined",
         "value" : "2026-05-07",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "undefined",
+        "value" : "The DISO Vocabulary",
         "type" : "label"
       } ],
       "seeAlso" : [ {
@@ -62,17 +62,20 @@
     "id" : "0",
     "type" : "owl:Class"
   }, {
+    "id" : "5",
+    "type" : "owl:Thing"
+  }, {
     "id" : "1",
     "type" : "owl:Class"
   }, {
     "id" : "3",
     "type" : "owl:Class"
   }, {
-    "id" : "7",
+    "id" : "6",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "8",
-    "type" : "owl:Thing"
+    "id" : "10",
+    "type" : "rdfs:Datatype"
   }, {
     "id" : "2",
     "type" : "owl:Class"
@@ -87,6 +90,13 @@
     "subClasses" : [ "1", "2", "3" ],
     "attributes" : [ "external" ],
     "id" : "0"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "5",
+    "label" : {
+      "undefined" : "Thing"
+    }
   }, {
     "iri" : "https://city-artificial-intelligence.github.io/diso/ontology#Cluster",
     "baseIri" : "https://city-artificial-intelligence.github.io/diso/ontology",
@@ -116,16 +126,16 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "7",
+    "id" : "6",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
-    "iri" : "http://www.w3.org/2002/07/owl#Thing",
-    "baseIri" : "http://owl2vowl.de",
-    "id" : "8",
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "10",
     "label" : {
-      "undefined" : "Thing"
+      "IRI-based" : "string"
     }
   }, {
     "iri" : "https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology",
@@ -143,45 +153,62 @@
   } ],
   "property" : [ {
     "id" : "4",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "7",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "5",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "6",
+    "id" : "8",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "9",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "11",
     "type" : "owl:datatypeProperty"
   } ],
   "propertyAttribute" : [ {
-    "range" : "0",
-    "domain" : "1",
-    "attributes" : [ "object", "anonymous" ],
+    "iri" : "https://city-artificial-intelligence.github.io/diso/ontology#redistributionStatus",
+    "baseIri" : "https://city-artificial-intelligence.github.io/diso/ontology",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "redistributionStatus",
+      "undefined" : "redistribution status"
+    },
+    "domain" : "5",
+    "comment" : {
+      "undefined" : "Whether DISO redistributes a member ontology's artefact (\"hosted\") or has withdrawn it (\"withheld\" - e.g. because a right to redistribute could not be established). When withheld, the access point is the upstream source, not a DISO-hosted file."
+    },
+    "attributes" : [ "datatype" ],
     "id" : "4"
   }, {
     "range" : "0",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "7"
+  }, {
+    "range" : "0",
     "domain" : "2",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "5"
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "8"
   }, {
     "range" : "0",
     "domain" : "3",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "6"
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "9"
   }, {
     "iri" : "https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression",
     "baseIri" : "https://city-artificial-intelligence.github.io/diso/ontology",
-    "range" : "7",
+    "range" : "10",
     "label" : {
       "IRI-based" : "spdxLicenseExpression",
       "undefined" : "SPDX licence expression"
     },
-    "domain" : "8",
+    "domain" : "5",
     "comment" : {
       "undefined" : "The licence of a dataset expressed as an SPDX licence expression, recorded verbatim. Captures compound expressions (e.g. 'MIT AND CC-BY-4.0') and the value 'NOASSERTION' where no licence could be established."
     },
     "attributes" : [ "datatype" ],
-    "id" : "9"
+    "id" : "11"
   } ]
 }

@@ -24,6 +24,10 @@
 <http://purl.org/dc/terms/abstract> rdf:type owl:AnnotationProperty .
 
 
+###  http://purl.org/dc/terms/bibliographicCitation
+<http://purl.org/dc/terms/bibliographicCitation> rdf:type owl:AnnotationProperty .
+
+
 ###  http://purl.org/dc/terms/creator
 <http://purl.org/dc/terms/creator> rdf:type owl:AnnotationProperty .
 
@@ -72,25 +76,25 @@ rdfs:label rdf:type owl:AnnotationProperty .
 <http://xmlns.com/foaf/0.1/page> rdf:type owl:AnnotationProperty .
 
 
-###  https://city-artificial-intelligence.github.io/diso/ontology#projectPage
-:projectPage rdf:type owl:AnnotationProperty ;
-             rdfs:comment "A human-facing page for the ontology — its project homepage or source repository." ;
-             rdfs:label "project page" ;
-             rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/page> .
-
-
 ###  https://city-artificial-intelligence.github.io/diso/ontology#mirror
 :mirror rdf:type owl:AnnotationProperty ;
-        rdfs:comment "An alternative location of the ontology's RDF: a DISO-hosted copy, a version-pinned URL, or a web-archive snapshot." ;
+        rdfs:comment "An alternative location of the ontology's RDF: a DISO-hosted copy, a version-pinned URL, or a web-archive snapshot. Canonical-vs-mirror precedence: pinned-commit upstream, then branch upstream, then web-archive, then the DISO-hosted copy." ;
         rdfs:label "mirror" ;
         rdfs:subPropertyOf <http://rdfs.org/ns/void#dataDump> .
 
 
+###  https://city-artificial-intelligence.github.io/diso/ontology#projectPage
+:projectPage rdf:type owl:AnnotationProperty ;
+             rdfs:comment "A human-facing page for the ontology - its project homepage or source repository. Formerly diso:landingPage." ;
+             rdfs:label "project page" ;
+             rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/page> .
+
+
 ###  https://city-artificial-intelligence.github.io/diso/ontology#upstreamSource
 :upstreamSource rdf:type owl:AnnotationProperty ;
-             rdfs:comment "The authoritative RDF file at the ontology's origin (RDF/XML where available)." ;
-             rdfs:label "upstream source" ;
-             rdfs:subPropertyOf <http://rdfs.org/ns/void#dataDump> .
+                rdfs:comment "The authoritative RDF file at the ontology's origin (RDF/XML where available). Formerly diso:upstreamRDF." ;
+                rdfs:label "upstream source" ;
+                rdfs:subPropertyOf <http://rdfs.org/ns/void#dataDump> .
 
 
 #################################################################
@@ -104,6 +108,13 @@ xsd:date rdf:type rdfs:Datatype .
 #################################################################
 #    Data properties
 #################################################################
+
+###  https://city-artificial-intelligence.github.io/diso/ontology#redistributionStatus
+:redistributionStatus rdf:type owl:DatatypeProperty ;
+                      rdfs:range xsd:string ;
+                      rdfs:comment "Whether DISO redistributes a member ontology's artefact (\"hosted\") or has withdrawn it (\"withheld\" - e.g. because a right to redistribute could not be established). When withheld, the access point is the upstream source, not a DISO-hosted file." ;
+                      rdfs:label "redistribution status" .
+
 
 ###  https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression
 :spdxLicenseExpression rdf:type owl:DatatypeProperty ;
@@ -123,7 +134,7 @@ xsd:date rdf:type rdfs:Datatype .
 ###  https://city-artificial-intelligence.github.io/diso/ontology#Cluster
 :Cluster rdf:type owl:Class ;
          rdfs:subClassOf <http://rdfs.org/ns/void#Dataset> ;
-         rdfs:comment "A subdomain grouping (cluster) within an ontology network. Its void:subset members are member ontologies, or — for a grouping cluster — further sub-clusters." ;
+         rdfs:comment "A subdomain grouping (cluster) within an ontology network. Its void:subset members are member ontologies, or - for a grouping cluster - further sub-clusters." ;
          rdfs:label "Cluster" .
 
 

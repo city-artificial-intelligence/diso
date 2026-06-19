@@ -1177,7 +1177,7 @@
 
     <owl:NamedIndividual rdf:about="https://city-artificial-intelligence.github.io/diso/dataset/ontology/ThinkHome">
         <rdf:type rdf:resource="https://city-artificial-intelligence.github.io/diso/ontology#MemberOntology"/>
-        <diso:spdxLicenseExpression>NOASSERTION</diso:spdxLicenseExpression>
+        <diso:spdxLicenseExpression>CC-BY-4.0</diso:spdxLicenseExpression>
         <dcterms:bibliographicCitation>Christian Reinisch, Mario J. Kofler, Félix Iglesias, Wolfgang Kastner. &quot;ThinkHome Energy Efficiency in Future Smart Homes.&quot; EURASIP Journal on Embedded Systems, vol. 2011, Article ID 104617, 18 pp., 2011. DOI: 10.1155/2011/104617.</dcterms:bibliographicCitation>
         <dcterms:description>A smart-home ontology for home control and energy efficiency.</dcterms:description>
         <dcterms:title>ThinkHome Smart Home Ontology</dcterms:title>

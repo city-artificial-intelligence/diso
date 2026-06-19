@@ -11,7 +11,7 @@ This section provides details for each class and property defined by The DISO Vo
   <h3>Cluster<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://city-artificial-intelligence.github.io/diso/ontology#Cluster</p>
   <div class="comment">
-   <span class="markdown">A subdomain grouping (cluster) within an ontology network. Its void:subset members are member ontologies, or — for a grouping cluster — further sub-clusters.</span>
+   <span class="markdown">A subdomain grouping (cluster) within an ontology network. Its void:subset members are member ontologies, or - for a grouping cluster - further sub-clusters.</span>
   </div>
   <dl class="description">
    <dt>
@@ -55,8 +55,26 @@ This section provides details for each class and property defined by The DISO Vo
 </div><div xmlns:widoco="https://w3id.org/widoco/vocab#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="dataproperties">
  <h3 id="dataproperties-headline" class="list">Data Properties</h3>
  <ul class="hlist">
+  <li><a href="#redistributionStatus" title="https://city-artificial-intelligence.github.io/diso/ontology#redistributionStatus">redistribution status</a></li>
   <li><a href="#spdxLicenseExpression" title="https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression">SPDX licence expression</a></li>
  </ul>
+ <div class="entity" id="redistributionStatus">
+  <h3>redistribution status<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://city-artificial-intelligence.github.io/diso/ontology#redistributionStatus</p>
+  <div class="comment">
+   <span class="markdown">Whether DISO redistributes a member ontology's artefact ("hosted") or has withdrawn it ("withheld" - e.g. because a right to redistribute could not be established). When withheld, the access point is the upstream source, not a DISO-hosted file.</span>
+  </div>
+  <div class="description">
+   <dl>
+    <dt>
+     has range
+    </dt>
+    <dd>
+     <a href="http://www.w3.org/2001/XMLSchema#string" target="_blank" title="http://www.w3.org/2001/XMLSchema#string">string</a>
+    </dd>
+   </dl>
+  </div>
+ </div>
  <div class="entity" id="spdxLicenseExpression">
   <h3>SPDX licence expression<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression</p>
@@ -78,16 +96,17 @@ This section provides details for each class and property defined by The DISO Vo
  <h3 id="annotationproperties" class="list">Annotation Properties</h3>
  <ul class="hlist">
   <li><a href="#http://purl.org/dc/terms/abstract" title="http://purl.org/dc/terms/abstract"> <span>abstract</span> </a></li>
+  <li><a href="#http://purl.org/dc/terms/bibliographicCitation" title="http://purl.org/dc/terms/bibliographicCitation"> <span>bibliographic Citation</span> </a></li>
   <li><a href="#http://purl.org/dc/terms/creator" title="http://purl.org/dc/terms/creator"> <span>creator</span> </a></li>
   <li><a href="#http://rdfs.org/ns/void#dataDump" title="http://rdfs.org/ns/void#dataDump"> <span>data Dump</span> </a></li>
   <li><a href="#http://purl.org/dc/terms/description" title="http://purl.org/dc/terms/description"> <span>description</span> </a></li>
   <li><a href="#http://purl.org/dc/terms/identifier" title="http://purl.org/dc/terms/identifier"> <span>identifier</span> </a></li>
   <li><a href="#http://purl.org/dc/terms/issued" title="http://purl.org/dc/terms/issued"> <span>issued</span> </a></li>
   <li><a href="#http://www.w3.org/2000/01/rdf-schema#label" title="http://www.w3.org/2000/01/rdf-schema#label"> <span>label</span> </a></li>
-  <li><a href="#projectPage" title="https://city-artificial-intelligence.github.io/diso/ontology#projectPage">project page</a></li>
   <li><a href="#http://purl.org/dc/terms/license" title="http://purl.org/dc/terms/license"> <span>license</span> </a></li>
   <li><a href="#mirror" title="https://city-artificial-intelligence.github.io/diso/ontology#mirror">mirror</a></li>
   <li><a href="#http://xmlns.com/foaf/0.1/page" title="http://xmlns.com/foaf/0.1/page"> <span>page</span> </a></li>
+  <li><a href="#projectPage" title="https://city-artificial-intelligence.github.io/diso/ontology#projectPage">project page</a></li>
   <li><a href="#http://purl.org/dc/terms/publisher" title="http://purl.org/dc/terms/publisher"> <span>publisher</span> </a></li>
   <li><a href="#http://rdfs.org/ns/void#sparqlEndpoint" title="http://rdfs.org/ns/void#sparqlEndpoint"> <span>sparql Endpoint</span> </a></li>
   <li><a href="#http://rdfs.org/ns/void#subset" title="http://rdfs.org/ns/void#subset"> <span>subset</span> </a></li>
@@ -97,6 +116,10 @@ This section provides details for each class and property defined by The DISO Vo
  <div class="entity" id="http://purl.org/dc/terms/abstract">
   <h3>abstract<sup class="type-ap" title="annotation property">ap</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://purl.org/dc/terms/abstract</p>
+ </div>
+ <div class="entity" id="http://purl.org/dc/terms/bibliographicCitation">
+  <h3>bibliographic Citation<sup class="type-ap" title="annotation property">ap</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> http://purl.org/dc/terms/bibliographicCitation</p>
  </div>
  <div class="entity" id="http://purl.org/dc/terms/creator">
   <h3>creator<sup class="type-ap" title="annotation property">ap</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a> </span></h3>
@@ -132,23 +155,6 @@ This section provides details for each class and property defined by The DISO Vo
   <h3>label<sup class="type-ap" title="annotation property">ap</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://www.w3.org/2000/01/rdf-schema#label</p>
  </div>
- <div class="entity" id="projectPage">
-  <h3>project page<sup class="type-ap" title="annotation property">ap</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a> </span></h3>
-  <p><strong>IRI:</strong> https://city-artificial-intelligence.github.io/diso/ontology#projectPage</p>
-  <div class="comment">
-   <span class="markdown">A human-facing page for the ontology — its project homepage or source repository.</span>
-  </div>
-  <div class="description">
-   <dl>
-    <dt>
-     has super-properties
-    </dt>
-    <dd>
-     <a href="http://xmlns.com/foaf/0.1/page" target="_blank" title="http://xmlns.com/foaf/0.1/page">page</a> <sup class="type-ap" title="annotation property">ap</sup>
-    </dd>
-   </dl>
-  </div>
- </div>
  <div class="entity" id="http://purl.org/dc/terms/license">
   <h3>license<sup class="type-ap" title="annotation property">ap</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://purl.org/dc/terms/license</p>
@@ -157,7 +163,7 @@ This section provides details for each class and property defined by The DISO Vo
   <h3>mirror<sup class="type-ap" title="annotation property">ap</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://city-artificial-intelligence.github.io/diso/ontology#mirror</p>
   <div class="comment">
-   <span class="markdown">An alternative location of the ontology's RDF: a DISO-hosted copy, a version-pinned URL, or a web-archive snapshot.</span>
+   <span class="markdown">An alternative location of the ontology's RDF: a DISO-hosted copy, a version-pinned URL, or a web-archive snapshot. Canonical-vs-mirror precedence: pinned-commit upstream, then branch upstream, then web-archive, then the DISO-hosted copy.</span>
   </div>
   <div class="description">
    <dl>
@@ -184,6 +190,23 @@ This section provides details for each class and property defined by The DISO Vo
    </dl>
   </div>
  </div>
+ <div class="entity" id="projectPage">
+  <h3>project page<sup class="type-ap" title="annotation property">ap</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://city-artificial-intelligence.github.io/diso/ontology#projectPage</p>
+  <div class="comment">
+   <span class="markdown">A human-facing page for the ontology - its project homepage or source repository. Formerly diso:landingPage.</span>
+  </div>
+  <div class="description">
+   <dl>
+    <dt>
+     has super-properties
+    </dt>
+    <dd>
+     <a href="http://xmlns.com/foaf/0.1/page" target="_blank" title="http://xmlns.com/foaf/0.1/page">page</a> <sup class="type-ap" title="annotation property">ap</sup>
+    </dd>
+   </dl>
+  </div>
+ </div>
  <div class="entity" id="http://purl.org/dc/terms/publisher">
   <h3>publisher<sup class="type-ap" title="annotation property">ap</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://purl.org/dc/terms/publisher</p>
@@ -204,7 +227,7 @@ This section provides details for each class and property defined by The DISO Vo
   <h3>upstream source<sup class="type-ap" title="annotation property">ap</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://city-artificial-intelligence.github.io/diso/ontology#upstreamSource</p>
   <div class="comment">
-   <span class="markdown">The authoritative RDF file at the ontology's origin (RDF/XML where available).</span>
+   <span class="markdown">The authoritative RDF file at the ontology's origin (RDF/XML where available). Formerly diso:upstreamRDF.</span>
   </div>
   <div class="description">
    <dl>

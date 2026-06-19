@@ -47,7 +47,7 @@ The Source(s) column links the origin of each verbatim licence text; `§n` match
 | 37 | CityOWL | OWL rendering of CityGML 3.0 | smart-cities | `CC-BY-4.0 AND LicenseRef-OGC-Document-License` | [LICENSE](smart-environments/smart-cities/CityOWL/LICENSE) | [§1 exact-bytes](https://creativecommons.org/licenses/by/4.0/legalcode.txt) <br> [§2 html-extract](https://www.ogc.org/about/policies/document-license-agreement/) | uncertain · audit ✓ |
 | 38 | SMOF | Smart City Ontology Framework | smart-cities | `CC-BY-4.0` | [LICENSE](smart-environments/smart-cities/SMOF/LICENSE) | [§1 exact-bytes](https://creativecommons.org/licenses/by/4.0/legalcode.txt) | licensed · audit ✓ |
 | 39 | SmartEnv | Smart Home Environments Ontology (eCare@Home) | smart-homes | `LicenseRef-author-permission` | [LICENSE](smart-environments/smart-homes/SmartEnv/LICENSE) | §1 author-correspondence (2026-06-18) | licensed · audit ✓ |
-| 40 | ThinkHome | ThinkHome Smart Home Ontology | smart-homes | `NOASSERTION` | [LICENSE](smart-environments/smart-homes/ThinkHome/LICENSE) | [§1 exact-bytes](https://creativecommons.org/licenses/by/4.0/legalcode.txt) | uncertain · audit ✓ |
+| 40 | ThinkHome | ThinkHome Smart Home Ontology | smart-homes | `CC-BY-4.0` | [LICENSE](smart-environments/smart-homes/ThinkHome/LICENSE) | [§1 exact-bytes](https://creativecommons.org/licenses/by/4.0/legalcode.txt) | licensed · audit ✓ |
 | 41 | BFO | Basic Formal Ontology | upper-level | `CC-BY-4.0` | [LICENSE](upper-level/BFO/LICENSE) | [§1 exact-bytes](https://creativecommons.org/licenses/by/4.0/legalcode.txt) | licensed · audit ✓ |
 | 42 | DOLCE | Descriptive Ontology for Linguistic and Cognitive Engineering | upper-level | `CC-BY-4.0` | [LICENSE](upper-level/DOLCE/LICENSE) | [§1 exact-bytes](https://raw.githubusercontent.com/appliedontolab/DOLCE/main/LICENSE) | licensed · audit ✓ |
 | 43 | DUL | DOLCE+DnS Ultralite | upper-level | `CC-BY-SA-3.0` | [LICENSE](upper-level/DUL/LICENSE) | [§1 exact-bytes](https://creativecommons.org/licenses/by-sa/3.0/legalcode.txt) | licensed · audit ✓ |
@@ -59,7 +59,7 @@ The Source(s) column links the origin of each verbatim licence text; `§n` match
 ## License Status
 
 - **licensed** — an explicit upstream licence was located.
-- **uncertain** — a licence claim exists but its authority or binding to the ontology artefact is weak.
+- **uncertain** — a licence claim exists but its authority or binding to the ontology artefact is weak or under consideration.
 - **no licence found** — a search located no licence.
 
 ## Author outreach
@@ -78,5 +78,5 @@ For ontologies whose upstream licence was absent or non-permissive, we contacted
 | BOnSAI | yes | received (2026-06-18) | yes | Permission granted (CC-BY-NC-SA-4.0). |
 | IMF | yes | awaiting | — | Awaiting response; artefact redistribution withheld meanwhile. |
 | SmartEnv | yes | received (2026-06-18) | yes | Written permission to use and redistribute. |
-| ThinkHome | yes | awaiting | — | Awaiting response. |
+| ThinkHome | yes | awaiting | — | Awaiting response; appropriate license (CC-BY-4.0) found (ThinkHomeMerged.ttl). |
 | DUL | yes | awaiting | n/a | Awaiting response; appropriate licence (CC-BY-SA-3.0) found upstream (ODP). |

@@ -560,7 +560,7 @@
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/ThinkHome> <http://purl.org/dc/terms/title> "ThinkHome Smart Home Ontology" .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/ThinkHome> <http://www.w3.org/2000/01/rdf-schema#label> "ThinkHome" .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/ThinkHome> <http://purl.org/dc/terms/description> "A smart-home ontology for home control and energy efficiency." .
-<https://city-artificial-intelligence.github.io/diso/dataset/ontology/ThinkHome> <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "NOASSERTION" .
+<https://city-artificial-intelligence.github.io/diso/dataset/ontology/ThinkHome> <https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression> "CC-BY-4.0" .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/ThinkHome> <https://city-artificial-intelligence.github.io/diso/ontology#projectPage> <https://www.auto.tuwien.ac.at/downloads/thinkhome/> .
 <https://city-artificial-intelligence.github.io/diso/dataset/cluster/smart-homes> <http://rdfs.org/ns/void#subset> <https://city-artificial-intelligence.github.io/diso/dataset/ontology/ThinkHome> .
 <https://city-artificial-intelligence.github.io/diso/dataset/ontology/BFO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

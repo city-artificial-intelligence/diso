@@ -11,7 +11,9 @@
  },
  "mIO!": {
   "upstream": null,
-  "mirrors": []
+  "mirrors": [
+   "https://raw.githubusercontent.com/city-artificial-intelligence/diso/main/context-awareness/mIO!/mIOmerged.ttl"
+  ]
  },
  "ATTACK": {
   "upstream": "https://raw.githubusercontent.com/sepses/ics-sec-kg/726bd315e4d23a96f3c434d9a03903c6c085c65c/src/main/resources/owl/ATTACK.ttl",
@@ -75,7 +77,9 @@
  },
  "Ops": {
   "upstream": null,
-  "mirrors": []
+  "mirrors": [
+   "https://raw.githubusercontent.com/city-artificial-intelligence/diso/main/cyber-security/Ops/ops-merged.ttl"
+  ]
  },
  "SNORT": {
   "upstream": "https://raw.githubusercontent.com/sepses/vocab/master/raw/snort.ttl",
@@ -87,7 +91,9 @@
  },
  "UCO_1": {
   "upstream": null,
-  "mirrors": []
+  "mirrors": [
+   "https://raw.githubusercontent.com/city-artificial-intelligence/diso/main/cyber-security/UCO_1/uco1-merge.ttl"
+  ]
  },
  "UCO_2": {
   "upstream": "https://raw.githubusercontent.com/Ebiquity/Unified-Cybersecurity-Ontology/master/uco2.ttl",
@@ -107,7 +113,9 @@
  },
  "JC3IEDM": {
   "upstream": null,
-  "mirrors": []
+  "mirrors": [
+   "https://raw.githubusercontent.com/city-artificial-intelligence/diso/main/information-exchange/JC3IEDM/JC3IEDM.owl"
+  ]
  },
  "CordaSecOnt": {
   "upstream": "https://raw.githubusercontent.com/mubashar-iqbal/corda-security-ontology/master/V1/CordaSecOnt.owl",
@@ -161,7 +169,9 @@
  },
  "SOUPA": {
   "upstream": null,
-  "mirrors": []
+  "mirrors": [
+   "https://raw.githubusercontent.com/city-artificial-intelligence/diso/main/situation-awareness/SOUPA/soupa-merged.ttl"
+  ]
  },
  "STO": {
   "upstream": "https://web.archive.org/web/20230522170458id_/https://vistology.com/ont/STO/STO.owl",
@@ -199,7 +209,9 @@
  },
  "SMOF": {
   "upstream": null,
-  "mirrors": []
+  "mirrors": [
+   "https://raw.githubusercontent.com/city-artificial-intelligence/diso/main/smart-environments/smart-cities/SMOF/SMOF.ttl"
+  ]
  },
  "SmartEnv": {
   "upstream": "https://w3id.org/smartenvironment/smartenv.owl",
@@ -207,7 +219,9 @@
  },
  "ThinkHome": {
   "upstream": null,
-  "mirrors": []
+  "mirrors": [
+   "https://raw.githubusercontent.com/city-artificial-intelligence/diso/main/smart-environments/smart-homes/ThinkHome/ThinkHomeMerged.ttl"
+  ]
  },
  "BFO": {
   "upstream": "https://raw.githubusercontent.com/BFO-ontology/BFO-2020/master/21838-2/owl/bfo-core.owl",
@@ -234,7 +248,9 @@
  },
  "GFO-Bio": {
   "upstream": null,
-  "mirrors": []
+  "mirrors": [
+   "https://raw.githubusercontent.com/city-artificial-intelligence/diso/main/upper-level/GFO-Bio/gfo-bio-merged.ttl"
+  ]
  },
  "gUFO": {
   "upstream": "https://raw.githubusercontent.com/nemo-ufes/gufo/v1.0.0/gufo.ttl",

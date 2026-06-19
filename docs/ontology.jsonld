@@ -2,6 +2,9 @@
   "@id" : "http://purl.org/dc/terms/abstract",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
+  "@id" : "http://purl.org/dc/terms/bibliographicCitation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://purl.org/dc/terms/creator",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -75,7 +78,7 @@
   "@id" : "https://city-artificial-intelligence.github.io/diso/ontology#Cluster",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "A subdomain grouping (cluster) within an ontology network. Its void:subset members are member ontologies, or — for a grouping cluster — further sub-clusters."
+    "@value" : "A subdomain grouping (cluster) within an ontology network. Its void:subset members are member ontologies, or - for a grouping cluster - further sub-clusters."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Cluster"
@@ -108,10 +111,22 @@
     "@id" : "http://rdfs.org/ns/void#Dataset"
   } ]
 }, {
+  "@id" : "https://city-artificial-intelligence.github.io/diso/ontology#mirror",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An alternative location of the ontology's RDF: a DISO-hosted copy, a version-pinned URL, or a web-archive snapshot. Canonical-vs-mirror precedence: pinned-commit upstream, then branch upstream, then web-archive, then the DISO-hosted copy."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "mirror"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://rdfs.org/ns/void#dataDump"
+  } ]
+}, {
   "@id" : "https://city-artificial-intelligence.github.io/diso/ontology#projectPage",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "A human-facing page for the ontology — its project homepage or source repository."
+    "@value" : "A human-facing page for the ontology - its project homepage or source repository. Formerly diso:landingPage."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "project page"
@@ -120,16 +135,16 @@
     "@id" : "http://xmlns.com/foaf/0.1/page"
   } ]
 }, {
-  "@id" : "https://city-artificial-intelligence.github.io/diso/ontology#mirror",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "@id" : "https://city-artificial-intelligence.github.io/diso/ontology#redistributionStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "An alternative location of the ontology's RDF: a DISO-hosted copy, a version-pinned URL, or a web-archive snapshot."
+    "@value" : "Whether DISO redistributes a member ontology's artefact (\"hosted\") or has withdrawn it (\"withheld\" - e.g. because a right to redistribute could not be established). When withheld, the access point is the upstream source, not a DISO-hosted file."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "mirror"
+    "@value" : "redistribution status"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://rdfs.org/ns/void#dataDump"
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
   "@id" : "https://city-artificial-intelligence.github.io/diso/ontology#spdxLicenseExpression",
@@ -147,7 +162,7 @@
   "@id" : "https://city-artificial-intelligence.github.io/diso/ontology#upstreamSource",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "The authoritative RDF file at the ontology's origin (RDF/XML where available)."
+    "@value" : "The authoritative RDF file at the ontology's origin (RDF/XML where available). Formerly diso:upstreamRDF."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "upstream source"
