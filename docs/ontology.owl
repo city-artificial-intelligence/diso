@@ -126,12 +126,12 @@
     
 
 
-    <!-- https://city-artificial-intelligence.github.io/diso/ontology#landingPage -->
+    <!-- https://city-artificial-intelligence.github.io/diso/ontology#projectPage -->
 
 
-    <owl:AnnotationProperty rdf:about="https://city-artificial-intelligence.github.io/diso/ontology#landingPage">
+    <owl:AnnotationProperty rdf:about="https://city-artificial-intelligence.github.io/diso/ontology#projectPage">
         <rdfs:comment>A human-facing page for the ontology — its project homepage or source repository.</rdfs:comment>
-        <rdfs:label>landing page</rdfs:label>
+        <rdfs:label>project page</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/page"/>
     </owl:AnnotationProperty>
     
@@ -148,12 +148,12 @@
     
 
 
-    <!-- https://city-artificial-intelligence.github.io/diso/ontology#upstreamRDF -->
+    <!-- https://city-artificial-intelligence.github.io/diso/ontology#upstreamSource -->
 
 
-    <owl:AnnotationProperty rdf:about="https://city-artificial-intelligence.github.io/diso/ontology#upstreamRDF">
+    <owl:AnnotationProperty rdf:about="https://city-artificial-intelligence.github.io/diso/ontology#upstreamSource">
         <rdfs:comment>The authoritative RDF file at the ontology&apos;s origin (RDF/XML where available).</rdfs:comment>
-        <rdfs:label>upstream RDF</rdfs:label>
+        <rdfs:label>upstream source</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://rdfs.org/ns/void#dataDump"/>
     </owl:AnnotationProperty>
     

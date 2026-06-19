@@ -72,10 +72,10 @@ rdfs:label rdf:type owl:AnnotationProperty .
 <http://xmlns.com/foaf/0.1/page> rdf:type owl:AnnotationProperty .
 
 
-###  https://city-artificial-intelligence.github.io/diso/ontology#landingPage
-:landingPage rdf:type owl:AnnotationProperty ;
+###  https://city-artificial-intelligence.github.io/diso/ontology#projectPage
+:projectPage rdf:type owl:AnnotationProperty ;
              rdfs:comment "A human-facing page for the ontology — its project homepage or source repository." ;
-             rdfs:label "landing page" ;
+             rdfs:label "project page" ;
              rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/page> .
 
 
@@ -86,10 +86,10 @@ rdfs:label rdf:type owl:AnnotationProperty .
         rdfs:subPropertyOf <http://rdfs.org/ns/void#dataDump> .
 
 
-###  https://city-artificial-intelligence.github.io/diso/ontology#upstreamRDF
-:upstreamRDF rdf:type owl:AnnotationProperty ;
+###  https://city-artificial-intelligence.github.io/diso/ontology#upstreamSource
+:upstreamSource rdf:type owl:AnnotationProperty ;
              rdfs:comment "The authoritative RDF file at the ontology's origin (RDF/XML where available)." ;
-             rdfs:label "upstream RDF" ;
+             rdfs:label "upstream source" ;
              rdfs:subPropertyOf <http://rdfs.org/ns/void#dataDump> .
 
 

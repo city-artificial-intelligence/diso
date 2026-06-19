@@ -55,11 +55,11 @@
 # http://xmlns.com/foaf/0.1/page
 <http://xmlns.com/foaf/0.1/page> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
-# https://city-artificial-intelligence.github.io/diso/ontology#landingPage
-<https://city-artificial-intelligence.github.io/diso/ontology#landingPage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<https://city-artificial-intelligence.github.io/diso/ontology#landingPage> <http://www.w3.org/2000/01/rdf-schema#comment> "A human-facing page for the ontology — its project homepage or source repository." .
-<https://city-artificial-intelligence.github.io/diso/ontology#landingPage> <http://www.w3.org/2000/01/rdf-schema#label> "landing page" .
-<https://city-artificial-intelligence.github.io/diso/ontology#landingPage> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://xmlns.com/foaf/0.1/page> .
+# https://city-artificial-intelligence.github.io/diso/ontology#projectPage
+<https://city-artificial-intelligence.github.io/diso/ontology#projectPage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<https://city-artificial-intelligence.github.io/diso/ontology#projectPage> <http://www.w3.org/2000/01/rdf-schema#comment> "A human-facing page for the ontology — its project homepage or source repository." .
+<https://city-artificial-intelligence.github.io/diso/ontology#projectPage> <http://www.w3.org/2000/01/rdf-schema#label> "project page" .
+<https://city-artificial-intelligence.github.io/diso/ontology#projectPage> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://xmlns.com/foaf/0.1/page> .
 # 
 # https://city-artificial-intelligence.github.io/diso/ontology#mirror
 <https://city-artificial-intelligence.github.io/diso/ontology#mirror> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -67,11 +67,11 @@
 <https://city-artificial-intelligence.github.io/diso/ontology#mirror> <http://www.w3.org/2000/01/rdf-schema#label> "mirror" .
 <https://city-artificial-intelligence.github.io/diso/ontology#mirror> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://rdfs.org/ns/void#dataDump> .
 # 
-# https://city-artificial-intelligence.github.io/diso/ontology#upstreamRDF
-<https://city-artificial-intelligence.github.io/diso/ontology#upstreamRDF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<https://city-artificial-intelligence.github.io/diso/ontology#upstreamRDF> <http://www.w3.org/2000/01/rdf-schema#comment> "The authoritative RDF file at the ontology's origin (RDF/XML where available)." .
-<https://city-artificial-intelligence.github.io/diso/ontology#upstreamRDF> <http://www.w3.org/2000/01/rdf-schema#label> "upstream RDF" .
-<https://city-artificial-intelligence.github.io/diso/ontology#upstreamRDF> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://rdfs.org/ns/void#dataDump> .
+# https://city-artificial-intelligence.github.io/diso/ontology#upstreamSource
+<https://city-artificial-intelligence.github.io/diso/ontology#upstreamSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<https://city-artificial-intelligence.github.io/diso/ontology#upstreamSource> <http://www.w3.org/2000/01/rdf-schema#comment> "The authoritative RDF file at the ontology's origin (RDF/XML where available)." .
+<https://city-artificial-intelligence.github.io/diso/ontology#upstreamSource> <http://www.w3.org/2000/01/rdf-schema#label> "upstream source" .
+<https://city-artificial-intelligence.github.io/diso/ontology#upstreamSource> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://rdfs.org/ns/void#dataDump> .
 # 
 # 
 # 

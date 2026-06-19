@@ -582,25 +582,52 @@
             </tr>
           </table>
         </div>
-      </div>
-      <div class="section" id="annotationproperties">
-        <h2>Annotation Properties</h2>
-        <div class="property entity" id="upstreamRDF">
-          <h3>upstream RDF
-            <sup class="sup-ap" title="OWL Annotation Property">ap</sup>
+        <div class="property entity" id="redistributionstatus">
+          <h3>redistribution status
+            <sup class="sup-dp" title="OWL Datatype Property">dp</sup>
           </h3>
           <table>
             <tr>
               <th>IRI</th>
               <td>
-                <code>https://city-artificial-intelligence.github.io/diso/ontology#upstreamRDF</code>
+                <code>https://city-artificial-intelligence.github.io/diso/ontology#redistributionStatus</code>
               </td>
             </tr>
             <tr>
               <th>
                 <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
               </th>
-              <td><p>The authoritative RDF file at the ontology's origin (RDF/XML where available).</p></td>
+              <td><p>Whether DISO redistributes a member ontology's artefact ("hosted") or has withdrawn it ("withheld" — e.g. because a right to redistribute could not be established). When withheld, the access point is the upstream source, not a DISO-hosted file.</p></td>
+            </tr>
+            <tr>
+              <th>
+                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
+              </th>
+              <td>
+                <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="section" id="annotationproperties">
+        <h2>Annotation Properties</h2>
+        <div class="property entity" id="upstreamSource">
+          <h3>upstream source
+            <sup class="sup-ap" title="OWL Annotation Property">ap</sup>
+          </h3>
+          <table>
+            <tr>
+              <th>IRI</th>
+              <td>
+                <code>https://city-artificial-intelligence.github.io/diso/ontology#upstreamSource</code>
+              </td>
+            </tr>
+            <tr>
+              <th>
+                <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+              </th>
+              <td><p>The authoritative RDF file at the ontology's origin (RDF/XML where available). Formerly <code>diso:upstreamRDF</code>.</p></td>
             </tr>
             <tr>
               <th>
@@ -645,22 +672,22 @@
             </tr>
           </table>
         </div>
-        <div class="property entity" id="landingpage">
-          <h3>landing page
+        <div class="property entity" id="projectpage">
+          <h3>project page
             <sup class="sup-ap" title="OWL Annotation Property">ap</sup>
           </h3>
           <table>
             <tr>
               <th>IRI</th>
               <td>
-                <code>https://city-artificial-intelligence.github.io/diso/ontology#landingPage</code>
+                <code>https://city-artificial-intelligence.github.io/diso/ontology#projectPage</code>
               </td>
             </tr>
             <tr>
               <th>
                 <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
               </th>
-              <td><p>A human-facing page for the ontology — its project homepage or source repository.</p></td>
+              <td><p>A human-facing page for the ontology — its project homepage or source repository. Formerly <code>diso:landingPage</code>.</p></td>
             </tr>
             <tr>
               <th>
@@ -720,7 +747,7 @@
                 <ul class="pylodelitlist">
                   <li>
                     <span>
-                      <a href="#upstreamRDF">upstream RDF</a>
+                      <a href="#upstreamSource">upstream source</a>
                       <sup class="sup-ap" title="OWL Annotation Property">ap</sup>
                     </span>
                   </li>
@@ -839,6 +866,19 @@
             </tr>
           </table>
         </div>
+        <div class="property entity" id="bibliographicCitation">
+          <h3>bibliographic citation
+            <sup class="sup-ap" title="OWL Annotation Property">ap</sup>
+          </h3>
+          <table>
+            <tr>
+              <th>IRI</th>
+              <td>
+                <code>http://purl.org/dc/terms/bibliographicCitation</code>
+              </td>
+            </tr>
+          </table>
+        </div>
         <div class="property entity" id="sparqlEndpoint">
           <h3>sparql endpoint
             <sup class="sup-ap" title="OWL Annotation Property">ap</sup>
@@ -869,7 +909,7 @@
               </th>
               <td>
                 <span>
-                  <a href="#landingpage">landing page</a>
+                  <a href="#projectpage">project page</a>
                   <sup class="sup-ap" title="OWL Annotation Property">ap</sup>
                 </span>
               </td>
@@ -996,6 +1036,9 @@
             <li>
               <a href="#SPDXlicenceexpression">SPDX licence expression</a>
             </li>
+            <li>
+              <a href="#redistributionstatus">redistribution status</a>
+            </li>
           </ul>
         </li>
         <li>
@@ -1004,13 +1047,13 @@
           </h4>
           <ul class="second">
             <li>
-              <a href="#upstreamRDF">upstream RDF</a>
+              <a href="#upstreamSource">upstream source</a>
             </li>
             <li>
               <a href="#mirror">mirror</a>
             </li>
             <li>
-              <a href="#landingpage">landing page</a>
+              <a href="#projectpage">project page</a>
             </li>
             <li>
               <a href="#label">label</a>
@@ -1044,6 +1087,9 @@
             </li>
             <li>
               <a href="#license">license</a>
+            </li>
+            <li>
+              <a href="#bibliographicCitation">bibliographic citation</a>
             </li>
             <li>
               <a href="#sparqlEndpoint">sparql endpoint</a>

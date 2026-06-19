@@ -108,13 +108,13 @@
     "@id" : "http://rdfs.org/ns/void#Dataset"
   } ]
 }, {
-  "@id" : "https://city-artificial-intelligence.github.io/diso/ontology#landingPage",
+  "@id" : "https://city-artificial-intelligence.github.io/diso/ontology#projectPage",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "A human-facing page for the ontology — its project homepage or source repository."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "landing page"
+    "@value" : "project page"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://xmlns.com/foaf/0.1/page"
@@ -144,13 +144,13 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "https://city-artificial-intelligence.github.io/diso/ontology#upstreamRDF",
+  "@id" : "https://city-artificial-intelligence.github.io/diso/ontology#upstreamSource",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "The authoritative RDF file at the ontology's origin (RDF/XML where available)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "upstream RDF"
+    "@value" : "upstream source"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://rdfs.org/ns/void#dataDump"
