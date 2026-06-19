@@ -1,8 +1,8 @@
 # DISO: Defence, Intelligence and Security Ontologies
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20059507.svg)](https://doi.org/10.5281/zenodo.20059507)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20059506.svg)](https://doi.org/10.5281/zenodo.20059506)
 
-**DISO** is a collection of publicly available OWL ontologies covering the domains of **defence, intelligence, and security**. The resource is publicly available at this [DOI](https://doi.org/10.5281/zenodo.20059507).
+**DISO** is a collection of publicly available OWL ontologies covering the domains of **defence, intelligence, and security**. The resource is publicly available at this [DOI](https://doi.org/10.5281/zenodo.20059506).
 
 * ontology - [docs](docs/index.html) - [ttl](metadata/diso-ontology.ttl) - [owl](metadata/diso-ontology.owl)
 * dataset - [ttl](metadata/diso-network.ttl) - [owl](metadata/diso-network.owl)
@@ -72,6 +72,10 @@ Major version bumps are most likely to follow an annual release cadence (mirrori
 ## Citation
 
 If you use DISO, please cite the dataset using the metadata in [CITATION.cff](CITATION.cff). If the accompanying resource paper is published, the paper will be added as the preferred citation.
+
+```
+Dilworth, J., Cotovio, P., Herron, D., Pesquita, C., Jimenez-Ruiz, E., Cripps, P., & Dewdney, N. (2026). DISO: Defence, Intelligence and Security Ontologies (1.1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20760510
+```
 
 ## Contributing
 
