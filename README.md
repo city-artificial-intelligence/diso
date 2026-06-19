@@ -87,7 +87,7 @@ This research was supported by Turing Innovations Limited and The Alan Turing In
 
 ## Contributors
 
-[Ernesto Jiménez-Ruiz](https://ernestojimenezruiz.github.io/), [Pedro Cotovio](https://pedrocotovio.github.io/), [Jon Dilworth](https://dilworth.io/), and [Dave Herron](https://djherron.github.io/).
+[Jon Dilworth](https://dilworth.io/), [Pedro Cotovio](https://pedrocotovio.github.io/), [Dave Herron](https://djherron.github.io/), [Catia Pesquita](https://www.di.fc.ul.pt/~catiapesquita/), [Ernesto Jiménez-Ruiz](https://ernestojimenezruiz.github.io/), Paul Cripps, and Nigel Dewdney.
 
 ## License
 

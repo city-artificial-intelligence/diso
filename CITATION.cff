@@ -34,6 +34,14 @@ authors:
     email: ernesto.jimenez-ruiz@citystgeorges.ac.uk
     affiliation: 'City St George''s, University of London'
     orcid: 'https://orcid.org/0000-0002-9083-4599'
+  - given-names: Paul
+    family-names: Cripps
+    email: pcripps@mail.dstl.gov.uk
+    affiliation: 'Defence Science and Technology Laboratory, UK'
+  - given-names: Nigel
+    family-names:  Dewdney
+    email: nigeld@turing.ac.uk
+    affiliation: 'The Alan Turing Institute, UK'
 identifiers:
   - type: doi
     value: 10.5281/zenodo.20059507
