@@ -78,5 +78,5 @@ For ontologies whose upstream licence was absent or non-permissive, we contacted
 | BOnSAI | yes | received (2026-06-18) | yes | Permission granted (CC-BY-NC-SA-4.0). |
 | IMF | yes | awaiting | — | Awaiting response; artefact redistribution withheld meanwhile. |
 | SmartEnv | yes | received (2026-06-18) | yes | Written permission to use and redistribute. |
-| ThinkHome | yes | awaiting | — | Awaiting response; appropriate license (CC-BY-4.0) found (ThinkHomeMerged.ttl). |
+| ThinkHome | yes | recieved (2026-06-25) | yes | Permission granted (CC-BY-4.0). |
 | DUL | yes | awaiting | n/a | Awaiting response; appropriate licence (CC-BY-SA-3.0) found upstream (ODP). |
